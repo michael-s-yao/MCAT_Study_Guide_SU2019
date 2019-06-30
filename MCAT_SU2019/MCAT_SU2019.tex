@@ -1,0 +1,537 @@
+ \documentclass{article}
+\usepackage[margin=0.5in,bottom=1in,top=1in]{geometry}
+%Attempt to make changes and see if git registers.
+% header formatting
+\usepackage{fancyhdr}
+
+% For drawing chemical structures 
+\usepackage{chemfig}
+\usepackage{xcolor}
+\usepackage{twoopt}
+\usepackage{ifmtarg}
+
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Michael Yao}
+\fancyhead[RE,LO]{MCAT Study Guide, SU2019}
+\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\footrulewidth}{0.75pt}
+
+\usepackage[version=4]{mhchem}
+\def\ZZ#1{\global\setbondstyle{thick,color=#1}\gdef\printatom##1{\color{#1}\ensuremath{\mathrm{##1}}}}
+\def\paren#1{\rlap{\kern-.75em$\left(\vrule height1ex width0pt depth1ex\vrule height0pt width2.5em depth0pt\right)_{\!#1}$}}
+\definesubmol\NN{-[,,,,draw=none]}
+% atom numbers (used when option atom-numbers is selected)
+\newcommand{\mcfatomno}[1]{\raisebox{2pt}{\color{blue}{\ensuremath{\mathsf{_{#1}}}}}}
+\definesubmol\Red{(!\NN\ZZ{red})}
+\definesubmol\Green{(!\NN\ZZ{green!40!black})}
+\definesubmol\Purple{(!\NN\ZZ{purple})}
+\definesubmol\Black{(!\NN\ZZ{black})}
+%\setatomsep{2em}\setbondstyle{thick}
+
+% math packages
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}    % Math symbols such as \mathbb
+\newcommand{\dbar}{{\mathchar '26\mkern -12mud}}
+\usepackage{bbm}
+\usepackage{gensymb}
+\usepackage{amsthm}
+\usepackage{pgfplots}   % plots
+\usepackage{pbsi}
+\usepackage[T1]{fontenc}
+
+% other packages
+\usepackage{graphicx}
+\graphicspath{ {../assets/} }
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,
+}
+
+% proper inline math display, adjust height for symbols like \sum
+\everymath{\displaystyle}
+
+% define tags for math use..
+\theoremstyle{plain}% default
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{proposition}{Proposition}[defn]
+\newtheorem{exmp}{Example}[section]
+
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+
+% Gives begin{solution} same formating as \begin{proof}
+\newenvironment{solution}
+  {\begin{proof}[Solution]}
+  {\end{proof}}
+
+
+%running fraction with slash - requires math mode.
+\newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
+%shortcut to mathbb
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+% color highlighting
+\newcommand{\hilight}[1]{\colorbox{yellow}{#1}}
+
+\title{\vspace{-6ex}MCAT Study Guide, SU2019}
+\author{Michael Yao}
+\date{\today\vspace{-4ex}}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+\section{Organic Chemistry of Biological Systems}
+\subsection{Molecular Structure}
+For nonpolar $\sigma$ bonds, most of the electron density is \textit{between} the nuclei. This means that when drawing electron cloud diagrams, the $\sigma$ bond looks more like an ellipsoid as opposed to a dumbbell.\\
+\indent The more substituted a carbon atom is, the less strong bonds it is able to form. This is because the other groups are able to (mildly) take electrons away from the bond of interest and thus make it weaker. Bonds involving $sp^3$ carbons are the weakest, while those involving $sp$ carbons are the strongest, because they have the most $s$ character. And of course, triple bonds are the strongest, while single bonds are the weakest, because of the number of electrons shared between atoms. For example, consider the molecule shown in Figure \ref{oc:1.4}.
+\begin{equation}
+\begin{split}
+\chemfig{
+           \mcfatomno{1}% 1
+    -[:320]\mcfatomno{2}% 2
+              (
+        -[:260]\mcfatomno{13}% 13
+                  (
+            -[:320]\mcfatomno{15}% 15
+                  )
+        -[:200]\mcfatomno{14}% 14
+              )
+     =[:20]\mcfatomno{3}% 3
+              (
+         -[:80]\mcfatomno{5}% 5
+              )
+    -[:320]\mcfatomno{4}% 4
+              (
+        <[:260]H\mcfatomno{6}%\mcfright{H}{\mcfatomno{6}}% 6
+              )
+              (
+       <:[:220]\mcfatomno{7}% 7
+              )
+     -[:10]\mcfatomno{8}% 8
+              (
+        <:[:60]H\mcfatomno{9}%\mcfright{H}{\mcfatomno{9}}% 9
+              )
+              (
+      -[:287.5]\mcfatomno{11}% 11
+              )
+     <[:25]\mcfatomno{10}% 10
+    -[:325]\mcfatomno{12}% 12
+}
+\end{split} \label{oc:1.4}
+\end{equation}
+Here, let us consider Bonds A (1 and 2), B (2 and 3), C (2 and 13), and D (4 and 8). Between these four bonds, B is the strongest since it is a double bond. D is the weakest because it is between two $sp^3$-hybridized carbons. Bond A is stronger than bond C, despite both sharing an $sp^2$-hybridized and $sp^3$ hybridized carbon, because bond C contains the more highly substituted carbon.\\
+\indent Hybridization of carbon atoms can affect the acidity of hydrogens bound to them. Contrary to most other acids, as the hybrid orbital gets smaller, the electrons are held closer to the nucleus of the atom boned to hydrogen, so the bond can be cleaved in a heterolytic fashion more easily. The more $s$-character in the hybrid orbital of the atom bonded to the hydrogen, the stronger the acid. This results in the relative acidity being $sp>sp^2>sp^3$. This trend is most commonly observed with \ce{C} acidity, but can also be observed with \ce{N} and \ce{O}.\\
+\indent Steric hindrance occurs any time two atoms attempt to be in the same place at the same time. It is repulsive in nature and increases as the atoms draw closer. On cyclohexane, substituents with axial orientation experience greater steric hindrance than substituents with equatorial orientation. Thus, substituents (especially the bulky ones) prefer to be in the equatorial position.\\
+\indent \textit{Intermolecular forces are the primary consideration} when approximating physical properties (i.e. boiling point). If IMFs are not enough, you also need to consider the molecular mass and molecular rigidity of the molecules. Heavier compounds have higher boiling points, and compounds with greater molecular flexibility can twist and conform to allow for more surface area, and thus more intermolecular interactions. This is why cell membranes would be most rigid if their fatty acids were completely saturated and long molecules, as interactions are greatest with long, saturated fatty acids. \\
+\indent The best micelles has an ionic (charged) head and a long carbon chain for the organic tail. For example, \ce{H_3C(CH_2)_{14}CO_2^-} is a better micelle than \ce{H_3C(CH_2)_{14}CO_2H} because it has a charged head, which is more hydrophilic than even the polar, protic carboxylic acid.\\
+\indent The inductive effect can be applied to both electron withdrawal (i.e. with the canonical example of nearby halogens) and electron donation. For instance, methyl amine is more nucleophilic than ammonia (\ce{NH_3}) because the methyl group is electron-donating. Varying the $R$-group changes the inductive effect. It also changes the size of the molecule, so steric hindrance can affect the reaction. For instance, \ce{(H_3C)_3N} is less nucleophilic than \ce{(H_3C)_2NH} because the electron donation by the additional methyl group does not compensate for the increase in molecular size.\\
+\indent Stereochemistry prefixes, to denote orientation:
+\begin{itemize}
+\item \textbf{R vs. S} R is clockwise around a stereocenter, S is counterclockwise. This convention is used for chiral centers.
+\item \textbf{E vs. Z} E is high priority groups on opposite sides of the double bond. Z is high priority groups are on the same side of the double bond. This convention is used for double bonds.
+\item \textbf{$\alpha$ vs $\beta$} $\alpha$ means that the hydroxyl group attached to \ce{C_1} (atom 8 in Figure \ref{oc:2} for both molecules) and the \ce{-CH_2OH} group at \ce{C_5} (the groups on atoms 2 and 10 in Figure \ref{oc:2} for both molecules) lies on opposite sides of the ring's plane (a \textit{trans} arrangement), while $\beta$ means that they are on the same side of the plane (a \textit{cis} arrangement). This convention is used when discussing the glycosidic bond between sugar molecules. 
+\end{itemize}
+\begin{equation}
+\begin{split}
+\chemfig{
+            \mcfatomno{15}O% 15
+    >:[:330]\mcfatomno{14}% 14
+      -[:30]\mcfatomno{13}% 13
+               (
+          <[:90]O\mcfatomno{16}% 16
+               )
+     -[:330]\mcfatomno{12}% 12
+               (
+         <:[:30]O\mcfatomno{17}% 17
+               )
+     -[:270]O\mcfatomno{11}% 11
+     -[:210]\mcfatomno{10}% 10
+               (
+        <:[:270]\mcfatomno{18}% 18
+         -[:330]O\mcfatomno{19}% 19
+               )
+     -[:150]\mcfatomno{9}% 9
+               (
+          -[:90]\phantom{14}% -> 14
+               )
+     <[:210]O\mcfatomno{8}% 8
+     >[:150]\mcfatomno{6}% 6
+     -[:210]\mcfatomno{5}% 5
+               (
+        <:[:270]O\mcfatomno{20}% 20
+               )
+     -[:150]\mcfatomno{4}% 4
+               (
+         <[:210]\mcfatomno{21}O% 21
+               )
+      -[:90]\mcfatomno{3}% 3
+               (
+         <[:150]\mcfatomno{22}O% 22
+               )
+      -[:30]\mcfatomno{2}% 2
+               (
+         -[:330]O\mcfatomno{7}% 7
+         -[:270]\phantom{6}% -> 6
+               )
+      <[:90]\mcfatomno{1}% 1
+      -[:30]O\mcfatomno{23}% 23
+} %lactose 
+\quad
+\chemfig{
+            \mcfatomno{15}O% 15
+    >:[:330]\mcfatomno{14}% 14
+      -[:30]\mcfatomno{13}% 13
+               (
+          <[:90]O\mcfatomno{16}% 16
+               )
+     -[:330]\mcfatomno{12}% 12
+               (
+         <:[:30]O\mcfatomno{17}% 17
+               )
+     -[:270]O\mcfatomno{11}% 11
+     -[:210]\mcfatomno{10}% 10
+               (
+        <:[:270]\mcfatomno{18}% 18
+         -[:330]O\mcfatomno{19}% 19
+               )
+     -[:150]\mcfatomno{9}% 9
+               (
+          -[:90]\phantom{14}% -> 14
+               )
+     <[:210]O\mcfatomno{8}% 8
+    >:[:150]\mcfatomno{6}% 6
+     -[:210]\mcfatomno{5}% 5
+               (
+        <:[:270]O\mcfatomno{20}% 20
+               )
+     -[:150]\mcfatomno{4}% 4
+               (
+         <[:210]\mcfatomno{21}O% 21
+               )
+      -[:90]\mcfatomno{3}% 3
+               (
+        <:[:150]\mcfatomno{22}O% 22
+               )
+      -[:30]\mcfatomno{2}% 2
+               (
+         -[:330]O\mcfatomno{7}% 7
+         -[:270]\phantom{6}% -> 6
+               )
+      <[:90]\mcfatomno{1}% 1
+      -[:30]O\mcfatomno{23}% 23
+} %maltose
+\label{oc:2}
+\end{split}
+\end{equation}
+\noindent The molecule on the left is lactose with a $\beta$ glycosidic bond, while the molecule on the right is maltose with an $\alpha$ glycosidic bond.\\
+\indent The nitrogen atom in amides have planar geometry even if it doesn't appear like it! This is because of the resonance with the carbonyl oxygen group, as shown here:
+\begin{equation}
+\begin{split}
+\begin{bmatrix}
+\chemfig{
+           O\mcfatomno{1}% 1
+    =[:270]\mcfatomno{2}% 2
+              (
+        -[:330]{NH_2}\mcfatomno{3}% 3
+              )
+    -[:210]\mcfatomno{4}H% 4
+}
+\quad\begin{matrix}
+\\
+\\
+\text{\ce{<=>}}
+\end{matrix}\quad
+\chemfig{
+           {O^-}\mcfatomno{1}% 1
+    -[:270]\mcfatomno{2}% 2
+              (
+        =[:330]{NH_2^+}\mcfatomno{3}% 3
+              )
+    -[:210]\mcfatomno{4}H% 4
+}
+\end{bmatrix}
+\end{split}
+\end{equation}
+\noindent In this case, we can see that due to resonance, all of the atoms are coplanar for the amide. Quite separately, consider the following example problem:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{20. \quad The STRONGEST hydrogen bond is formed between:
+\begin{enumerate}[label=\Alph*]
+	\item the lone pair of O and a hydrogen bonded to O.
+	\item the lone pair of N and a hydrogen bonded to O.
+	\item the lone pair of O and a hydrogen bonded to N.
+	\item the lone pair of N and a hydrogen bonded to N.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent The answer to this question is answer choice B. This is because the strongest hydrogen bond is formed when the hydrogen is extremely electron deficient (i.e. through being bonded to an oxygen) and it is hydrogen-bonded to something that is extremely basic (or in other words, is very good at donating its electrons in order to create the bond, which best describes the lone pair on a nitrogen atom). \\
+\noindent \footnotesize \textit{End of Sunday, June 16, 2019.}
+\normalsize
+
+\subsection{Isomers and Stereochemistry}
+
+\section{Physics}
+\subsection{Translational Motion}
+In general on the MCAT, although especially for the physics section, it's about speed more than precision. Important kinematic equations that you probably don't know yet:
+\begin{equation}
+\begin{split}
+\Delta x = \frac{1}{2}\left(v_0+v_f\right)\Delta t, \quad v_f^2=v_0^2+2a\Delta x
+\end{split}
+\end{equation}
+
+\subsection{Forces and Torque}
+\indent In order to handle formula identification problems \textit{quickly} (as speed is extremely important on the exam), the two best techniques are \textbf{checking units} and considering \textbf{limiting cases}. For example, consider the following problem:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Example 2.3a\quad The pulley system shown below, sometimes referred to as an \textit{Atwood machine}, has two masses, $m_1$ and $m_2$. Which of the following formulas represents the acceleration of this system?
+\begin{enumerate}[label=\Alph*]
+	\item $a=\frac{\left(m_1-m_2\right)g}{m_1+m_2}$
+	\item $a=\frac{\left(m_1+m_2\right)g}{m_1-m_2}$
+	\item $a=\frac{g}{m_1+m_2}$
+	\item $a=\frac{m_2g}{m_1+m_2}$
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent This problem essentially shows two masses, $m_1$, $m_2$, attached on two sides of the pulley. There's a traditional solution to \textit{actually} solve for the acceleration of the system, shown on pages 57-58 of TBR Physics, but this takes a lot of time. Instead, we can entirely avoid actually `solving' by using the fact that the test is multiple choice. Choices C and D don't have the right units, so they are definitely wrong. Distinguish between A and B by considering limiting cases. If $m_1=m_2$, then it should be zero acceleration, not infinite acceleration, so thus, the right answer is \textbf{A}. See how quickly we were able to arrive at the right answer?!\\
+\indent Recall that torque $\mathbf{\tau}$ is defined to be $\mathbf{\tau}=\mathbf{r}\times\mathbf{F}$. The length is sometimes called the \textit{lever arm} or \textit{moment arm}, and the center of the bolt is called the \textit{pivot point}. \\
+\indent Although it may sound strange and possibly incorrect when you first consider the idea, it is possible for a static friction to accelerate an object from rest. There are two \textit{everyday} examples that can help you to accept this concept: walking and driving. When you start walking from rest, you are clearly going from $v=0$ to having a velocity in the direction you are moving. This means that you have accelerated. This is achieved by \textit{pushing off} against the ground in a lateral direction. So, there must be a force accelerating you in a lateral direction. According to Newton's third law, there is an equal and opposite force as your push-off force. That opposing force is a static friction of the ground against your foot, as long as your foot does not slip. This explains why it is harder to start walking on an icy floor than a carpeted floow, because the static coefficient of friction $\mu_s$ for ice is much lower than $\mu_s$ for carpet. \\
+\indent In physics and engineering, \textbf{mechanical advantage} is the factor by which a machine multiplies the force put into it. The mechanical advantage of a lever/see-saw can be described by the following equation:
+\begin{equation}
+\begin{split}
+\text{mechanical advantage}=\frac{\text{weight of object}}{\text{applied force needed to support object}}=\frac{d_{\text{fulcrum}}}{d_{\text{weight}}}
+\end{split}
+\end{equation}
+\noindent where $d_i$ is the distance from the fulcrum of object $i$. Example problems for force and torque:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{9.\quad Which of the following graphs (see Figure \ref{Physics_1_2_9}) best represents the force due to static friction as incline angle increases for a redwood block atop a smooth rubber surface?}
+\end{minipage}
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.4\textwidth]{Physics_1_2_9.png} \label{Physics_1_2_9}
+\caption{Answer choices for Question 9 (Taken from Physics Part I, Passage II, Question 9 in TBR)}
+\end{figure}
+\indent Initially, you'd probably think that the answer is A; as you increase the incline angle, it makes sense the the static friction force would decrease, as this is what happens with the normal force, right? However, recall that static friction is a reactionary force, meaning that it is equal and opposite of any applied force. At zero inclination, the block has no inclination to move or anything like that, so the static friction is 0. As the block has more and more incentive to move as the incline angle increases (due to the force of gravity), the static friction must also increase in order to keep the block in place, until the object breaks free and begins to slide down the surface. Thus, the best answer choice in this instance is \textbf{D}. \\
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{22. If a person starts at the rim of a spinning platform and is pushed radially toward the central axis by a moving exterior wall, then what happens to the normal force felt by that person due to the wall?
+\begin{enumerate}[label=\Alph*]
+	\item It remains a constant.
+	\item It decreases, since $r$ decreases.
+	\item It increases, since $r$ decreases. 
+	\item It decreases, since angular speed decreases.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\indent By Newton's third law, we know that the normal force felt by the person is equal to the force the person exerts on the wall, which is basically equal to the centripetal force $F_c=v^2/r$. Superficially, this looks like an inverse relationship $F_c\propto 1/r$, and so we may naively guess the answer is C. However, as $r$ decreases, $v$ also changes for circular motion! Rather, only angular frequency $\omega=v/r$ remains constant, so thus, the form of $F_c$ that we want to use is $F_c=\left(\omega r\right)^2/r=\omega^2r$. From this equation, it is clear that in reality, $F_c\propto r$, and so the correct answer is \textbf{B}.
+
+\subsection{Work and Energy}
+When negative work is done \textit{on} an object, it loses energy to its surroundings. Friction takes energy away from the sliding object. Generally, if \textit{positive} work is done \textit{on} the object, the object \textit{gains} energy. If \textit{the object does positive work}, the object \textit{loses} energy. If the work is negative, then the opposite would be true. For example, the work done on a block by friction as it slides on a rough surface is negative and directly proportional to $\mu_k$. The work done on a road surface, as a car skids across it, is positive and directly proportional to the skidding distance. \\
+\indent The three forms of energy you need to know are kinetic energy, gravitational potential energy, and spring potential energy. Power is the rate of doing work/transferring energy with respect to time.\\
+\indent Two simple machines that occasionally surface on the MCAT are the \textbf{inclined plane} and the \textbf{pulley system}. They make life easier, because they redirect and/or reduce the amount of \textit{force} we need to apply in accomplishing some task. However, they do not lessen the overall amount of work that must be done! It still requires the same amount of energy to carry out the task. This is to say that because energy is conserved, the amount of work needed to perform an action will be constant, no matter how the action occurs. Other simple machines include \textbf{levers} (as we saw in the rotational equilibrium section) and \textbf{hydraulic lifts} (which we will see in the fluids section).\\
+\indent One way to characterize a machine is through its \textbf{mechanical advantage}, defined as
+\begin{equation}
+\begin{split}
+\text{mechanical advantage}=\frac{\text{weight of the object to be supported}}{\text{applied force needed to support the object}}
+\end{split}
+\end{equation}
+\noindent A machine with a bigger mechanical advantage will require less applied force than a machine with a smaller mechanical advantage when it is used to support some object. For pulleys in particular, note that the mechanical advantage is equal to the number of vertical cords supporting the moving pulley (page 111 in Physics Part I, TBR). \\
+\indent Heat and work values are defined from the system's perspective in chemistry. When heat $q$ is positive, heat flows from the surroundings into the system. When $q$ is negative, heat flows from the system out to the surroundings. When work $w$ is positive, work is done on the system by the surroundings. When $w$ is negative, work is done by the system on the surroundings. \\
+\indent The \textbf{Carnot cycle} converts either heat into work or work into heat. We inherently know the concept behind the Carnot cycle. When we blow on a hot liquid, it is done so with pursed lips. Consider blowing on the skin on the back of your hand. If you exhale through your moth with a normal, relaxed degree of aperture, your breath comes out at body temperature. But, if you exhale through your mouth with a small opening, the air feels cooler as it passes across your skin. That is due to the compression of the gas (exothermic) as it passes through your lips, and the expansion of the gas (endothermic) once it leaves your mouth. The air feels cooler, because it is expanding as it passes across the surface of your skin. When a gas expands, the molecules increase their intermolecular distance, which breaks intermolecular forces. Just as bond breaking is endothermic, so is the expansion of a gas. The process of blowing air on your skin through pursed lips results in heat transfer from a cold body (your skin) to a hot body (your mouth). This is unnatural heat flow, so it is similar to the function of the Carnot heat pump. Another example of a Carnot cycle is any piston engine.\\
+\indent The \textit{refrigerator} uses work to absorb heat as a fluid passes through the four stages in a closed system. The basic idea is to put work energy into the system to compress a gas and condense it into a liquid. \\
+\indent These are very complex topics. Just have the very fundamental perspective that a refrigerator takes in work (applied to a piston) and releases heat, while an engine takes in heat (to expand a gas in a piston) to release work. Do not overstudy this topic, even if you feel like you only partially comprehend it. \\
+\indent Let's look at a couple of problems about work and energy:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{9. Consider a pulley system with a flat metal lift plate (with negligible mass) attached to one side and a counterweight of 50 kg attached to the other side. A box with mass of 90 kg is placed on the metal plate. What is true of the total work associated with raising the box compared the work needed to raise the counterweight and return the left plate to the base position?
+\begin{enumerate}[label=\Alph*]
+	\item The work needed to raise the box exceeds the work needed to lift the counterweight.
+	\item The work needed to raise the box is less than the work needed to lift the counterweight.
+	\item The work needed to raise the box is equal to the work needed to lift the counterweight.
+	\item No work is required to raise the box.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\indent Superficially, this seems like a very counterintuitive problem. Shouldn't it take no work at all to return the lift plate to the base? In actuality, the answer choices are simply talking about \textit{work}\textemdash this work doesn't need to be done by a person, as it can also be done by gravity. Thus, the work (done by us) needed to raise the box is 40 kg times $g$ (only 40 kg because of the counterweight), while the work (done by gravity) needed to restore the counterweight to its old position is 50 kg times $g$ (50 kg because that is the mass of the counterweight). Therefore, the correct answer is \textbf{B}.
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{18. After a hand pump has been operating, the shaft is warm and the tip of the needle is cool. This is because:
+\begin{enumerate}[label=\Alph*]
+	\item air is compressed in the shaft of the pump, and it expands as it enters the needle tip.
+	\item air is compressed in the shaft of the pump, and it expands as it leaves the needle tip.
+	\item air expands in the shaft of the pump, and it is compressed as it enters the needle tip.
+	\item air expands in the shaft of the pump, and it is compressed as it leaves the needle tip.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent We are given that the shaft is warm and the tip is cool. This means that the air is compressed in the shaft (because compressing the air is an exothermic processes where heat is released into the shaft) and expanded in the tip (because the gas molecules have more kinetic energy and absorb this energy from the environment, thus cooling the needle tip). This eliminates answer choices C and D. Just as we blow air out of our mouth, the air should be leaving the needle tip, not entering it, so thus, the correct answer choice is B. 
+
+\section{Biochemistry and Molecular Cell Biology}
+\subsection{Amino Acids and Proteins}
+All of the standard 20 amino acids are referred to as \textit{$\alpha$-amino acids} (i.e. a 2-amino acid), except for \textit{proline} which is referred to as an \textit{$\alpha$-imino acid}. Configurations (either relative or absolute) in amino acids refers to the stereochemical configuration around the chiral carbon. Due to differences in the priority of different amino acid side chains, not all amino acids have the same ``absolute configuration,'' which refers the R/S naming convention. However, all amino acids have the same ``relative configuration,'' which refers to the D/L naming convention. All biologically produced amino acids are in the L configuration. \\ 
+\indent The charged R groups are Asp (aspartate), Glu (glutamate), Lys (lysine), Arg (arginine), and His (histidine). All of these are highly ionized at neutral pH except for His, which is only weakly ionized.\\
+\indent Body fluids have pH range from 6.5 to 8.0\textemdash at these ranges, the amino and carboxyl groups are ionized. In other words, the $\alpha$-amino group bears a positive charge, while the $\alpha$-carboxyl group bears a negative charge. This is referred to as the \textbf{zwitterionic} nature of amino acids, due to the fact that the pKa of the $\alpha$-amino terminal is about 9.4, while it is about 2.2 for the $\alpha$-carbxyl terminal. Since amino acids can act as either an acid or a base, they are referred to as \textbf{ampholytes}. To determine the fraction of either the $\alpha$-amino, $\alpha$-carboxyl, or side chain groups that are ionized at a particular pH, use the \textbf{Henderson-Hasselbalch Equation}:
+\begin{equation}
+\begin{split}
+\ce{pH}=\ce{pK_a}+\log\frac{\ce{[A^-]}}{\ce{[HA]}}
+\end{split}
+\end{equation}
+\noindent The \textbf{isoelectric point} is the pH at which an amino acid carries \textbf{no net} electric charge. From the Henderson-Hasselbalch Equation, we know that the isoelectric point pI can be rewritten as
+\begin{equation}
+\begin{split}
+\ce{pI}=\frac{\ce{pK_{a1}+pK_{a2}}}{2}
+\end{split}
+\end{equation}
+\noindent Basically, it's just the main of all of the pKa values associated with the side groups for the molecule. For most amino acids, you only need to factor in the $\alpha$-COOH and $\alpha$-N$\text{H}_3^+$ pKa values, although the R side group may also contribute as well. In terms of making buffers, if a weak acid is within 1 pH unit of its pKa value, it resides within a good buffering range.\\
+\indent Polypeptides with a net positive charge at physiologic pH (\textasciitilde7.4) most likely contain amino acids with \textit{basic} R groups. Polypeptides with a net negative charge at physiologic pH most likely contain amino acids with \textit{acidic} R groups. \\
+\indent Electrophoretic separation of leucine from a protein sample would be least effective at pH 7.4, as opposed to pH values of 2.4, 1.4, and 0.4, because leucine has an aliphatic side chain, and so at physiological pH, leucine exists as a zwitterion. \\
+\indent Formation of \textbf{peptide bonds (peptide linkages)} requires an input of free energy; the hydrolysis of the peptide bond would be more favorable than its synthesis. Remember that peptide unit (i.e. the \ce{O-C-N-H} bonding) is planar due to resonance!\\
+\indent The \textbf{central dogma} is essentially that DNA makes RNA makes protein. DNA makes additional DNA via DNA replication, DNA makes RNA via transcription, and RNA makes protein via translation; this has typically been the canonical view of how information flows in biological systems. However, there are other pathways as well\textemdash RNA can make cDNA via reverse transcription (common in retroviruses such as HIV), and there are also ncRNAs (noncoding RNAs) that can directly perform functions within the cell as an RNA molecule. Two examples of ncRNAs are tRNAs (transfer RNAs) and rRNAs (ribosomal RNAs), both of which are used for the translation of mRNAs into proteins. \\
+\hilight{Still need to write notes for peptide bonds: formation and cleavage on Khan academy}\\ %TODO
+\indent There are a total of 20 canonical amino acids, shown in Figure \ref{Amino_Acids}. Make sure to memorize all of them. There are four amino acids in particular that are worth talking about due to their individual special properties\textemdash histidine, proline, glycine, and cysteine.
+\begin{enumerate}
+	\item Histidine is a special residue because its R group has a pKa of about 6.5, which is pretty close to the physiological pH of 7.4. Recall that at pH less than an amino acid's pKa, the amino acid exists in a protonated (positively charged form), and at pH greater than an amino acid's pKa, it will exist in the deprotonated form. Because histidine is in that `special' regime, histidine is going to exist in both the protonated and deprotonated forms. So, this makes it a particularly useful amino acid to have at the active site of a protein where it can both stabilize or destabilize a substrate.
+	\item Proline has a secondary $\alpha$ amino group. All this basically means is that the side chain forms a second bond with the $\alpha$ nitrogen of this amino acid. Because of this unique cyclic structure of proline, this amino acid plays a central role in the formation of $\alpha$ helices and $\beta$ sheets secondary structures. More specifically, it disrupts $\alpha$ helices because of the secondary $\alpha$ amino group, thus introducing kinks into $\alpha$ helices. Proline is thus an \textit{$\alpha$ helix breaker}.
+	\item Glycine has just one hydrogen atom as its side chain. Because of this, the central carbon is now achiral (the only amino acid to be non-optically active. Additionally, because of the small R group, glycine is very flexible, so there's a lot of free rotation around the $\alpha$ carbon. Glycine also disrupts $\alpha$ helices because of its enhanced flexibility, thus also introducing kinks into $\alpha$ helices, and is thus also an \textit{$\alpha$ helix breaker}. 
+	\item Cysteine has a special thiol \ce{-SH} group as its R group, meaning that when two cysteine residues are in close proximity, then their side chains can form an \ce{S-S} bond called a \textit{disulfide bridge}. Disulfide bridges exist in oxidizing environments, because the normal thiol groups exists in the reduced form in a reducing environment. For example, the extracellular space is an oxidizing environment, so this will favor the formation of disulfide bridges. However, in the cytosol (which is a reducing environment), disulfide bridges will likely not form. 
+\end{enumerate}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Amino_Acids.png} \label{Amino_Acids}
+\caption{20 Canonical Amino Acids, all with L configuration}
+\end{figure}
+
+\subsection{Carbohydrates \& Lipids}
+Carboyhydrates have an empirical formula \ce{(CH_2O)_n}. They also must have an \textit{aldehyde} or \textit{ketone} functional group and at least \textit{two} alcohol functional groups. If a carbohydrate contains an aldehyde, it is referred to as an \textbf{aldose}. If it contains a ketone, it is referred to as a \textbf{ketose}. 
+
+\subsection{D- and L- Isomers}
+In Fischer projections, we care about the chiral carbon that is most distant from the carbonyl carbon. This chiral carbon is referred to as the \textbf{reference carbon}. If the hydroxyl group attached to that reference carbon is to the right, the molecule is the \textbf{D isomer}. If the hydroxyl group is to the left, the molecule is the \textbf{L isomer}. Most of the naturally occurring sugars are found in their D form (while most of the naturally occurring amino acids are found in their L form).
+
+\subsection{Monosaccharides, Oligosaccharides, and Polysaccharides}
+Sugars with five or more carbon atoms in their backbone prefer to be in the cyclic form. The C-1 carbon is the carbonyl carbon, also called the \textbf{anomeric carbon}. Two diastereomers of cyclic monosaccharides are $\alpha$ and $\beta$. In the $\alpha$-anomer, the \ce{-OH} group at the anomeric carbon is on the \textit{opposite} side of the ring from the \ce{-CH_2OH} group that is attached to the reference carbon. In the $\beta$-anomer, the \ce{-OH} group at the anomeric carbon is on the \textit{same} side of the ring as the \ce{-CH_2OH} group that is attached to the reference carbon. An example of anomers is shown in Fig. \ref{anomers}. Notice that, depending on the starting sugar, formation of the cyclic ring creates either a \textit{hemiacetal} group or a \textit{hemiketal} group. 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{anomers.png} \label{anomers}
+\caption{Formation of the two anomers of D-Glucopyranose}
+\end{figure}
+\indent Two oxidizing agents used to identify the functional groups of carbohydrates are \textbf{Tollens' reagent} (which contains \ce{Ag^+}) and \textbf{Benedict's reagent} (which contains \ce{Cu^{2+}}). If an aldose or ketose is capable of reducing these ions, those sugars are referred to as \textit{reducing sugars}. Reducing sugars have the suffix \textbf{-ose}, while non-reducing sugars have the suffix \textbf{-ide}. Carbohydrates that contain a hemiacetal or a hemiketal group give positive tests with Tollens' and Benedict's reagents.\\
+\indent A sugar is a non-reducing sugar if its hemiacetal or hemiketal group has been converted to an acetal or ketal group, respectively (i.e. through reacting with an alcohol). These non-reducing sugars will not react with either the Tollens' reagent or Benedict's reagent. \\
+\indent The structure of lactose disaccharide has been given on the MCAT a number of times. Two important storage polysaccharids are \textit{starch} and \textit{glycogen}. Starch is a food reserve in plants. It is basically a bunch of D-glucose molecules linked together primarily with $\alpha\left(1\rightarrow 4\right)$ linkages, although there can be other types depending on the type of starch. Glycogen is the storage polysaccharide common to all animals, and is located primarily in skeletal muscle and liver tissue.
+
+\subsection{Lipids}
+Fatty acids are carboxylic acids with a hydrocarbon side chain. They can be either saturated or unsaturated. In nature, fatty acids are rarely free. Rather, they are esterified to a glycerol backbone to form a \textit{triacylglycerol}. There are a number of different types of lipids that we will discuss here:
+\begin{enumerate}
+	\item \textbf{Glycerophospholipids} (or phosphoglycerides) are the ones that we're most familiar with\textemdash two fatty acids esterified to the C-1 and C-2 carbons of glycerol, and a phosphate group attached to C-3. These molecules are amphiphilic, as they have nonpolar tails and a polar head.
+	\item \textbf{Sphingolipids} do not have a glycerol backbone, and instead are derivatives of amino alcohols. The C-2 carbon has an amino group, and a fatty acid can be attached to it as well through an amide linkage\textemdash this molecule is called a \textit{ceramide}. Sphingomyelins are special types of sphingolipids that have a phosphoethanolamine or phosphocholine group attached to the C-1 carbon of the ceramide, and are abundant in the myelin sheaths that surround the axons of nerve cells.
+	\item \textbf{Cholesterols} are synthesized in the cytosol. Steroids are based on cholesterols and synthesized in the mitochondria. Cholesterol is transported into the mitochondrion, and adrenocorticotropic hormone (ACTH) stimulates the conversion of cholesterol to pregnenolone. The five types of steroid classes are progesterone, glucocorticoids, mineralocorticoids, androgens, and estrogens.
+\end{enumerate}
+\noindent Cholesterol becomes pregnenolone, which then becomes progesterone. Progesterone can then either become testosterone, aldosterone, or cortisol. Testosterone can be further converted into estradiol. Progesterone is important for women to maintain pregnancy and the endometrial lining of the uterus, although it is also found in low levels in males. Cortisol (also known as hydrocortisone) is synthesized and secreted from cells in the cortex of the adrenal glands. In the liver, cortisol increases both glycogen synthesis and gluconeogenesis. In skeletal muscle, cortisol decreases glucose uptake and protein synthesis, and increases protein catabolism. In adipose tissue, cortisol increases lipid mobilization and decreases glucose uptake. Aldosterone is synthesized and released from cells in the adrenal cortex. It increases reabsorption of sodium ions in the kidneys, intestines, salivary glands, and sweat glands. This leads to retention of sodium in the extracellular fluid (ECF), thus increasing ECF volume, blood volume, blood pressure, and blood flow. Testosterone is important for sperm maturation in males and development of secondary sex characteristics. Estradiol is the primary estrogen in women and is important in the development of secondary sex characteristics and regulation of the ovarian cycle. \\
+\indent Cholesterol decreases membrane fluidity at high temperatures and increases membrane fluidity at low temperatures. Basically, the way to remember this is that whatever the thermodynamically expected behavior of the cell fluidity is at a given temperature, cholesterol decreases the magnitude of that effect so that the membrane behavior never gets too extreme.\\
+\indent In order to tolerate high temperatures, a thermophilic bacterium must have fatty acid tails that decrease the fluidity of its cell membrane. Saturated fatty acid tails have stronger Van der Waals interactions and thereby decrease the fluidity of cell membranes. Longer fatty acid tails have greater surface area for Van der Waals interactions, so they also decrease the fluidity of cell membranes. Therefore, long saturated hydrocarbon tails would best help the thermophilic bacteria have stable plasma membranes.\\
+\indent Pinocytosis is the ingestion of liquid into a cell by the budding of small vesicles from the cell membrane.
+
+\subsection{Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}
+\textbf{Chromatin} is a complex of dsDNA and histones (which are a type of protein). Histones are basic proteins consisting of a high percentage of Lys and Arg residues that bear of a positive charge. This allows them to easily establish a favorable electrostatic relationship with the negatively charged DNA polymers. There are also nonhistone proteins (i.e. RNA polymerase) that are acidic and bear a net negative charge. Chromatin condenses into \textbf{chromosomes} as the cell prepares for division. At metaphase, each chromosome consists of two \textbf{sister chromatids}, each held together through a constricted region called the \textbf{centromere}. \\
+\indent There are five types of histones: H1, H2A, H2B, H3, and H4. A nucleosome is an association of these histones with a specific length of DNA. H2A, H2B, H3, and H4 are the \textbf{core} histones. The H1 histone is thought to play an important role in pulling the individual nucleosomes together to help with DNA condensation. 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.65\textwidth]{chromosome_types.png} \label{chromosome_types}
+\caption{General classification of eukaryotic chromosomes based on the position of the centromere.}
+\end{figure}
+Mitosis should honestly be pretty straightforward. The only thing is that for prophase, there may be some new terminology. At the beginning of prophase, the two \textbf{centriole} pairs begin to move apart, and microtubules begin to radiate from each pair in all directions, forming a star-like structure called an \textbf{aster}. The region from which the microtubules extend outward is called the \textbf{centrosome}, or MTOC (microtubule-organizing center). The microtubules ultimately form the \textbf{mitotic spindle}, and attach to the chromosomes at the \textbf{kinetochore}, a specialized area closely associated with the centromere.
+
+\subsection{Meiosis}
+Meiosis is technically composed of two processes\textemdash Meiosis I and Meiosis II\textemdash each of which s preceded by an interphase. During the second interphase immediately before meiosis II, the S period does not exist and so the DNA cannot be replicated again. Meiosis is a bit more complicated than mitosis, so let's take a look at it step by step:
+\begin{itemize}
+	\item Prophase I is longer and more complicated to prophase of mitosis, and can be divided into five stages: leptotene, zygotene, pachytene, diplotene, and diakinesis. During \textit{leptotene}, the replicated chromosomes have already started to condense and now become visible. During \textit{zygotene}, the synaptonemal complex forms where the maternal and paternal chromosomes come together to form the tetrads. This is in preparation for crossing over, although crossing over has not occurred yet. At this stage, there are 23 tetrads, 2 centromeres in each tetrad, and 46 chromosomes (based on the number of centromeres). During \textit{pachytene}, chromosomes continue to condense, and crossing over occurs. During \textit{diplotene}, the homologous chromosomes begin to separate and the events of crossing over become visible at structures called \textbf{chiasmata}. During \textit{diakinesis}, the nuclear envelope begins to break down, and the nucleoli disappear. 
+	\item Metaphase I is unremarkable.
+	\item During Anaphase I, the microtubules pull the homologous chromosomes apart, but the centromeres do \textit{not} divide. Each chromosome that migrates toward a pole is still composed of sister chromatids, and this pair is referred to as a \textbf{dyad}. Cytokinesis also begins at this step.
+	\item Telophase I and Cytokinesis are unremarkable. After the completion of Meiosis I, we find that a diploid cell with 46 chromosomes has divided into two haploid cells, each with 23 chromosomes. This is therefore a \textbf{reductive division}.
+	\item Interphase II is usually pretty brief.
+	\item Meiosis II is pretty unremarkable. One thing to note is that the cells entering Meiosis II are already haploids. Also, because of the crossing over events from Meiosis I, the chromatids of each chromosome that are separating during Anaphase II can't actually be referred to as \textit{sister} chromatids because their DNA is no longer the same because of the genetic recombination.
+\end{itemize}
+\noindent Yeast are an example of a eukaryote that reproduces asexually.
+
+\subsection{Biomembranes and Membrane Transport}
+In lipid bilayers, recall that lateral diffusion of neighboring phospholipids is very common, but transverse diffusion (flip-flop) of phospholipids from one lipid plane to the next is a very rare event. Addition of cholesterol to a membrane acts to decrease fluidity, as the planar steroid ring inserts between neighboring fatty acid side chains and interferes with the movement of those chains. It might be a good idea to review that one problem about the symports and antiports from the Bi9 Final. \\
+\indent There's also something called \textbf{group translocation} found in certain bacteria, where a sugar residue like glucose is phosphorylated as it is being transported through the plasma membrane. This type of transport is coupled to cellular metabolism. There's also \textbf{bulk transport} that involves \textit{indosomes} and \textit{endocytotic vesicles}. Many animal cells will show an invagination of a portion of their plasma membrane that will eventually pinch off to form an internalized vesicle. Bulk transport is where words like endocytosis, pinocytosis, phagocytosis, and exocytosis come in.
+
+\subsection{Nucleus, Nucleolus, \& Ribosomes}
+The nucleus is double membrane-bound. The outer membrane is actually considered to become part of the rough endoplasmic reticulum (RER). Between the inner and outer membrane is the \textbf{perinuclear space}. DNA replication and transcription occur in the nucleus, while translation happens outside in the cytosol. The diameter of \textbf{nuclear pores} is 10-20 nm. \\
+\indent Within the nucleus is a highly organized region called the \textbf{nucleolus}. The nucleolus is \textit{not} a membrane-bound organelle. It is centered around certain chromosomes that contain \textit{nucleolus organizer regions}, and is involved in the synthesis of rRNA. If a cell is quite actively involved in protein synthesis (meaning that it needs a lot of rRNA), one would expect the nucleolus to be larger than if a cell were not as actively involved in protein synthesis. \\
+\indent Eukaryotic ribosomes are composed to two subunits, each differing in size and content of RNA and protein. We talk about ribosome size based on a sedimentation coefficient called the \textbf{Svedberg unit (S)}, where one S $=10^{-13}$ sec. The rate at which a molecule sediments in an ultracentrifuge tells us something about its mass. The sedimentation coefficient of a complete eukaryotic ribosome is expressed as \textbf{80S}. Eukaryotic ribosomes have two subunits\textemdash a large subunit (60S) and a small subunit (40S). Note that 60S + 40S $\neq$ 100S; in other words, the values are not additive. Sedimentation coefficients are not linearly related to molecular weight, as they depend on the size and the shape of the molecule. \\
+\indent The overall dimensions of a complete ribosome is about $\text{\textbf{20 nm}}\times\text{\textbf{30 nm}}$, and contains roughly 60\% rRNA and 40\% protein. The small subunit is about 9 nm in diameter and contains roughly half rRNA and half protein. The large subunit is roughly 25 nm in diameter and contains about 65\% rRNA and 35\% protein. \\
+\indent Ribosomes are also found in the matrix of the mitochondria. Ribosomes found in the mitochondrial matrix differn in RNA and protein content, and are also smaller and sediment at about \textbf{55S}. Prokaryotic ribosomes are about \textbf{70S}. 
+
+\subsection{Endoplasmic Reticulum, Golgi Apparatus, \& Lysosomes}
+The ER is the largest membrane system in a eukaryotic cell. The \textbf{Smooth Endoplasmic Reticulum (SER)} is tubular in shape and is involved in the synthesis of a majority of the cell's membrane lipids (i.e. neutral fats, phospholipids, prostaglandins, and steroid hormones). Especially in hepatocytes (liver cells), the SER is involved in hydroxylation reactions that aid in the detoxification of drugs by making them more water soluble. The SER can also help catabolize liver glycogen in hepatocytes.\\
+\indent The \textbf{Rough Endoplasmic Reticulum (RER)} is flat and sheet-like, and ribosomes on the cytoplasmic fact of the RER are bound to the membrane by their large (60S) subunit. Post-translational modification of proteins occur in the ER lumen, where certain amino acids are modified by hydroxylation and glycosylation events. \\
+\indent For the Golgi Apparatus, the \textbf{cis} cisterna face the nucleus/ER, while the \textbf{trans} cisterna face the plasma membrane. The \textbf{medial} cisterna are located between the cis and trans cisternae. After a protein enters the cis cisterna and before it leaves the trans cisterna, it can be modified in a variety of different ways, including glycosylation, sulfation, and proteolysis.\\
+\indent Lysosomes contain special enzymes that function at acidic pH values, and are referred to as \textbf{acid hydrolases}, which catalyze the general reaction \ce{A-B + H_2O -> A-H + B-OH}. There are some common acid hydrolases that you should know:
+\begin{table}[h!]
+\begin{tabular}{llll}
+\hline
+\textbf{Enzyme} & \textbf{Substrate} & \textbf{Bond Hydrolyzed} & \textbf{Example} \\
+\hline
+Proteases & Peptides & Peptide & Pepsidase\\
+Glycosidase & Glycolipids & Glycoside & $\beta$-hexosaminidase\\
+Lipase & Phospholipids  & Carboxylic Ester & Phospholipase\\
+Nuclease & DNA & Phosphoric Diester & Acid Deoxyribonuclease\\
+Phosphatases & Phosphomonoesters & Phosphoric Monoester & Acid Phosphatase\\
+\hline      
+\end{tabular}
+\end{table}
+\noindent Lysosomal enzymes are inactive at neutral pH. The hydrolysis products simply diffuse out of the organelle and are utilized in a variety of metabolic processes. We know that if this were not the case, the increasing solute concentration in the lysosome would eventually result in the lysis of the lysosome due to osmotic water entry into the lysosome, but this is not observed. \\
+\indent Peroxisomes are membrane-bound organelles that have a number of enzymes, the most notable being \textit{catalase} that catalyzes the degradation of hydrogen peroxide \ce{H_2O_2}.
+
+\subsection{Signal Hypothesis}
+The Signal Hypothesis was covered in Bi9, and is import for co-translational transport. Many proteins have a signal sequence that binds to a signal recognition particle (SRP) in the cytoplasm, halting translation. The SRP chaperones the complex to the signal sequence receptor embedded in the membrane of the RER, and the signal sequence is cleaved by signal pepsidase. Translation then continues and at the same time, the polypeptide chain is transported into the ER lumen via Sec61. 
+
+\subsection{Cytoskeleton}
+\textbf{Microtubules} are composed of 13 protofilaments and are about 25 nm in diameter. Each protofilament has alternating $\alpha$-tubulin and $\beta$-tubulin proteins. The growth of microtubules occurs from \textbf{microtubule organizing centers (MTOCs)}. Three common centers are the centrosome (cell center), kinetochores (spindle attachment sites on chromosomes), and centrioles. Polymerization preferentially occurs at the (+) end.\\
+\indent \textbf{Microfilaments} (actin filaments) are about 7 nm in diameter. Polymerization preferentially occurs at the (+) end. We have G-actin (globular) monomers, and F-actin (filamentous) polymerized subunits. \\
+\indent \textbf{Intermediate filaments} are about 8 to 12 nm in diameter and differ in composition. For example, the intermediate filaments in epithelial cells are composed of keratins, while in muscle cells they are composed of desmin. 
+
+\subsection{Prokaryotic Cells}
+The two most frequently encountered bacteria are the \textbf{cocci} and the \textbf{rods}. Cocci are essentially spherical in shape while rods generally resemble the shape of a tube. Bacteria that have a rigid twist to their rod-like structure are called \textbf{spirilla}. If their twisted structure is more flexible, they are called \textbf{spirochetes}. Invaginations of bacterial cell membranes are called \textbf{mesosomes} with currently unknown function. \\
+\indent Instead of membrane-bound organelles, prokaryotes often have structures called \textbf{inclusion bodies}, which can contain organic molecules like glycogen or inorganic molecules like phosphate granules. Prokaryotic ribosomes are \textbf{70S}, and are composed of a large \textbf{50S} subunit and a small \textbf{30S} subunit.\\
+\textbf{Gram positive} bacteria have a rather thick, homogeneous \textbf{peptidoglycan} layer (20 nm to 80 nm) just outside their plasma membrane. \textbf{Gram negative} bacteria have a much thinner peptidoglycan layer (1 nm to 3 nm), in addition to an outer membrane that contains \textbf{lipopolysaccarides} and \textbf{porins}. The polysaccharide helps to stabilize the membrane, and also acts as an \textit{endotoxin} and provides a defense mechanism for the cell. \\
+\indent Genetic material can be passed from one bacterial cell to the next by binary fission, bacterial conjugation, transformation, or transduction. Binary fission is basically asexual reproduction where one cell splits into two. In bacterial conjugation, genetic information is transferred by cell-cell contact. Donor strains of bacteria are $F^+$ (male), while the recipient bacteria are $F^-$ (female). The "$F$" refers to the \textbf{fertility plasmid}. Transformation is the uptake of genetic material from the surrounding medium. Transduction is the transfer of bacterial genes by viruses.
+
+\subsection{Viruses}
+The architecture of a virus is usually based on one of two structural motifs: \textbf{isometric} (usually in the form of an icosahedron) and \textbf{helical}. The viral protein coat is formed from \textbf{capsomers}. If there is no nucleic acid within the protein coat/shell, then the empty shell is referred to as a \textbf{capsid}. However, if there is nucleic acid within the protein shell, the complex is called a \textbf{nucleocapsid}.\\
+\indent The genetic information within the genome of a virus may be encoded in either the language of DNA or RNA, and can be linear or circular, single- or double- stranded, and even segmented. However, no matter how the genetic information is stored in the virus, the translational process uses mRNA as a template. Therefore, by convention, we define that mRNA as being a \textbf{positive (+) strand} nucleic acid.\\
+\indent Naked (non-enveloped) viruses gain access to the host's cytoplasm only by receptor-mediated endocytosis. The receptors on the cell surface of the host are usually located near specialized depressions called \textbf{\textit{clathrin-coated pits}}. Enveloped viruses can either enter through receptor-mediated endocytosis or by direct fusion with the plasma membrane. Release of viruses (whether naked or not) is mediated by pH changes, as the pH becomes more acidic in the endosome. 
+
+\subsection{Genetic Information\textemdash Classical Genetics}
+Mendel's First Law of Heredity (also called the \textbf{Law of Segregation}) is that alternative alleles segregate from each other in heterozygous individuals and retain their identity. Mendel's Second Law of Heredity (also called the \textbf{Law of Independent Assortment}) is that the hereditary factors (i.e. genes) for different things assort independently of one another. Note that independent assortment of the genes will occur if they are located on different chromosomes or are far apart on the same chromosome.
+
+\subsection{Genetic Loci \& Alleles}
+\textbf{Tryptophan} is considered an \textbf{essential amino acid} because it is an amino acid that an organism cannot synthesize itself, and therefore must be obtained from the diet. An \textit{auxotroph} is a mutant that will grow only when its medium is supplemented with a particular compound which is not required by the normal wild type organism. The wild type organism is referred to as a \textit{prototroph}. By definition, an auxotroph will not grow on a minimal medium, while a prototroph will. \\
+\indent \textbf{Pleiotropy} is when an individual allele has more than one effect on the phenotype (i.e. there's a mouse gene that determines both the fur coat color and the viability of the mouse). \textbf{Epistasis} is when multiple genes all contribute to a particular phenotype and are able to interact with one another. This occurs between different pairs of genes, \textit{not} between two members of an allelic pair. For example, in order for tryptophan to be synthesized, the dominant allele of all the genes involved in this biosynthetic pathway must be present (in the absence of tryptophan), so the genes involved in the biosynthetic pathway of tryptophan are said to act in an epistatic fashion.\\
+\indent The short arm of a chromosome is called the $p$ arm, while the long arm of a chromosome is called the $q$ arm. 
+
+\subsection{Pedigrees}
+In pedigree charts, males are squares and females are circles. If a square or a circle is filled in with a dark color, then that individual is affected with a given defect. 
+
+\end{document}
