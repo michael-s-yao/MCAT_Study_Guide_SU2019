@@ -322,8 +322,48 @@ Cycloalkanes are basically cyclic alkanes that have one ring with the chemical f
 \indent \textbf{Separating Stereoisomers:} In organic chemistry, there are compounds known as \textit{chiral auxiliaries}, which introduce chirality to, or exaggerate existing chirality within, a reactant molecule. Chiral auxiliaries serve in a similar fashion to an enzyme. When aiming for one specific stereoisomer, it is easiest to select for it in the reaction. If not, then a mixture of stereoisomers forms and chirally selective separation techniques must be used. Chirally selective separation techniques come in two types: using an enzyme/chirally selective molecule to react specifically with one stereoisomer within the mixture, or invoking chirality in an existing separation technique. As an example for the first technique, if a new functional group is added to only stereoisomer by an enzyme, the two enantiomers now have different physical properties and can easily be separated. Once separated, the same enzyme can be employed to return the compound back to its original form. As an example for the second technique, a column chromatography gel can be made from a pure stereoisomer. If the column is made with an $R$-alcohol for instance, then when a racemic mixture of alcohols is added, the $S$-enantiomer has a greater affinity for the column, and thus has a greater elution time.
 
 \subsection{Nucleophilic Substitution}
-
-
+The strength of a leaving group can be predicted by the \ce{pK_a} os its conjugate acid. The more stable the leaving group, the less basic the leaving group, and thus the more acidic the conjugate acid of the leaving group. In other words, the strength of a leaving group increases as the \ce{pK_a} of its conjugate acid decreases.\\
+\indent A \textit{racemic mixture} is a product mixture that has an even distribution of enantiomers. It is the observed product when the mechanism involves an intermediate where the reactive site is an $sp^2$-hybridized carbon and the molecule is symmetric (i.e. has no other chiral centers). \\
+\indent \ce{S_N 2} reactions involve the nucleophile attacking prior to the leaving group leaving in a \textit{backside} attack, essentially pushing the leaving group off of the electrophile. It has a trigonal bipyramidal transition state.
+\begin{table}[h!]
+\begin{tabular}{p{6.25cm} p{6.5cm} p{5cm}}
+\hline
+\textbf{Reactant Features} & \textbf{Course of Reaction Features} & \textbf{Product Features} \\
+\hline
+\hline
+The reactivity preference in an \ce{S_N 2} mechanism is $1^{\circ}>2^{\circ}>3^{\circ}$ in terms of electrophiles. & An \ce{S_N 2} mechanism forms a five-ligand transition state during the middle of the reaction. & A single enantiomeric product is formed (i.e. no racemic mixture). \\
+An \ce{S_N 2} mechanism is favored with a good nucleophile. & The 5-ligand transition state is the highest energy state and it exists for just a split second. It \textit{cannot} be isolated. & \ce{S_N 2} reactions exhibit second order kinetics. \\
+An \ce{S_N 2} mechanism is favored in polar, aprotic solvents such as ethers and ketones. & Steric forces destabilize the transition state by forcing bond angles to values less than $109.5^{\circ}$. & \ce{S_N 2} reactions are one-step reactions, so they have fast rates of formation.\\
+\hline
+\end{tabular}
+\end{table}
+\indent \ce{S_N 1} reactions involve the leaving group leaving before the nucleophile attacks. The carbocation intermediate has a long enough lifetime to be detected using spectroscopy. Both rearrangement (e.g. hydride shifts and alkyl shifts) and a mixture of stereoisomers (formed from either front-side or back-side attack of the $sp^2$-intermediate) are observed with \ce{S_N 1} reactions. Formation of the carbocation is the rate-limiting step. \\
+\begin{table}[h!]
+\begin{tabular}{p{6.25cm} p{6.5cm} p{5cm}}
+\hline
+\textbf{Reactant Features} & \textbf{Course of Reaction Features} & \textbf{Product Features} \\
+\hline
+\hline
+The reactivity preference in an \ce{S_N 1} mechanism is $3^{\circ}>2^{\circ}>1^{\circ}$ in terms of electrophiles. & Steric hindrance pushes the leaving group off of the electrophile. & A racemic mixture forms when the electrophile has chirality. \\
+An \ce{S_N 1} mechanism is seen with a poor nucleophile. & The intermediate is a planar, three-ligand carbocation where the carbon has $sp^2$-hybridization. & \ce{S_N 1} reactions exhibit first order kinetics. \\
+An \ce{S_N 1} mechanism is favored in protic solvent such as alcohols. & An intermediate is observed in addition to transition states. & \ce{S_N 1} reactions are slow, two-step reactions.\\
+\hline
+\end{tabular}
+\end{table}
+\indent The \ce{S_N 1} reaction can be complicated by \textbf{rearrangement} because of the carbocation intermediate formed. If a secondary carbocation (\ce{R_2CH^+}) is formed, it can rearrange to form a more stable tertiary carbocation (\ce{R_2C^+}) when possible. See Figure \ref{1-2-hydride-shift-mechanism} for an example. Furthermore, if the electrophile has a chiral center at a site other than the electrophilic carbon, an \ce{S_N 1} reaction will form both a major and minor product. The major product results from the transition state with least steric hindrance.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{1-2-hydride-shift-mechanism.png} \label{1-2-hydride-shift-mechanism}
+\caption{Example of favorable hydride shift to generate tertiary carbocation from secondary carbocation intermediate.}
+\end{figure}
+\noindent Primary electrophiles proceed by \ce{S_N 2} while tertiary electrophiles proceed by \ce{S_N 1}. Secondary electrophiles can proceed by either \ce{S_N 1} or \ce{S_N 2}. Also, the stronger the nucleophile, the more likely the reaction will proceed by an \ce{S_N 2} mechanism; the better the leaving group, the more likely the reaction will proceed by an \ce{S_N 1} mechanism. Also, consider the following rate laws:
+\begin{equation}
+\begin{split}
+\ce{S_N 1} \text{ Rate}=k\left[\text{Electrophile}\right]\\
+\ce{S_N 2} \text{ Rate}=k\left[\text{Nucleophile}\right]\left[\text{Electrophile}\right]
+\end{split}
+\end{equation}
+\noindent Lastly, you can also consider the solvent to distinguish between \ce{S_N 1} and \ce{S_N 2} reactions: if the solvent is protic (i.e. capable of forming hydrogen bonds), the reaction will have a tendency to proceed by an \ce{S_N 1} mechanism. If the solvent is aprotic (i.e. \textit{not} capable of forming hydrogen bonds), the reaction will have a tendency to proceed by an \ce{S_N 2} mechanism.
 
 \section{Physics}
 \subsection{Translational Motion}
