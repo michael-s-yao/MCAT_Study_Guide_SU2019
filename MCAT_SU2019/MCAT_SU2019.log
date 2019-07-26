@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 JUL 2019 08:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JUL 2019 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1203,152 +1203,151 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+])
 \tf@toc=\write6
 \openout6 = `MCAT_SU2019.toc'.
 
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+ [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
- [3]
-<antibody_structure.png, id=328, 2427.0675pt x 1844.8925pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
+ [12]
+<antibody_structure.png, id=507, 2427.0675pt x 1844.8925pt>
 File: antibody_structure.png Graphic file (type png)
 
 <use antibody_structure.png>
-Package pdftex.def Info: antibody_structure.png used on input line 149.
+Package pdftex.def Info: antibody_structure.png used on input line 299.
 (pdftex.def)             Requested size: 379.41585pt x 288.4045pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] <t_cell_receptor.png, id=334, 2637.855pt x 1493.58pt>
+ [13] [14 <./antibody_structure.png>]
+<t_cell_receptor.png, id=520, 2637.855pt x 1493.58pt>
 File: t_cell_receptor.png Graphic file (type png)
 
 <use t_cell_receptor.png>
-Package pdftex.def Info: t_cell_receptor.png used on input line 171.
+Package pdftex.def Info: t_cell_receptor.png used on input line 321.
 (pdftex.def)             Requested size: 298.1154pt x 168.78397pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <./antibody_structure.png>]
-<immune_pathway.png, id=342, 2169.10374pt x 2974.11125pt>
+ [15 <./t_cell_receptor.png>]
+<immune_pathway.png, id=533, 2169.10374pt x 2974.11125pt>
 File: immune_pathway.png Graphic file (type png)
 
 <use immune_pathway.png>
-Package pdftex.def Info: immune_pathway.png used on input line 193.
+Package pdftex.def Info: immune_pathway.png used on input line 343.
 (pdftex.def)             Requested size: 379.41585pt x 520.20499pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./t_cell_receptor.png>] [7 <./immune_pathway.png>] [8] [9] [10] [11]
+[16] [17 <./immune_pathway.png>] [18] [19] [20]
 
-LaTeX Warning: Reference `conformers' on page 12 undefined on input line 468.
+LaTeX Warning: Reference `conformers' on page 21 undefined on input line 618.
 
-[12]
-Underfull \hbox (badness 1558) in paragraph at lines 488--488
+[21]
+Underfull \hbox (badness 1558) in paragraph at lines 638--638
 []\T1/cmr/m/n/10 The re-ac-tiv-ity pref-er-ence in an $[][][] []$
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 501--501
+Underfull \hbox (badness 1558) in paragraph at lines 651--651
 []\T1/cmr/m/n/10 The re-ac-tiv-ity pref-er-ence in an $[][][] []$
  []
 
-<1-2-hydride-shift-mechanism.png, id=424, 752.8125pt x 342.27875pt>
+<1-2-hydride-shift-mechanism.png, id=600, 752.8125pt x 342.27875pt>
 File: 1-2-hydride-shift-mechanism.png Graphic file (type png)
 
 <use 1-2-hydride-shift-mechanism.png>
-Package pdftex.def Info: 1-2-hydride-shift-mechanism.png used on input line 510
+Package pdftex.def Info: 1-2-hydride-shift-mechanism.png used on input line 660
 .
 (pdftex.def)             Requested size: 379.41585pt x 172.51253pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14 <./1-2-hydride-shift-mechanism.png>]
-<Physics_1_2_9.png, id=439, 488.82625pt x 464.73625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22] [23 <./1-2-hydride-shift-mechanism.png>]
+<Physics_1_2_9.png, id=612, 488.82625pt x 464.73625pt>
 File: Physics_1_2_9.png Graphic file (type png)
  <use Physics_1_2_9.png>
-Package pdftex.def Info: Physics_1_2_9.png used on input line 561.
+Package pdftex.def Info: Physics_1_2_9.png used on input line 711.
 (pdftex.def)             Requested size: 216.80669pt x 206.12267pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
+Underfull \hbox (badness 10000) in paragraph at lines 714--715
 
  []
 
-[15] [16 <./Physics_1_2_9.png>] [17] [18]
-<IMG_3047.jpg, id=478, 2177.13374pt x 1476.51625pt>
+[24] [25 <./Physics_1_2_9.png>] [26] [27]
+<IMG_3047.jpg, id=653, 2177.13374pt x 1476.51625pt>
 File: IMG_3047.jpg Graphic file (type jpg)
  <use IMG_3047.jpg>
-Package pdftex.def Info: IMG_3047.jpg used on input line 679.
+Package pdftex.def Info: IMG_3047.jpg used on input line 829.
 (pdftex.def)             Requested size: 433.62166pt x 294.05888pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19] [20 <./IMG_3047.jpg>] [21] [22]
-<Amino_Acids.png, id=531, 1042.89626pt x 827.09pt>
+[28] [29 <./IMG_3047.jpg>] [30] [31] [32] [33] [34] [35] [36]
+<Amino_Acids.png, id=757, 1042.89626pt x 827.09pt>
 File: Amino_Acids.png Graphic file (type png)
  <use Amino_Acids.png>
-Package pdftex.def Info: Amino_Acids.png used on input line 807.
+Package pdftex.def Info: Amino_Acids.png used on input line 1120.
 (pdftex.def)             Requested size: 433.62166pt x 343.89221pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<anomers.png, id=533, 407.6028pt x 159.7167pt>
+[37 <./Amino_Acids.png>] <anomers.png, id=768, 407.6028pt x 159.7167pt>
 File: anomers.png Graphic file (type png)
- <use anomers.png>
-Package pdftex.def Info: anomers.png used on input line 821.
+
+<use anomers.png>
+Package pdftex.def Info: anomers.png used on input line 1134.
 (pdftex.def)             Requested size: 433.62166pt x 169.91304pt.
- [23]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24 <./Amino_Acids.png>] [25 <./anomers.png (PNG copy)>]
-<chromosome_types.png, id=557, 604.2575pt x 262.9825pt>
+ [38 <./anomers.png (PNG copy)>]
+<chromosome_types.png, id=775, 604.2575pt x 262.9825pt>
 File: chromosome_types.png Graphic file (type png)
 
 <use chromosome_types.png>
-Package pdftex.def Info: chromosome_types.png used on input line 845.
+Package pdftex.def Info: chromosome_types.png used on input line 1158.
 (pdftex.def)             Requested size: 352.31294pt x 153.3325pt.
- [26 <./chromosome_types.png (PNG copy)>] [27]
-[28] [29] [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 934.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 934.
- (./MCAT_SU2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 934.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 934.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39] [40 <./chromosome_types.png (PNG copy)>] [41] [42] [43] [44] [45]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1275.
+
+(./MCAT_SU2019.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1275.
+
 Package rerunfilecheck Info: File `MCAT_SU2019.out' has not changed.
-(rerunfilecheck)             Checksum: 601912625263563FEEED2BD57C529F8E;3446.
+(rerunfilecheck)             Checksum: 4FD60CBA45C37D657098BE5081DB6352;4856.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 934.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1275.
  ) 
 Here is how much of TeX's memory you used:
- 37860 strings out of 492995
- 869273 string characters out of 6132704
- 1070056 words of memory out of 5000000
- 40692 multiletter control sequences out of 15000+600000
+ 37968 strings out of 492995
+ 870500 string characters out of 6132704
+ 1073003 words of memory out of 5000000
+ 40711 multiletter control sequences out of 15000+600000
  545730 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,44n,96p,10455b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,44n,96p,10455b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1362,18 +1361,20 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on MCAT_SU2019.pdf (30 pages, 4109351 bytes).
+17/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfti1000.pfb>
+Output written on MCAT_SU2019.pdf (45 pages, 4203599 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 185 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 857 compressed objects within 9 object streams
+ 274 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 
