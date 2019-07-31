@@ -482,7 +482,55 @@ The MCAT does involve some math, but often it isn't too complicated. Math-relate
 \end{enumerate}
 
 \subsection{Atomic Theory}
-\hilight{TODO} %TODO
+There are a couple of classical experiments/lab techniques that helped to develop the modern atomic theory that you should be familiar with:
+\begin{enumerate}
+	\item \textbf{Thomson Experiment:} This experiment helped determine the sign of charges and the charge-to-mass ratio of the electron. Basically, Thomson had a beam of electrons, and showed that he could deflect the beam by applying an electric field by an exact amount each time. The magnitude of deflection depended on the strength of the field, and reversing the plates of the external field got the same magnitude of deflection, but in the opposite direction. Thomson also figured out the charge-to-mass ratio of electrons to by $1.76\times10^8$ C/g, as the arc of deflection was constant in magnitude when the field strength was held constant but its orientation was aligned differently.
+	\item \textbf{Millikan Oil Drop Experiment:} This experiment helped determine the the magnitude of charge of subatomic particles. The experimental setup involved trying to suspend a charged oil drop in an electric field. The oil drop became charged by adding an electron to it. The droplet is able to be suspended by balancing the force of gravity with and the force produced by the electric field on the charged oil droplet. Mathematically, this looks like $qE+mg=0$, so $q=-\frac{mg}{E}$. This helped determine the charge on an electron.
+	\item \textbf{Rutherford Experiment:} This experiment helped determine the localization of mass/dense particles in an atom. A thin strip of gold foil lies perpendicular to an incoming stream of $\alpha$-particles. The beam strikes the gold strip surrounded by a zinc sulfide \ce{ZnS} band that luminesces if struck by $\alpha$-particles. Rutherford observed that very few $\alpha$-particles ricocheted off the gold, and most passed straight through the gold. This showed that most of an atom was empty space, and that atoms have dense nuclei with nearly all of the atomic mass centrally concentrated. 
+	\item \textbf{Mass Spectrometry:} A mass spectrometer is designed to measure the charge-to-mass ratio for a charged particle. This is accomplished by sending a particle into a perpendicular magnetic field and observing the degree to which it curves. By comparing the curvature for an atomic or molecular ion to a known standard, the mass of the unknown ion and/or the mass-to-charge ratio can be determined. This is particularly helpful in determining isotopic abundance. Mathematically, the centripetal force experienced by the particle with mass $m$ is equal to the Lorentz force. Since we are given that the magnetic field $\mathbf{B}$ is always perpendicular to the particle's velocity (with magnitude $v$), this gives us $\frac{mv^2}{r}=qvB$, and solving for $r$ gives $r=\frac{mv^2}{qvB}=\frac{mv}{qB}$. The mass spectrometer embodies a simple concept\textemdash force depends on mass, so when an equal force is applied to different masses, they accelerate at different rates. The mass spectrometer takes advantage of this by accelerating charged particles in motion using a magnetic field. 
+\end{enumerate}
+\noindent \textbf{Heisenberg's Uncertainty Principle} states that it is not possible to simultaneously know a particle's position and velocity with infinite precision on both. Mathematically, $\Delta x\Delta p\geq \hbar/2$. The \textbf{Bohr Model} describes the transition energy of an electron between two electronic energy levels (principle quantum numbers):
+\begin{equation}
+\begin{split}
+\Delta E=\frac{2\pi^2mZ^2e^4}{h^2}\left(\frac{1}{n_{\text{initial}}^2}-\frac{1}{n_{\text{final}}^2}\right)
+\end{split}
+\end{equation}
+\noindent where $E$ is the energy (principle energy level), $Z$ is the nuclear charge, $n$ is the electronic energy level, $m$ is the mass of an electron, $e$ is the charge of the electron, and $h$ is Planck's constant. The important thing is that excitations (i.e. jumping up to higher energy levels) involve an input of energy, while emissions (i.e. releasing energy by going down to lower energy levels) involve the release of energy. Note also that the energies of the electronic energy levels get closer and closer as you go up. \\
+\indent A \textbf{paramagnetic species} (referred to as \textit{radicals} in organic chemistry) is defined as an atom or molecule that contains at least one unpaired electron. The extra electron allows the compound to be responsive to an external magnetic field and `picking up' a magnetic moment, and so can be induced to be magnetic. A \textbf{diamagnetic species} has no unpaired electrons, and so are not susceptible to magnetic fields. Here are some important rules for electronic configurations:
+\begin{enumerate}
+	\item \textbf{Pauli's Exclusion Principle:} No two electrons can have the same set of quantum numbers.
+	\item \textbf{Hund's Rule:} Electrons completely fill lower energy levels before starting to fill higher energy levels. In a degenerate set of orbitals, electrons singly occupy each orbital before a second electron pairs up in the same orbital.
+	\item \textbf{Aufbau Principle:} Electrons are added one-by-one to the shells, starting with the lowest energy level, and then into sequentially increasing energy levels. Exceptions occur in the half-filled and filled $d$-shells, which add extra stability. For example, \ce{Cr} (chromium) has \ce{[Ar] 4s^1 3d^5} instead of \ce{[Ar] 4s^2 3d^4}, and \ce{Cu} (copper) has \ce{[Ar] 4s^1 3d^10} instead of \ce{[Ar] 4s^2 3d^9}. 
+\end{enumerate}
+\noindent The are four types of quantum numbers to know:
+\begin{enumerate}
+	\item \textbf{Principle ($n$)}: Describes the shell and energy level in which the electron resides. $n\in\mathbb{N}$.
+	\item \textbf{Angular Momentum ($l$)}: Describes the orbital in which the electron resides. $l$ is a whole number less than $n$. $l=0$ is an $s$ orbital, $l=1$ is a $p$ orbital, $l=2$ is a $d$ orbital, and $l=3$ is a $f$ orbital.
+	\item \textbf{Magnetic ($m_l$)}: Describes the orientation of the orbital about a plane or axis. $-l\leq m_l\leq l$.
+	\item \textbf{Spin ($m_s$)}: Describes the rotation (counterclockwise or clockwise) of the electron about its axis. $m_s=\pm 1/2$.
+\end{enumerate}
+\noindent For $p$-orbitals ($l=1$), $m_l=-1$ corresponds to the $p_x$ orbital, $m_l=0$ corresponds to the $p_y$ orbital, and $m_l=1$ corresponds to the $p_z$ orbital. For $d$-orbitals ($l=2$), $m_l=-2$ corresponds to the $d_{xy}$ orbital, $m_l=-1$ corresponds to the $d_{xz}$ orbital, $m_l=0$ corresponds to the $d_{yz}$ orbital, $m_l=1$ corresponds to the $d_{x^2-y^2}$ orbital, and $m_l=2$ corresponds to the $d_{z^2}$ orbital. \\
+\indent The \textbf{coordination number} describes the number of atoms (ligands) attached to a central atom within a molecule. Coordination numbers only count atoms attached, and \textit{not} lone pairs of electrons. For example, \ce{BH_3} has a coordination number of 3.\\
+\indent When discussing excitation and relaxation, the generic case is that the energy of the photon absorbed is equal to the energy of the photon emitted. In actuality, there is more than one singular energy level for the ground state and the excited state due to the coupling of electrical energy levels and rotational energy levels associated with the atom. Transitions involve a change in electronic state as well as a change in the rotational energy of the atom. In molecules, there are vibrational energy levels to consider, in addition to the rotational and electronic energy levels. The results is that in actuality, the ground state and excited state exists as a band of energy levels, not a single level. This means that multiple possibilities exist for the energy of transition. Rather than a single line absorption or emission spectrum being formed, a range is formed. \\
+\indent The atomic spectrum of hydrogen and its associated energy transitions are well studied. The \textbf{Lyman series} are the transitions that go to the $n=1$ final energy level. The \textbf{Balmer series} are the transitions that go to the $n=2$ final energy level. The \textbf{Paschen series} are the transitions that go the $n=3$ final energy level. The \textbf{Brackett series} are the transitions that go to the $n=4$ final energy level. Of these four series, only the Balmer series emits photons in the visible range. Here is an example problem: 
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Given that the wavelength of the emitted light for the $n=3$ to $n=2$ transition in the hydrogen atom is 656 nm, which of the following is NOT true?
+\begin{enumerate}[label=\Alph*]
+	\item All Balmer series transitions are less than 800 nm.
+	\item All Lyman series transitions are less than 400 nm.
+	\item The lowest energy Paschen transition is greater than 800 nm.
+	\item The highest energy Brackett transition is less than 800 nm.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent Let's consider each of the answer choices one at a time:
+\begin{enumerate}
+	\item The Balmer series are transitions to the $n=2$ level, and the lowest energy transition is from $n=3$ to $n=2$, and is given to be 656 nm. All other transitions in the Balmer series are more energetic, so these transitions emit photons with a wavelength less than 656 nm. Therefore, choice A is valid.
+	\item As a general idea, since we know that $\Delta E\propto\left(\frac{1}{n_i^2}-\frac{1}{n_f^2}\right)$, the transition of $n=2$ to $n=1$ (which is the lowest energy transition in the Lyman series by definition) as at least three times more energy change than the transition of $n=\infty$ to $n=2$. Practically, this means that all photons in the Lyman series are of higher energy and shorter wavelength than the transitions in the Balmer series. A more stringent calculation with $\Delta E=hc/\lambda$ would tell us that indeed, the transitions in the Lyman series emit photons with a wavelength less than 400 nm, meaning that choice B is valid.
+	\item The Paschen series involves transitions to the $n=3$ level, and the lowest energy transition in the Paschen series is from $n=4$ to $n=3$, and it is of significantly lower energy than the $n=3$ to $n=2$ transition. This means that the lowest energy photon in the Paschen series is of lower energy and higher frequency than the transitions in the Balmer series. The Balmer series emits a photon at 656 nm, so the lowest energy transition in the paschen series emits a photon with a wavelength greater than 656 nm. Thus, choice C is a valid statment.
+	\item The Brackett series involves transitions to the $n=4$ level, and from our above considerations, this should be even less energetic than the Paschen series or Balmer series. Since we showed choice C is valid, the Brackett energy transition cannot be less than 800 nm, so thus choice D is invalid and so choice \textbf{D} is the correct answer.
+\end{enumerate}
 
 \subsection{Periodic Trends}
 The \textbf{effective nuclear charge} $Z_{eff}$ is the net charge exerted upon the valence electrons, which takes into account the shielding from the core electrons. As you move from left to right across a period in the periodic table, the effective nuclear charge increases. Also, as you descend a family/group in the periodic table, the valence shell increases, so the distance between the atom's valence electrons and its nucleus increases. Periodic trends depend on both $Z_{eff}$ and the valence shell. As you move up the periodic table and to the right, the following general atomic trends are observed:
@@ -506,13 +554,177 @@ All alkali metals are strong reducing agents and react favorably with water in t
 \indent Halogens and noble gases are also important but nothing's new here. When exposed to high concentrations of fluorine gas, xenon and krypton are known to form molecular compounds with fluorine. The resulting xenon fluorides and krypton fluorides show more electron density around fluorine than the noble gas, implying that fluorine is more electronegative than either xenon or krypton. Otherwise, noble gases are pretty much unreactive. 
 
 \subsection{Electrochemistry}
-\hilight{TODO} %TODO
+Electrochemistry addresses chemical reactions that involve electron transfer. \textbf{Galvanizing} is a protective process that involves plating a more reactive metal onto a less reactive metal, so that this more reactive species (i.e. the \textit{sacrificial metal}) is the one oxidized by air, rather than the material being protected.\\
+\indent Generally speaking, organic and biological oxidizing agents are rich in oxygen and poor in hydrogen (e.g. \ce{Na_2CrO_4}, \ce{KMnO_4}, \ce{NAD+}, and \ce{FAD}), and reducing agents are poor in oxygen and rich in hydrogen (e.g. \ce{NaBH_4}, \ce{LiAlH_4}, \ce{NADH}, and \ce{FADH_2}). This is because oxidizing agents get reduced while oxidizing whatever they're reacting with, and reducing agents get oxidized while reducing whatever they're reacting with.\\
+\indent The reduction of two protons (\ce{H+}) to form hydrogen gas (\ce{H_2}) is defined as the reference standard, and assigned an \textit{emf} of zero volts. Any compound that can be reduced more favorably than a proton (meaning oxidation is less favorable than a proton) has a positive reduction potential. Likewise, any compound for which reduction is less favorable than a proton (meaning oxidation is more favorable than a proton) has a negative reduction potential. Generally speaking, precious metals do not readily oxidize\textemdash thus, they have relatively high reduction potentials. On the other end of the spectrum are the alkali and alkaline earth metals, which have relatively low ionization energies, so they are easily oxidized, meaning they have negative reduction potentials. Most tables list reduction half-reaction \textit{emf} values, rather than oxidation half-reaction values. \textit{Emf} values do not need to be memorized, but in general, the greater the electron affinity, the greater the reduction potential. Likewise, a lower ionization energy corresponds to a greater oxidation potential (lower reduction potential). \\
+\indent The free energy in an electrochemical cell can be described by
+\begin{equation}
+\begin{split}
+\Delta G_{\text{reaction}}=-nF\varepsilon_{\text{cell}}
+\end{split}
+\end{equation}
+\noindent where $F=96500$ C per mole and $n=\text{electrons per reaction}$. A positive electromotive force (cell voltage) is associated with a favorable oxidation-reduction reaction, just as a negative free energy change ($\Delta G$) is associated with a favorable oxidation-reduction reaction. \\
+\indent \textbf{Electrochemical cells} convert energy produced in a chemical reaction into electrical current. Oxidation occurs at the anode, meaning that electrons flow away from the anode, and reduction occurs at the cathode (REDCAT), meaning that electrons flow towards the cathode. This means that anions migrate towards the anode and cations migrate towards the cathode through electric fields. The important thing to remember is that \textbf{electrons flow from the anode to the cathode}. There is a standard line notation for cells\textemdash when reading left to right, it goes from anode to cathode, and reactant to product within each half-reaction electrode. For example,
+\begin{equation}
+\begin{split}
+M_{\text{oxidation}} \left(s\right) | yM \text{ } M_{\text{oxidation}}^{2+} \left(aq\right) || zM \text{ } M_{\text{reduction}}^{2+} \left(aq\right) | M_{\text{reduction}} \left(s\right)\\
+\text{Reactant in anode } | \text{ Product in anode } || \text{ Reactant in cathode } | \text{ Product in cathode}
+\end{split}
+\end{equation}
+\noindent In general, there are two types of electrochemical cells: \textbf{galvanic cells} (spontaneous cell with $\varepsilon^{\circ}>0$, $\Delta G<0$) and \textbf{electrolytic cells} (non-spontaneous cell with $\varepsilon^{\circ}<0$, $\Delta G>0$, and an applied voltage present to power the cell). Galvanic cells release energy in the form of electrical flow, while electrolytic cells are used for the storage of electrical potential, as is seen when recharging a battery. \\
+\indent The \textbf{Nernst equation} is often used to quantify the effect of concentration on the voltage of an electrochemical cell. Mathematically, it is
+\begin{equation}
+\begin{split}
+\varepsilon_{\text{cell}}=\varepsilon^{\circ}-\frac{RT}{nF}\ln Q_{rx}
+\end{split}
+\end{equation}
+\noindent By substituting $R=8.314 \text{J}/\text{mol}\cdot\text{K}$, $T=298$ K, and $F=96500$ C/mol, we get the working equation 
+\begin{equation}
+\begin{split}
+\varepsilon_{\text{cell}}=\varepsilon^{\circ}-\frac{0.059}{n}\log_{10} Q_{rx}
+\end{split}
+\end{equation}
+\noindent where we're being pretty lenient with the units. Note that our working equation has $\log_{10}$ instead of $\ln$ natural logarithm. Here is an example problem using the Nernst equation:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is the voltage of an electrochemical cell with an anode of zinc metal in 0.01 M \ce{Zn(NO_3)_2} (aq) and a cathode of silver metal in 1.00 M \ce{AgNO_3} (aq)?
+\begin{enumerate}[label=\Alph*]
+	\item 2.42 V
+	\item 2.30 V
+	\item 1.62 V
+	\item 1.50 V
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent First, we must identify the half-reaction:
+\begin{equation}
+\begin{split}
+\text{Oxidation:}\quad \ce{Zn(s)}\rightarrow\ce{Zn^2+}+2\ce{e-}, \quad\quad \ce{Ag+}+\ce{e-}\rightarrow\ce{Ag(s)}
+\end{split}
+\end{equation}
+The standard cell potential for the reaction is found using values from online or a provided table (not the important part here), and we get $\varepsilon^{\circ}=0.80 \text{ V}-\left(-0.76\text{ V}\right)=1.56 \text{ V}$. The actual cell voltage is slightly higher than $1.56$, because there is a higher cation concentration in the cathode than in the anode. The exact value is found using the Nernst equation:
+\begin{equation}
+\begin{split}
+\varepsilon_{\text{cell}}=\varepsilon^{\circ}-\frac{0.059}{n}\log\frac{[\ce{Zn^2+}_{\text{anode}}]}{[\ce{Ag+}_{\text{cathode}}]^2}=1.56\text{ V }-\frac{0.059}{2}\log\frac{0.01}{1^2}=\left(1.56 - 0.03(\log 0.01)\right)\text{ V}=\left(1.56+0.06\right)\text{ V}=1.62 \text{V}
+\end{split}
+\end{equation}
+\noindent giving us the answer choice \textbf{C} as the correct answer, as desired. 
 
 \subsection{Gases and Gas Laws}
-\hilight{TODO} %TODO
+The \textbf{collision force} is defined as the force exerted by a gas particle during a collision between it and the container wall. It is based on impulse, so both greater momentum and a shorter time of contact increase the force of impact. The collision force can be increased by increasing the temperature, because greater temperature imparts greater velocity, and thus greater momentum, to each molecule. The \textbf{mean free path} is defined as the average distance a particle can travel before colliding with another particle. There are three key assumptions associated with the \textbf{Kinetic Molecular Theory of Gases}:
+\begin{enumerate}
+	\item Particles are so small compared to the distances between particles that their volumes are negligible.
+	\item Particles move in straight lines, and there are no intermolecular forces. The collisions are said to be elastic with no energy dissipation.
+	\item Particles are in constant random translational motion.
+\end{enumerate}
+\noindent An ideal gas is a theoretical gas that obeys all of these conditions. In a gas system, not all particles have the same kinetic energy\textemdash there is a random distribution of energies defined by the temperature-dependent \textit{Boltzmann distribution}. Of course, no gas is truly ideal, and we have the \textbf{van der Waals equation} to describe real gases:
+\begin{equation}
+\begin{split}
+\left(P_{\text{observed}}+a\frac{n^2}{V^2}\right)\left(V_{\text{container}}-nb\right)=nRT
+\end{split}
+\end{equation}
+\noindent where $a$ is the \textbf{attraction coefficient} ($a>0$ is particles attracting, $a<0$ is particles repelling), $b$ is the `\textbf{bigness coefficient}' ($b>0$ for all particles). Here are two sample problems regarding the van der Waals equation:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Which of the following types of gases has a negative $a$ term?
+\begin{enumerate}[label=\Alph*]
+	\item Polar
+	\item Nonpolar
+	\item Hydrophobic
+	\item Ionized
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent An ionized gas has particles that all have the same charge, and like charges repel, so choice \textbf{D} is the best answer.
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Which of the following types of gases has the greatest $b$ term?
+\begin{enumerate}[label=\Alph*]
+	\item Methane
+	\item Ethane
+	\item Ethene
+	\item Ethyne
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent Ethane has the greatest mass of the given molecules, and so it has the greatest $b$ term. Thus, the answer is \textbf{B}. \\
+\indent Here's another practice problem, this time regarding how to measure pressure using a manometer and using the equation $\Delta P=\rho g \Delta h$:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is the pressure in atmospheres of a column of gas in a closed tube above mercury if the height difference at sea level between a connected column of mercury open to the atmosphere and the closed column above mercury is 317 mm?
+\begin{enumerate}[label=\Alph*]
+	\item 317/760 atm
+	\item 443/760 atm
+	\item 760/443 atm
+	\item 317/443 atm
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent The height difference of 317 mm means that the pressure difference is 317 torr (mm Hg, by definition). The atmospheric pressure at sea level is 760 torr, so the gas pressure in the column is $760-317=443$ torr. The conversion from torr to atm involves dividing by a factor of 760 torr per atm, making choice \textbf{B} the best answer. As the question is worded, the pressure difference is provided, but the relative pressure are not mentioned. The pressure could also be $760+317=1077$ torr, but this value is not listed as an answer choice.\\
+\indent The \textbf{root mean square speed} of a gas is 
+\begin{equation}
+\begin{split}
+\mu_{\text{rms}}=\sqrt{\frac{3RT}{m}}
+\end{split}
+\end{equation}
+\noindent where $R$ is the ideal gas constant, $T$ is the temperature, and $m$ is the mass of one mole of the gas. This is derived by solving the equation $\frac{1}{2}mv^2=\frac{3}{2}RT$ for $v$, as the left hand side is the kinetic energy from classical mechanics and the right hand side is the energy of the system obtained through the equipartition theorem. Here is an example problem:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is the root mean square speed of neon atoms at $27^{\circ}$C?
+\begin{enumerate}[label=\Alph*]
+	\item 19.3 m/s
+	\item 211 m/s
+	\item 612 m/s
+	\item 1018 m/s
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent From the periodic table, the mass of one mole of neon is $m=0.20$ kg, and the temperature converted to Kelvin is $T=300$ K. Thus,
+\begin{equation}
+\begin{split}
+\mu_{\text{rms}}=\sqrt{\frac{3RT}{m}}=\sqrt{\frac{3\left(8.314\right)\left(300\right)}{0.020}}=\sqrt{\frac{\left(8.314\right)\left(9\times10^2\right)}{2\times10^{-2}}}\approx \sqrt{\frac{8\times9}{2}\times 10^4}=\sqrt{36\times 10^4}=6\times10^2=600 \text{m/s}
+\end{split}
+\end{equation}
+\noindent where we ignore the units for convenience. Thus, the best answer is choice \textbf{C}. Using this formula for the root mean square speed, we can determine the relative speeds of two gases, giving us \textbf{Graham's law} for gas flow:
+\begin{equation}
+\begin{split}
+\frac{v_2}{v_1}=\sqrt{\frac{m_1}{m_2}}
+\end{split}
+\end{equation}
+\noindent which holds for a given temperature. This equation is basically saying that the speed of the particle is inversely proportional to the square root of its mass, so the lighter the gas, the faster it travels at a given temperature. There is also the relationship
+\begin{equation}
+\begin{split}
+\frac{v_2}{v_1}=\sqrt{\frac{T_2}{T_1}}
+\end{split}
+\end{equation}
+\noindent which holds for a given mass of particles. This is basically saying that the speed of the particle is directly proportional to the square root of the temperature, so the greater the temperature, the faster a gas travels.
 
 \subsection{Phases and Phase Changes}
-\hilight{TODO} %TODO
+\textbf{Isochoric} conditions are where the \textit{volume} of the system does not change, and \textbf{adiabatic} conditions are where \textit{heat} nether enters nor exits the system, meaning that the system is perfectly insulated. The \textbf{critical point} is the highest temperature and pressure at which a liquid may be observed. Beyond the critical point, it is impossible to distinguish between a gas and a liquid, so it is referred to as a \textit{supercritical fluid}. The \textbf{triple point} is where all three phases of matter can exist for a given compound. It is also the highest temperature and pressure at which sublimation (and deposition) can occur. Two key facts of water are that its liquid form is denser than its solid form, and it is densest at $4^{\circ}$C. \\
+\indent The enthalpy of vaporization is greater in magnitude than the enthalpy of fursion because more energy is necessary to \textit{break} the intermolecular forces (i.e. for liquid $\rightarrow$ gas) than is necessary to weaken the intermolecular forces (i.e. for solid $\rightarrow$ liquid). \hilight{TODO} %TODO
+
+\subsection{Solubility}
+A \textbf{supersaturated} solution is where the amount of solute that is dissolved into solution is beyond the maximum amount at that given temperature. The solution is actually a suspension that when disturbed can form a precipitate rapidly. This state can be achieved by first heating a solvent, then adding solute to the solution until the solution is saturated at that temperature. Slowly cooling this solution causes the amount of solute in it to exceed that should dissolve at the reduced temperature. \textbf{Gram solubility} is the quantitative measurement of the maximum number of grams of solute that can dissolve into enough solvent to make one hundred mL of solution under ambient conditions. Here are the solubility rules you should know:
+\begin{enumerate}
+	\item Most salts composed of +1 cation (excluding transition metals) and -1 anion are soluble in water at room temperature. Nitrate \ce{NO_3-} salts are water-soluble.
+	\item Most salts containing sulfate \ce{SO_4^{2}-} anions \textit{with +1 cations} (excluding transition metals) are water-soluble.
+	\item Most salts with -2 or -3 anions are insoluble in water (excluding sulfate salts).
+	\item Most oxide \ce{O^{2}-} and hydroxide \ce{OH-} anion salts are only slightly water soluble. \ce{KOH} and \ce{NaOH} are notable exceptions that are substantially water soluble. 
+\end{enumerate}
+\noindent An \textbf{ion-exchange} column exchanges one ion in solution for another (which is initially bound to the column), by precipitating out the ion that forms the less soluble salt and releasing a more soluble into solution to replace it. A water softener is a good example of an ion-exchange column\textemdash hard water (rich in \ce{Ca^{2}+(aq)}) travels down the column where the anion in the ion-exchange resin binds calcium cations to form an insoluble salt while releasing sodium cations \ce{Na+(aq)} into solution. Aqueous sodium cation is referred to as soft water. As calcium precipitates through the column, it is filtered from the water, preventing it from forming precipitates in the plumbing lines of appliances. The reaction that we're interested in is \ce{2Na+(aq) + CaCl_2(s) <-> Ca^{2}+(aq) + 2NaCl (s)}; this reaction highly favors the reactants side. There's also another thing called \textbf{selective precipitation and ion exchange}, where we add an ion to solution with the intention of precipitating an existing ion out of the solution. This is basically the same thing as the ion-exchange column, and can be achieved when the salt being precipitated is less soluble than any other salt combination in solution. For example, consider the reaction \ce{2AgCl(s) + Hg^{2}+(aq) <-> 2Ag+(aq) + HgCl_2(s)}. Because mercury chloride is less soluble than silver chloride, the addition of silver chloride to the mercury solution precipitates mercury out of water.\\
+\indent When reactions are added together, the equilibrium constant $K$ fot eh overall reaction is the product of the equilibrium constants of the component reactions. Here is an example problem for solubility:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Silver chloride \ce{AgCl} is MOST soluble in which of the following solutions at $25^{\circ}$C?
+\begin{enumerate}[label=\Alph*]
+	\item 0.10 M \ce{HgNO_3(aq)}
+	\item Pure water
+	\item \ce{AgNO_3(aq)}
+	\item \ce{NaCl}
+\end{enumerate}}
+\end{minipage}
+\end{center}
+As discussed above, silver chloride is most soluble in a solution where \ce{Hg+(aq)} is present, as the mercury ion in solution can bind the chloride anion to form a precipitate. As the amount of \ce{Cl-} in solution decreases as a result, more \ce{AgCl} dissolves into solution to replace it. Thus, the best answer is choice \textbf{A}. Both choices C and D are eliminated because of the common ion effect. 
 
 \section{Organic Chemistry of Biological Systems}
 \subsection{Molecular Structure}
@@ -786,7 +998,10 @@ When deducing the molecular structure for an organic molecule, it helps to know 
 \text{Units of Unsaturation} = \frac{2(\#C)+(\#N)-(\#H)-(\#X)+2}{2}
 \end{split}
 \end{equation}
-\
+\hilight{TODO} %TODO
+
+\subsection{Lab Techniques}
+Lab techniques can be broken down into three categories: separation, purification, and identification. \hilight{TODO} %TODO
 
 \section{Physics}
 \subsection{Translational Motion}
