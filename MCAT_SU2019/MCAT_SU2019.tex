@@ -869,16 +869,119 @@ The \textbf{haloacids} are the series of \ce{HX} acids, where \ce{X} represents 
 \noindent The equation shows that as the conjugate base concentration \ce{[HA]} increases, the pH of the buffer increases.
 
 \subsection{Titration Curves}
+A \textbf{buffer} is a solution whos pH remains relatively constant after the addition of either strong acid or strong base. The pH may vary slightly, but for all intents and purposes, it does not change significantly. The pH of a buffered solution is determined using the Henderson-Hasselbalch equation, as discussed in the previous section. Buffers are made of a roughly equal mole mixture of a weak acid and its weak conjugate base in an aqueous solution. The pH range of a buffer is pH$\in[\text{pK\textsubscript{a}}-1, \text{pK\textsubscript{a}}+1]$. Buffers can be made by mixing any of the following things together:
+\begin{enumerate}
+	\item Weak acid + the salt of the conjugate base in roughly equal mole proportions (e.g. \ce{HCO_2H} with \ce{HCO_2Na}). 
+	\item Weak base + the salt of the conjugate acid in roughly equal mole proportions (e.g. \ce{NH_3} with \ce{NH_4Cl}).
+	\item Weak acid + roughly half of an equivalent of strong base (e.g. \ce{HOAc} with a half-equivalent of \ce{KOH}).
+	\item Weak base + roughly half of an equivalent of strong acid (e.g. \ce{H_3CNH_2} with a half-equivalent of \ce{HCl}).
+\end{enumerate}
+\noindent Physiological pH is considered to be 7.4 and is usually highly buffered in most regions of the body. In a \textit{titration}, the \textbf{equivalence point} is reached when the moles of acid are equal to the moles of base.\\
+\indent A typical acid-base \textbf{indicator} is an organic acid with extended conjugation. Its weak acid and conjugate weak base have two distinct colors. The energy state transition that produces color involves the $\pi$-bonding and $\pi$-antibonding orbitals, and depends on the electron-donating and electron-withdrawing nature of the substituents on the $\pi$-system.  
 \hilight{TODO} %TODO
 
 \subsection{Equilibrium}
-\hilight{TODO} %TODO
+The \textbf{equilibrium constant} $K_{eq}$ is a mathematical quantity that is calculated for a reaction at equilibrium. By definition, the equilibrium constant is the concentration of products at equilibrium divided by the concentration of reactants at equilibrium. Stoichiometric values from the balanced equation become exponents in the $K_{eq}$ expression. Do \textit{not} include solids or pure liquids in the $K_{eq}$ expression, only solutes (for $K_c$) and gases (for $K_p$). The numerical value of $K_{eq}$ varies only with changing temperature, not with catalysts, pressure, volume, or moles. Equilibrium constants are unitless by definition. All equilibrium constants obey the same rules, but depending on the reaction, there may be special features that recur. Different reactions have special $K$ values.\\
+\begin{table}[!ht]
+\arraycolsep=1.4pt\def\arraystretch{1.5}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{$K$ Type}    & \textbf{Type of Reaction to Which the $K$ Applies} \\ \hline
+$K_p$      & $K_{eq}$ for reaction of gases. Values are in \textit{pressure} units. \\ \hline
+$K_c$       & $K_{eq}$ for reaction of solutes. Values are in \textit{concentration} units. \\ \hline
+$K_{sp}$     & $K_{eq}$ for salts dissociating into ions. Measures the \textit{solubility}. \\ \hline
+$K_{a}$   & $K_{eq}$ for acids dissociating into water. Measures the \textit{acidity}. \\ \hline
+$K_{b}$    & $K_{eq}$ for bases dissociating in water. Measures the \textit{basicity}. \\ \hline
+$K_w$     & $K_{eq}$ for autoionization of \textit{water} into \ce{H+} and \ce{OH-}. \\ \hline
+\end{tabular}
+\end{table}
+\indent A \textbf{complex equilibrium} is a balance between two separate reactions that share a common reagent or set of reagents. In essence, it is two reactions who equilibrium states depend on one another. Here is an example of a complex equilibrium: 
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Consider the following complex equilibrium. When \ce{N_2O_4} gas is removed, how are the partial pressures of \ce{NO} gas and \ce{NO_2} gas affected?
+\begin{equation}
+\begin{split}
+\ce{2NO(g) + O_2(g) <-> 2NO_2(g)}, \quad K_{eq1}\\
+\ce{2NO_2(g) <-> N_2O_4(g)}, \quad K_{eq2}\\
+\hline\\
+\ce{2NO(g) + O_2(g) <-> N_2O_4(g)}, \quad K_{eq1}\times K_{eq2}
+\end{split}
+\end{equation}
+\begin{enumerate}[label=\Alph*]
+	\item $P_{\ce{NO}}$ and $P_{\ce{NO_2}}$ both decrease.
+	\item $P_{\ce{NO}}$ and $P_{\ce{NO_2}}$ both increase.
+	\item $P_{\ce{NO}}$ decreases, while $P_{\ce{NO_2}}$ remains the same.
+	\item $P_{\ce{NO}}$ increases, while $P_{\ce{NO_2}}$ remains the same.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent The second reaction shifts to the right to compensate for the loss of \ce{N_2O_4}, so the partial pressure of \ce{NO_2} decreases. In turn, a decrease in \ce{NO_2} causes the first reaction to shift to the right as well, resulting in a decrease in the partial pressure of \ce{NO} gas and an increase in the partial pressure of \ce{NO_2}. However, this increase in \ce{NO_2} from the forward shift of the first reaction is less significant than the decrease in the \ce{NO_2} caused by the forward shift of the second reaction. This is because the shift in the first reaction cannot completely replenish the lost \ce{NO_2} without losing so much \ce{NO} that the reaction is beyond equilibrium. A shift \textit{never} regenerates as much as was lost. Both \ce{NO} and \ce{NO_2} this decrease, making choice \textbf{A} the best answer. \\
+\indent Equilibrium is \textbf{dynamic}, meaning that it is a state where the system is continually reacting in both the forward and reverse directions, even though no net change is observed at the macroscopic level. \textbf{Le Ch\^atelier's Principle} says that if an external stress is applied to a system at equilibrium, the system will shift itself in such a way that the stress is partially relieved as best as possible and equilibrium is re-established. To see this in action, consider the reaction \ce{N_2O_4 <-> 2NO_2(g)}, which is an endothermic reaction with $\Delta H = +146$ kJ/mole:
+\begin{enumerate}
+	\item If \ce{N_2O_4(g)} is added, the system shifts to the right.
+	\item If \ce{NO_2(g)} is added, the system shifts to the left.
+	\item If the external pressure is increased, the system favors the side with less molecules to reduce the increased crowding, thus shifting the system to the left.
+	\item If the volume is increased, the system is less crowded and molecules collide less often, so the system shifts to the right.
+	\item If the system is heated, this gives a net influx of energy, shifting the \textit{endothermic} system to the right.
+	\item If the system is cooled, the system wants to produce energy to compensate, shifting the system to the left.
+\end{enumerate}
 
 \subsection{Thermochemistry}
-\hilight{TODO} %TODO
+\textit{Exergonic} means $\Delta G<0$, while \textit{exothermic} means $\Delta H<0$. Similarly, \textit{Endogonic} means $\Delta G>0$, while \textit{endothermic} means $\Delta H>0$. The standard free energy change $\Delta G^{\circ}$ is the free energy change when a reaction goes from standard conditions to equilibrium. Standard conditions are defined as 1 atm of pressure and a temperature of 298 K, and all solute species (reactants and products) present at 1.00 M concentration. We have
+\begin{equation}
+\begin{split}
+\Delta G^{\circ} = -RT\ln K_{eq}
+\end{split}
+\end{equation}
+\noindent If we don't start at reaction quotient $Q=1$ by not having all the solute species at 1.00 M concentration, then the adjusted free energy change is
+\begin{equation}
+\begin{split}
+\Delta G_{\text{rxn}}=RT\ln\frac{Q_{\text{rxn}}}{K_{eq}}
+\end{split}
+\end{equation}
 
 \subsection{Chemical Kinetics}
-\hilight{TODO} %TODO 
+The \textbf{order} of a reaction is ascertained from the number of reagents involved in the rate-determining step. There are three fundamental reaction orders to consider: zero, first, and second. 
+\begin{table}[!ht]
+\arraycolsep=1.4pt\def\arraystretch{1.5}
+\begin{tabular}{|l|l|l|l|}
+\hline
+                      & \textbf{Zero Order} & \textbf{First Order} & \textbf{Second Order} \\ \hline
+\textbf{Rate Law:}    & $\text{Rate}=k$                   & $\text{Rate}=k[A]$                    & $\text{Rate}=k[A]^2$                     \\ \hline
+\textbf{Half-Life:}   & $t_{1/2}=\frac{[A]_0}{2k}$                   & $t_{1/2}=\frac{\ln 2}{k}=\frac{0.693}{k}$                    & $t_{1/2}=\frac{1}{k[A]_0}$                     \\ \hline
+\textbf{Rate:} & Constant rate                   & Rate $\downarrow$ as time $\uparrow$              & Rate $\downarrow$ as time $\uparrow$                     \\ \hline
+\textbf{Half-Life:} & Half-life $\downarrow$ as time $\uparrow$ & Half-life constant & Half-life $\downarrow$ as time $\downarrow$ \\ \hline
+\end{tabular}
+\end{table}
+\indent The rate of a reaction is affected by several factors such as temperature, activation energy, catalysts, solvent (solvents affect the stability of the transition state), collision frequency, collision orientation, and the concentration of the reactants in the rate-determining step. The rate constant $k$ must account for all of these factors, except concentration of the reactants, and is given by
+\begin{equation}
+\begin{split}
+k=A\exp\left(\frac{-E_{\text{activation}}}{RT}\right)
+\end{split}
+\end{equation}
+\noindent where $A$ is the Arrhenius constant\textemdash it takes into account collision orientation and frequency. Because half-life is constant for first-order processes, most half-life questions on the MCAT involve decay (a first-order reaction), which can be described by
+\begin{equation}
+\begin{split}
+C_t=C_0e^{-kt}
+\end{split}
+\end{equation}
+\noindent where $C_t$ is the concentration at time $t$, $C_0$ is the initial concentration, $t$ is time, and $k$ is the rate constant. The half-life of decay is $t_{1/2}=\left(\ln 2\right)/k\approx 0.693/k$.\\
+\indent In nuclear chemistry, a heavy element undergoes a decay process (i.e. fission) to increase its nuclear stability. A light element undergoes a capture process (i.e. fusion) when struck by a high-energy particle to increase its nuclear stability. 
+\begin{table}[!ht]
+\arraycolsep=1.4pt\def\arraystretch{1.5}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Process}    & \textbf{Reaction Tracking} \\ \hline
+$\alpha$-Decay      & \ce{{}^{120}_{50}X -> {}^{4}_{2}$\alpha$ + {}^{116}_{48}Y} \\ \hline
+$\beta$-Decay       &  \ce{{}^{120}_{50}X -> {}^{0}_{-1}e + {}^{120}_{51}Z} \\ \hline
+$\beta^+$-Decay     & \ce{{}^{120}_{50}X -> {}^{0}_{1}e + {}^{120}_{49}Q} \\ \hline
+$\gamma$-Emission   & \ce{{}^{120}_{50}X^* -> h$\nu$ + {}^{120}_{50}X} \\ \hline
+$\alpha$-Capture    & \ce{{}^{120}_{50}X + {}^{4}_{2}$\alpha$ -> {}^{124}_{52}A} \\ \hline
+$\beta$-Capture     & \ce{{}^{120}_{50}X + {}^{0}_{-1}e -> {}^{120}_{49}Q} \\ \hline
+$\beta^+$-Capture   & \ce{{}^{120}_{50}X + {}^{0}_{1}e -> {}^{120}_{51}Z} \\ \hline
+$\gamma$-Absorption & \ce{{}^{120}_{50}X + h$\nu$ -> {}^{120}_{50}X^*} \\ \hline
+\end{tabular}
+\end{table}
 
 \section{Organic Chemistry of Biological Systems}
 \subsection{Molecular Structure}
