@@ -876,9 +876,38 @@ A \textbf{buffer} is a solution whos pH remains relatively constant after the ad
 	\item Weak acid + roughly half of an equivalent of strong base (e.g. \ce{HOAc} with a half-equivalent of \ce{KOH}).
 	\item Weak base + roughly half of an equivalent of strong acid (e.g. \ce{H_3CNH_2} with a half-equivalent of \ce{HCl}).
 \end{enumerate}
-\noindent Physiological pH is considered to be 7.4 and is usually highly buffered in most regions of the body. In a \textit{titration}, the \textbf{equivalence point} is reached when the moles of acid are equal to the moles of base.\\
-\indent A typical acid-base \textbf{indicator} is an organic acid with extended conjugation. Its weak acid and conjugate weak base have two distinct colors. The energy state transition that produces color involves the $\pi$-bonding and $\pi$-antibonding orbitals, and depends on the electron-donating and electron-withdrawing nature of the substituents on the $\pi$-system.  
-\hilight{TODO} %TODO
+\noindent Physiological pH is considered to be 7.4 and is usually highly buffered in most regions of the body. In a \textit{titration}, the \textbf{equivalence point} is reached when the moles of acid are equal to the moles of base. Here are a couple of good practice problems for titrations:\\
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is the pH after 30 mL of 1.00 M \ce{NaOH(aq)} have been added to 100 mL 0.50 M \ce{HOAc(aq)}? \ce{HOAc} has a pK\textsubscript{a}=4.74.
+\begin{enumerate}[label=\Alph*]
+	\item 3.51
+	\item 4.56
+	\item 4.92
+	\item 5.97
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent Because the strong base is twice as concentrated as the weak acid, only half the volume of strong base (relative to the weak acid) is required to reach the equivalence point. This means that 50 mL of 1.00 M \ce{NaOH} fully neutralizes the 100 mL of 0.50 M \ce{HOAc}. The halfway point of the titration is therefore reached when exactly 25 mL of 1.00 M \ce{NaOH} have been added. At the halfway point, the pH of the solution equals the pK\textsubscript{a} of the weak acid. The additional strong base beyond the 25 mL makes the pH of the solution slightly greater than the pK\textsubscript{a} of the acid, 4.74. Thus, the best choice is answer \textbf{C}. Here is another problem:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is the pH of a solution made by mixing 10.0 mL 0.10 M \ce{HCO_2H(aq)} with 4.0 mL 0.10 M \ce{KOH(aq)}? The pK\textsubscript{a} of \ce{HCO_2H} is 3.64.
+\begin{enumerate}[label=\Alph*]
+	\item 1.34
+	\item 3.46
+	\item 3.82
+	\item 9.36
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent The weak acid and titrant strong base are of equal concentration, so 10 mL \ce{KOH} is one equivalent (the amount needed to reach the equivalence point). If 5.0 mL are added, then the acid is half-titrated, so pH=pK\textsubscript{a}. However, less than 5.0 mL have been added, so the pH is a little less than pK\textsubscript{a}. The pK\textsubscript{a} is given to be 3.64, so the best answer is choice \textbf{B}. Choice A is too much less than the pK\textsubscript{a}. \\
+\indent Polyprotic acids yield multiple equivalents of hydronium ion per molecule, and so therefore have multiple equivalence points, one of each dissociable proton. Each equivalence point is the arithmetic mean of the two adjacent pK\textsubscript{a} values. This is clearly shown in \textbf{Fig. \ref{polyprotic}}. \\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{polyprotic.png} \label{polyprotic}
+\caption{An example of a titration curve with a polyprotic acid.}
+\end{figure}
+\indent A typical acid-base \textbf{indicator} is an organic acid with extended conjugation. Its weak acid and conjugate weak base have two distinct colors. The energy state transition that produces color involves the $\pi$-bonding and $\pi$-antibonding orbitals, and depends on the electron-donating and electron-withdrawing nature of the substituents on the $\pi$-system. An indicator is generally used for one of two purposes: the first is to detect the endpoint of a titration, and the second is to approximate the pH of a solution from the color of the indicator in the solution. The best scenario for an indicator detecting a titration endpoing is when the pH at equivalence equals the pK\textsubscript{a} of the indicator. The important fact to retain is that the pH at equivalence for the titration of a weak acid by a strong base can be approximated quite closely by averaging the pK\textsubscript{a} of the weak acid with the pH of the titrant strong base. For the titration of a weak base by a strong acid, the pH at equivalence can also be approximated by averaging the pK\textsubscript{a} of the conjugate acid of the weak base with the pH of the titrant strong acid.
 
 \subsection{Equilibrium}
 The \textbf{equilibrium constant} $K_{eq}$ is a mathematical quantity that is calculated for a reaction at equilibrium. By definition, the equilibrium constant is the concentration of products at equilibrium divided by the concentration of reactants at equilibrium. Stoichiometric values from the balanced equation become exponents in the $K_{eq}$ expression. Do \textit{not} include solids or pure liquids in the $K_{eq}$ expression, only solutes (for $K_c$) and gases (for $K_p$). The numerical value of $K_{eq}$ varies only with changing temperature, not with catalysts, pressure, volume, or moles. Equilibrium constants are unitless by definition. All equilibrium constants obey the same rules, but depending on the reaction, there may be special features that recur. Different reactions have special $K$ values.\\
@@ -1234,7 +1263,7 @@ An \ce{S_N 1} mechanism is favored in protic solvent such as alcohols. & An inte
 \end{tabular}
 \end{table}
 \indent The \ce{S_N 1} reaction can be complicated by \textbf{rearrangement} because of the carbocation intermediate formed. If a secondary carbocation (\ce{R_2CH^+}) is formed, it can rearrange to form a more stable tertiary carbocation (\ce{R_2C^+}) when possible. See Figure \ref{1-2-hydride-shift-mechanism} for an example. Furthermore, if the electrophile has a chiral center at a site other than the electrophilic carbon, an \ce{S_N 1} reaction will form both a major and minor product. The major product results from the transition state with least steric hindrance.
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.7\textwidth]{1-2-hydride-shift-mechanism.png} \label{1-2-hydride-shift-mechanism}
 \caption{Example of favorable hydride shift to generate tertiary carbocation from secondary carbocation intermediate.}
@@ -1861,6 +1890,148 @@ All of the dNTPs have a deoxyribose sugar backbone ($\beta$-D-2'-Deoxyribose) wi
 \indent The DNA replication process is very systematic. The synthesis of new daughter DNA is coupled to the unwinding of parental DNA at sites called \textbf{replication forks}, which occur at sites referred to as \textbf{origins} (ori for short). In order for the DNA double helix to unwind, \textbf{DNA gyrase} adds negative supercoils ahead of the advancing replication fork, as when the replication fork is initially unwound, positive supercoils are introduced making DNA separation rather difficult without the DNA gyrase activity. \textbf{Helicase} then binds to the ori site and catalyzes the ATP-driven unwinding of the duplex DNA. Single-stranded binding proteins then stabilize the unwound portion of the parental DNA. \\
 \indent From here, both strands can serve as template strands, but DNA Polymerase I can only synthesize DNA in the $5'\rightarrow3'$ direction. We therefore have a leading strand with continuous replication, and also a lagging strand that uses \textbf{Okazaki fragments} to discontinuously synthesize the complementary strand (the primers used are RNA primers). DNA Polymerase III holoenzyme is used to synthesize the lagging strand (as opposed to DNA Polymerase I) because it is quicker and can add more dNTP's to the growing DNA strand. DNA polymerase I also has $5'\rightarrow3'$ exonuclease activity that allows it to remove the short segments of RNA primer, and then add deoxyribonucleotides to the free $3'$-hydroxyl function of the chain undergoing elongation. \textbf{DNA ligase} then joins together the Okazaki fragments. It is important to remember that replication of DNA can be bidirectional.
 
+\section{Psychology}
+\subsection{The Biology Behind Behavior}
+\textbf{Glial cells (glia)} provide protection and support for neurons, maintain homeostasis, and form \textbf{myelin}, a fatty insulation wrapping axons to increase the speed and efficiency of signal conduction. Degeneration of myelin can result in \textit{multiple sclerosis}. There are four main types of glia:
+\begin{enumerate}
+	\item \textbf{Oligodendrocytes} wrap myelin extensions around the axons of neurons in the central nervous system (CNS).
+	\item \textbf{Schwann cells} wrap myelin extensions around the axons of neurons in the peripheral nervous system (PNS).
+	\item \textbf{Microglia} react to damage or disease as a macrophage would\textemdash they multiply, trigger inflammatory responses, and engulf cellular debris. 
+	\item \textbf{Astrocytes} are the largest type of glia, and vary greatly in physiology and function. Some astrocytes cover blood vessels throughout the brain and are in contact with the cell bodes or neurons. These astrocytes help regulate the passage or prevention of certain chemicals between the blood and CNS neurons. Other types of astrocytes have been known to modulate neuronal activity, control the BBB, and to establish and sustain effective synapses.
+\end{enumerate}
+\noindent A key difference between oligodendrocytes and Schwann cells is that oligodendrocytes often provide myelin to multiple axon segments on multiple neurons, but Schwann cells provide myelin to only one segment of a single neuron. Another important difference is that only Schwann cells can direct axonal regeneration after damage. This is why humans can recover from PNS nerve damage in the body, but damage in the brain or spinal cord frequently results in paralysis. The differences in oligodendrocytes and Schwann cells are shown in \textbf{Fig. \ref{myelin}}.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{myelin.png} \label{myelin}
+\caption{The difference in myelin wrapping between oligeodentrocytes (left, CNS) and Schwann cells (right, PNS).}
+\end{figure}
+\indent There are five major types of small-molecule neurotransmitters:
+\begin{enumerate}
+	\item \textbf{Acetylcholine (ACh)} is the neurotransmitter present at every junction between motor neurons and skeletal muscles. ACh uptake by muscle cells causes those muscles to contract. ACh is also released in the CNS and has been demonstrated to play a role in learning and memory.
+	\item \textbf{Amino acid neurotransmitters} comprise the majority of fast-acting neurotransmitters found in the CNS. The four primary ones are \textit{aspartate}, \textit{glutamate}, \textit{glycine}, and \textit{$\gamma$-aminobutyric acid (GABA)}. Within the CNS, glutamate the major excitatory neurotransmitter, and GABA (a modified derivative of glutamate, is the major inhibitory neurotransmitter.
+	\item \textbf{Monoamine neurotransmitters} are synthesized from a single amino acid and are slightly larger than the amino acid neurotransmitters. \textbf{Dopamine}, \textbf{epinephrine}, and \textbf{norepinephrine} are synthesized from the amino acid \textit{tyrosine} and are all \textit{catecholamines}. Neurons that release epinephrine are called \textit{adrenergic} and neurons that release norepinephrine are called \textit{noradrenergic}. The fourth monoamine neurotransmitter, \textbf{serotonin}, is synthesized from the amino acid \textit{tryptophan} and is an \textit{indolamine}.
+	\item \textbf{Unconventional neurotransmitters} include soluble-gas neurotransmitters (i.e. \ce{CO} and \ce{NO}) with high lipid solubility and thus fast response rate, and \textbf{endocannabinoids} that are similar to the primary psychoactive component found in marijuana (THC). Unlike most neurotransmitters, endocannabinoids are generally released fromt he dendrites and cell body of a neuron, not the axon terminal. 
+	\item \textbf{Neuropeptides} are large-molecule neurotransmitters, and are separated into five categories: pituitary peptides, hypothalamic peptides, brain-gut peptides, opioid peptides, and miscellaneous peptides. They are used for hormonal communication. Neuropeptides are released from neuronal cells and signal to other neighboring neurons, meaning that communication is local. In contrast, peptide hormones are instead released from neuroendocrine cells and travel through the blood to various receptors in the body, meaning that communication is distant.
+	\item Another important class is \textbf{endorphins}, which are neuropeptide transmitters released in response to pain and intense exercise.
+\end{enumerate}
+\noindent Neurotransmitters, drugs, and other chemicals act on synapses either to excite or inhibit neuron firing. As demonstrated in the similarity between endorphins and morphine, some molecules are structurally similar enough to certain neurotransmitters to allow them to bind to the same receptors and elicit a similar response\textemdash such molecules are called \textbf{agonists}. Other molecules that also bind to the same receptors but instead block the neurotransmitter's function are called \textbf{antagonists}. 
+\begin{table}[!ht]
+\arraycolsep=1.4pt\def\arraystretch{1.5}
+\begin{tabular}{|l|p{5.5cm}|p{8.5cm}|}
+\hline
+\textbf{Neurotransmitter}    & \textbf{Function} & \textbf{Behavioral and Physical Malfunctions}\\ \hline
+Acetylcholine (ACh) & Muscle stimulation, learning and memory & Motor control loss and dementia in Alzheimer's disease characterized by deterioration of ACh-producing neurons. \\ \hline
+Glutamate & Major role mediating excitatory signals; involved in cognition, memory, and learning & Imbalance associated with memory loss in Alzheimer's disease; oversupply associated with neuron death and decreasing motor control in ALS patients.\\\hline
+GABA & Major role mediating inhibitory signals; involved in motor control and vision & Deficiency associated with seizures, tremors, and anxiety.\\\hline
+Norepinephrine & Major role controlling alertness and arousal; increases heart rate & Imbalance associated with mood disorders, manic depression.\\\hline
+Dopamine & Major role in award-motivated behavior; influences attention, emotion, and movement & Undersupply associated with tremors and muscle rigidity in Parkinson's disease; oversupply associated with schizophrenia and impulsive behavior.\\\hline
+Serotonin & Major role in regulation of mood, appetite, arousal, and sleep & Undersupply associated with depression, sleep problems, and compulsive behavior.\\\hline
+Nitrous Oxide & Involved in redox signaling; relaxes GI smooth muscle; vasodilator & Deficiency associated with depressed mood and impulsive behavior.\\\hline
+Endorphin & Pain and stress inhibitor & Undersupply associated with hypersensitivity to pain and depression; oversupply associated with insensitivity to pain and addictive behavior.\\\hline
+\end{tabular}
+\end{table}
+\indent The functional divisions of the nervous system are shown in \textbf{Fig. \ref{psych_nervous}}. The major anatomical structures of the brain are shown in \textbf{Fig. \ref{brain_anatomy}}.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{psych_nervous.png} \label{psych_nervous}
+\caption{Functional divisions of the nervous system.}
+\end{figure}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\textwidth]{brain_anatomy.png} \label{brain_anatomy}
+\caption{Major structures of the brain, including the components of the brainstem and the thalamus.}
+\end{figure}
+\indent The \textbf{myelencephalon}, also called the \textbf{medulla}, lies at the posterior (bottom) part of the brain and connects to the spinal cord. Of psychological interest is the \textbf{reticular formation}, a complex neural network of nuclei extending from the myelencephalon to the mesencephalon. The reticular formation plays an important role in regulating sleep, movement, attention, alertness, and various autonomous functions including heart rate, blood pressure, vomiting, coughing, and sneezing.\\
+\indent The \textbf{metencephalon}, also housing the reticular formation, contains two major structure: the pons and the cerebellum. The \textbf{pons} is a bulged section of the reticular formation that connects the medulla with the cerebral cortex, and also serves as a communication and coordination center between the body and hemispheres of the brain. The \textbf{cerebellum} is a large, convoluted structure that controls balance, coordination, equilibrium, and find motor skills. Damage to the cerebellum does \textit{not} result in paralysis, but rather disorders in fine movement and posture. \\
+\indent The \textbf{mesencephalon}, also housing the reticular formation, is divided into two sections: the tectum and the tegmentum. The \textbf{tectum} contains the \textbf{inferior colliculi}, regulators of auditory function, and the \textbf{superior colliculi}, regulators of visual-motor function. The \textbf{tegmentum} contains the \textbf{periaqueductal gray}, analgesic mediator of opiate drugs, and the \textbf{substantia nigra} and \textbf{red nucleus}, both important regulators of visual-motor function. Loss of the substantia nigra results in Parkinson's disease.\\
+\indent The \textbf{diencephalon} is divided into the thalamus and the hypothalamus. Acting as an important relay station to the cortex, the \textbf{thalamus} receives sensory information pertaining to each of the senses except for small. The thalamus also receives response information fro the cortex and directs it to the cerebellum and medulla. The \textbf{hypothalamus} is (unsurprisingly) located beneath the thalamus and is an important regulator of various motivated behaviors including hunger, thirst, sleep, body temperature, and sexual behavior. Togehter, the myelencephalon, metencephalon, mesencephalon, and diencephalon make up the brain stem. 
+\indent The \textbf{telencephalon} is the largest and most massive division of the human brain. Various fissures divide each hemisphere into four lobes:
+\begin{enumerate}
+	\item The \textbf{frontal lobe} is involved with decision-making, planning, emotions, behavioral control, and motor control. Within the posterior portion of the frontal lobe, the \textbf{motor cortex} controls the planning and execution of voluntary movements.
+	\item Located at the top and rear of the head, the \textbf{parietal lobe} integrates sensory information, processes tactile sensory information, and helps us perceive the spatial location of objects and our own bodies. These functions are largely facilitated by the \textbf{somatosensory cortex}, a region of the parietal lobe that is adjacent to the motor cortex. 
+	\item The \textbf{occipital lobe} is located at the back of the head and primarily deals with visual processing involving the visual cortex. Found within the most posterior portion of the occipital lobe is the visual cortex.
+	\item Located below the frontal and parietal lobes, the \textbf{temporal lobe} is involved with auditory processing, language comprehension, speech, and memory. Also located within the temporal lobes is the hippocampus, which plays a major role in the development and processing of memories, and the \textbf{amygdala}, which processes memories.
+\end{enumerate}
+\noindent \textbf{Fig. \ref{lobes}} depicts the lobes of the brain and selected structures of the cerebral cortex.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{lobes.png} \label{lobes}
+\caption{Lobes and selected structures of the cerebral cortex.}
+\end{figure}
+\indent There are many techniques to study the brain:
+\begin{enumerate}
+	\item The lesion method allows one to compare the subject's behavior pre-lesion and post-lesion to try to elucidate the functions of the targeted structure.
+	\item An \textbf{electroencephalogram (EEG)}measure the electrical activity emitted from the brain's neurons and produces an amplified readout. The resulting EEG reveals the gross electrical activity of the brain. Researchers often introduce a specific stimulus to seek a particular response signal while having a computer filter out the unrelated noise. The resulting information is called the \textbf{sensory evoked potential} and is used to diagnose the cause of seizures clinically.
+	\item \textbf{PET scans} track each brain area's energy consumption. Radioactive 2-deoxyglucose (an analog of glucose) is injected into the carotid artery for direct delivery to the cerebral hemispheres. Because 2-deoxyglucose cannot be metabolized, it accumulates in active neuronal cells, allowing the PET-scan to identify `hot spots' of neuronal activity while the patient performs various tasks.
+	\item \textbf{Computed tomography (CT)} scans give a three-dimensional view of the brain using X-ray imaging.
+	\item \textbf{MRI} has higher spatial resolution than CT. There's also \textbf{functional MRI (fMRI)} that produces images of active brain areas by tracking the flow of oxygenated blood to these areas. This is possible because oxygenated blood has certain magnetic properties that alter the emitted hydrogen signals detected in a regular MRI scan. 
+\end{enumerate}
+\noindent Here are the major organs in the endocrine system:
+\begin{enumerate}
+	\item The \textbf{pineal gland} influences the body's daily circadian rhythms.
+	\item The \textbf{hypothalamus} links the nervous system to the endocrine system by way of the pituitary gland (which it controls).
+	\item The \textbf{pituitary gland} secretes numerous peptide hormones, and is often referred to as the `master gland' because of its significant influence over other organs and endocrine glands in the body. 
+	\item The \textbf{thyroid gland} influences rate of cellular metabolism.
+	\item The \textbf{parathyroid glands} regulate blood calcium levels.
+	\item The \textbf{thymus} is an important component of the immune system.
+	\item The \textbf{adrenal glands} mediate the body's stress response, help maintain blood volume and pressure, and influence metabolism.
+	\item The \textbf{pancreas} regulates blood sugar levels.
+	\item The \textbf{ovaries} secrete female steroid sex hormones, and the \textbf{testes} secrete male steroid sex hormones.
+\end{enumerate}
+\noindent and here are the major endocrine glands and the associated hormones that are released:
+\begin{table}[!ht]
+\arraycolsep=1.4pt\def\arraystretch{1.5}
+\begin{tabular}{|p{3cm}|p{5cm}|p{9.5cm}|}
+\hline
+\textbf{Endocrine Gland}    & \textbf{Hormones Released} & \textbf{Function}\\ \hline
+{} & Thyrotropin-releasing hormone (TRH) & Stimulates release of thyroid stimulating hormone (TSH) and prolactin from the anterior pituitary \\ 
+{} & Gonadotropin-releasing hormone (GnRH) & Stimulates release of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) from the anterior pituitary \\ 
+Hypothalamus & Growth hormone-releasing hormone (GHRH) & Stimulates release of growth hormone (GH) from anterior pituitary \\ 
+{} & Corticotropin-releasing hormone (CRH) & Stimulates release of adrenocorticotropic hormone (ACTH) from anterior pituitary \\ 
+{} & Somatostatin & Inhibits pituitary release of growth hormone (GH) and thyroid stimulating hormone (TSH) \\ \hline
+{} & Growth Hormone (GH) & Promotes growth in childhood and maintenance of healthy bone and muscle mass in adulthood\\
+{} & Prolactin & Stimulates milk production in women\\
+{} & Adrenocorticotropic Hormone (ACTH) & Stimulates release of corticosteroids from adrenal glands\\
+Anterior Pituitary Gland & Thyroid Stimulating Hormone (TSH) & Stimulates release of triiodothyronine h(T3) and thyroxine (T4) from the thyroid gland\\
+{} & Luteinizing Hormone (LH) & Acts on ovaries of females to regulate estrogen; acts on testes of males to regulate testosterone\\
+{} & Follicle Stimulating Hormone (FSH) & Simulates release of eggs in females and regulates normal sperm production in males\\\hline
+Posterior Pituitary Gland & Oxytocin & Regulates female reproductive functions of childbirth and breastfeeding\\
+{} & Antidiuretic Hormone (ADH) (vapopressin) & Regulates body's water balance\\\hline
+Thyroid Gland & Triiodothyronine (T3) & Important regulator of metabolism\\
+{} & Thyroxine (T4) & Important regulator of metabolism\\\hline
+Parathyroids & Parathyroid Hormone (PTH) & Regulates the body's calcium and phosphate levels to a very narrow range\\\hline
+Adrenal Cortex & Cortisol (`Stress Hormone') & Increases blood glucose levels; suppresses immune system\\
+{} & Aldosterone & Regulates body's balance of salt and water; helps regulate blood pressure\\\hline
+Adrenal Medulla & Epinephrine & Increases heart rate and blood flow to muscles and brain; increases blood glucose levels\\
+{} & Norepinephrine & Increases heart rate and alertness; acts as a vasoconstrictor\\\hline
+Pancreas & Insulin & Decreases blood glucose levels\\
+{} & Glucagon & Increases blood glucose levels\\\hline
+\end{tabular}
+\end{table}
+\indent \textbf{Behavior} is the way an animal adjusts to its environment. During development, here are the germ layer derivatives:
+\begin{enumerate}
+	\item \textbf{Ectoderm:} Epidermis and associated structures, nervous system, sensory organs.
+	\item \textbf{Mesoderm:} Bones, cartilage, circulatory system, dermis, excretory system, muscles, reproductive system.
+	\item \textbf{Endoderm:} Endothelium, lining of digestive tract, lining of respiratory system.
+\end{enumerate}
+\noindent A girl's first menstrual period is called a \textbf{menarche} and usually arrives around age 12, whereas a boy's first ejaculation, called a \textbf{spermarche}, usually arrives around age 14 as a nocturnal emission. Changes to an adolescent's brain also result in significant cognitive development. With the onset of puberty, the brain ceases to make new synaptic connections and instead beings a process of \textbf{selective pruning} in which unused neurons and connections are eliminated. Adolescence also increases the growth of myelin, leading to improvements in judgment, long-term planning, and impulse control.
 
+\subsection{The Human Senses}
+\hilight{TODO} %TODO
+
+\subsection{Learning and Memory}
+\hilight{TODO} %TODO
+
+\subsection{Emotion, Stress, Motivation, and Addiction}
+\hilight{TODO} %TODO
+
+\subsection{Cognition and Consciousness}
+\hilight{TODO} %TODO
+
+\subsection{Personality and Attitudes}
+\hilight{TODO} %TODO
+
+\subsection{Psychological Disorders}
+\hilight{TODO} %TODO
 
 \end{document}
