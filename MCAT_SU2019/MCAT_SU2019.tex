@@ -1289,6 +1289,34 @@ When deducing the molecular structure for an organic molecule, it helps to know 
 \subsection{Lab Techniques}
 Lab techniques can be broken down into three categories: separation, purification, and identification. \hilight{TODO} %TODO
 
+\subsection{Lipids}
+\hilight{TODO} %TODO
+
+\subsection{Carbonyls and Alcohols}
+\hilight{TODO} %TODO
+
+\subsection{Name Reactions and Synthesis Logic}
+\hilight{TODO} %TODO
+
+\subsection{Monosaccharides}
+\hilight{TODO} %TODO
+
+\subsection{Oligosaccharides and Polysaccharides}
+\hilight{TODO} %TODO
+
+\subsection{Chemical Reactions and Tests for Carbohydrates}
+\hilight{TODO} %TODO
+
+\subsection{Biological Examples of Carbohydrates}
+\hilight{TODO} %TODO
+
+\subsection{Common Nitrogen Compounds}
+\hilight{TODO} %TODO
+
+\subsection{Amino Acids and Proteins}
+\hilight{TODO} %TODO
+
+
 \section{Physics}
 \subsection{Translational Motion}
 In general on the MCAT, although especially for the physics section, it's about speed more than precision. Important kinematic equations that you probably don't know yet:
@@ -1656,6 +1684,42 @@ $P=I^2R$ & $P=V^2/R$ \\
 \end{table}
 \noindent Lastly, if we consider all the electrons of a conducting metal, and thus all of the electron levels shared between the metal atoms, we get what is known as \textit{band theory}\textemdash electrons fill from the bottom levels up, so only a few electrons are actually in high enough energy levels to be able to transfer. The level up to which the electrons fill is called the \textit{Fermi level}. For metals with low enough ionization energy, the electrons in and near the Fermi level are free to flow.
 
+\subsection{Sound and Doppler Effect}
+Sound is an example of a compressional wave, so the speed with which particles can return to their original position following a disturbance in the medium dictates the speed of sound in that medium. The strength of the forces between the molecules in a given medium and the density of the particles in that medium determine how fast sound will travel in that medium. As a result, we see the general trend for speed of sound as $v_{\text{sound in solid}}>v_{\text{sound in liquid}}>v_{\text{sound in gas}}$. The speed of longitudinal sound waves in various ideal gaseous media can be calculated from the formula
+\begin{equation}
+\begin{split}
+v=\sqrt{\frac{\gamma P}{\rho}}=\sqrt{\frac{\gamma RT}{M}}
+\end{split}
+\end{equation}
+\noindent where $\rho$ is the density of the gas, $P$ is the pressure of the gas, $\gamma$ is $C_p/C_v$, the ratio of the molar heat capacities at constant pressure and at constant volume, respectively, $R$ is the ideal gas constant, $T$ is the temperature, and $M$ is the molecular mass. Conceptually, as a general rule regarding the speed of sound, we have
+\begin{equation}
+\begin{split}
+v\propto \sqrt{\frac{\text{Restoring Force or Molecular Kinetic Energy}}{\text{Molecular Inertia}}}
+\end{split}
+\end{equation}
+\noindent The intensity of sound dissipates with distance by a squared factor. The change in pitch of a sound from a high frequency as it approaches an observer to a low frequency as it moves away from the observer is called the \textbf{Doppler effect}. The relationship between the observed frequency $f_L$ and the actual sender frequency $f_s$ for a scenario where the listener is moving towards a stationary source is 
+\begin{equation}
+\begin{split}
+f_L=\left(\frac{v+v_L}{v}\right)f_s
+\end{split}
+\end{equation}
+\noindent where $v$ is the speed of the sound wave, and $v_L$ is the speed of the listener. This equation essentially tells us that if you move towards the source of the sound (i.e. $v_L>0$), then you hear a higher pitch, and if you move away from the source of the sound (i.e. $v_L<0$), then you hear a lower pitch. Similarly, if the sound source is moving but the listener is stationary, we have
+\begin{equation}
+\begin{split}
+f_L=\left(\frac{v}{v-v_s}\right)f_s
+\end{split}
+\end{equation}
+\noindent This tells us that when the source of the sound move towards you, (i.e. $v_s>0$), then you hear a higher pitch, and if the source of the sound moves away from you (i.e. $v_s<0$), then you hear a lower pitch. Overall, combining these two gives us the overall \textbf{Doppler effect}:
+\begin{equation}
+\begin{split}
+\boxed{f_L=\left(\frac{v\pm v_L}{v\pm v_s}\right)f_s}
+\end{split}
+\end{equation}
+\noindent $v_L>0$ if the listener is moving towards the source, and $v_L<0$ if the listener is moving away from the source. $v_s>0$ if the source is moving away from the listener, and $v_s<0$ if the source is moving towards the listener.\\
+\indent A point along the string that is never displaced is called a \textbf{node}. A point along the string that reaches maximum displacement is called an \textbf{antinode}. \\
+\indent In an open pipe (where both ends are open), the standing wave frequencies are $f_n=n\left(\frac{v}{2L}\right)$, where $n\in\mathbb{N}$. In a closed pipe (where one end is open and the other is closed). the standing wave frequencies are $f_n=n\left(\frac{v}{4L}\right)$, where $n\in\{1, 2, 5\ldots\}$. For many of the questions dealing with harmonic frequencies you will notice a pattern in the numbers. Look for differences between numbers or common denominators when dealing with harmonic frequencies of standing waves. If you can find a highest common denominator, then you have likely found the fundamental frequency. The \textbf{fundamental frequency} is the lowest frequency where standing waves is observed in a system.\\
+\indent When a wave moves faster than the standard speed of sound in that fluid, it said to be a \textbf{shock wave}. For example, this occurs when a plane flies faster than the speed of sound, referred to as `breaking the sound barrier.' A shock wave typically has a large burst of energy followed by rapid dissipation of energy. The drop can be attributed to destructive interference between the shock wave and the expansion waves caused by the moving object. A shock wave's initial burst of energy is typically observed as a rapid swell in the local pressure, which is known as the \textit{sonic boom}.
+
 \subsection{Light and Radiation}
 Light in the 400 nm to 700 nm range can be detected by the retina and processed in the brain, leading to the phenomenon of color. Remember that in the presence of an external light source, an object will appear a certain color but then absorb the complementary color (which is why it appears as the particular color). The \textbf{photoelectric effect} basically says that an incident photon can cause the release of an electron, so long as the photon has an energy greater than the ionization limit of the material. The energy required to remove an electron from the surface of the solid material is referred to as the \textit{work function}, $\phi$. Energy in excess of the work function becomes kinetic energy for the electron that is emitted. Mathematically, the photoelectric effect is represented as
 \begin{equation}
@@ -1705,6 +1769,9 @@ y=\frac{\lambda L}{d}
 \noindent The system involves light traveling from air ($n=1$) to plastic ($n=1.46$) to glass ($n=1.52$). Phase flips of light occur when the light bounces off a medium whose refractive index \textit{exceeds} that of the medium through which the light passes. In the original constructive set-up, light bounces off of an air-plastic interface and a plastic-glass interface. For both reflections, the refractive index of the reflecting medium is greater than that of the medium through which the light passes. For both reflections, the phase of the light will flip by $180^{\circ}$. To get destructive interference, we would need to change the experiment such that one of these two phas flips does not occur. If this is achieved, the single-phase flip would lead to destructive (i.e. $180^{\circ}$ out-of-phase) interference between the two final rays. This happens only with benzene, so the correct answer choice is choice \textbf{D}. \\
 \indent This problem demonstrates the following: when a wave reflects from an optically denser medium, its phase flips $180^{\circ}$. Consider a film of oil on water, in air. The phase flips for both the wave that reflects off of the air-oil interface and the wave that reflects off of the oil-water interface. In both cases, the light bounces off a material whose refractive index $n$ is higher than that of the material through which the wave moves. Thus, the phases of both waves flip, the effect cancels, and the waves interfere constructively. Now, if the oil film was replaced with a soap film, then only one of the two reflecting waves flips its phase. This single flip effectively adds half a wavelength to the path-length difference and results in destructive interference.\\
 \indent \textbf{Diffraction} is the distortion/bending of light waves when they pass through an opening or around an object. It is more significant when the wavelength is larger than or comparable to the opening the wave crosses. Diffraction is less significant or negligible when the wavelength is much smaller than the opening. This applies to all waves. 
+
+\subsection{Geometrical Optics}
+\hilight{TODO} %TODO
 
 \section{Biochemistry and Molecular Cell Biology}
 \subsection{Amino Acids and Proteins}
@@ -1870,6 +1937,13 @@ There are four classic enzymes in biochemistry:
 	\item \textbf{Carboxypeptidase} is a \ce{Zn}-containing digestive enzyme secreted by the exocrine cells of the pancrease, and hydrolyzes the carboxyl terminal peptide bond of protein polypeptide chains.
 	\item \textbf{Chymotrypsin} hydrolyzes of either ester or peptide bonds. If a peptide is hydrolyzed, the products will be an amine and an acid. If an ester is hydrolyzed, the resulting products will be an alcohol and an acid. 
 \end{enumerate}¥
+\hilight{TODO} %TODO
+
+\subsection{Metabolic Molecules}
+\hilight{TODO} %TODO
+
+\subsection{Metabolic Pathways}
+\hilight{TODO} %TODO
 
 \subsection{Genetic Information\textemdash Classical Genetics}
 Mendel's First Law of Heredity (also called the \textbf{Law of Segregation}) is that alternative alleles segregate from each other in heterozygous individuals and retain their identity. Mendel's Second Law of Heredity (also called the \textbf{Law of Independent Assortment}) is that the hereditary factors (i.e. genes) for different things assort independently of one another. Note that independent assortment of the genes will occur if they are located on different chromosomes or are far apart on the same chromosome.
@@ -1889,6 +1963,9 @@ All of the dNTPs have a deoxyribose sugar backbone ($\beta$-D-2'-Deoxyribose) wi
 \indent Positive supercoiling is twisting a DNA molecule around its own axis in the right-handed direction, while negative supercoiling is twisting a DNA molecule around its own axis in the left-handed direction (these conventions are for right-handed DNA). The number of times that one DNA strand can be wound around another DNA strand is referred to as its \textbf{linking number (L)}. \textbf{Topoisomers} are DNA molecules that differ only in their linking number. The degree of the linking number in DNA can be altered by enzymes called \textbf{topoisomerases}. \textbf{Type I} topoisomerases reversibly cleave \textit{one strand of DNA} and relaxes negatively supercoiled DNA, while \textbf{Type II} topoisomerases (e.g. DNA gyrase) reversibly cleaves \textit{both strands of DNA} and adds negative supercoils. Negatively supercoiled DNA prepares the DnA duplex for processes like replication, recombination, and transcription where the separation fo the two helical strands is required. \\
 \indent The DNA replication process is very systematic. The synthesis of new daughter DNA is coupled to the unwinding of parental DNA at sites called \textbf{replication forks}, which occur at sites referred to as \textbf{origins} (ori for short). In order for the DNA double helix to unwind, \textbf{DNA gyrase} adds negative supercoils ahead of the advancing replication fork, as when the replication fork is initially unwound, positive supercoils are introduced making DNA separation rather difficult without the DNA gyrase activity. \textbf{Helicase} then binds to the ori site and catalyzes the ATP-driven unwinding of the duplex DNA. Single-stranded binding proteins then stabilize the unwound portion of the parental DNA. \\
 \indent From here, both strands can serve as template strands, but DNA Polymerase I can only synthesize DNA in the $5'\rightarrow3'$ direction. We therefore have a leading strand with continuous replication, and also a lagging strand that uses \textbf{Okazaki fragments} to discontinuously synthesize the complementary strand (the primers used are RNA primers). DNA Polymerase III holoenzyme is used to synthesize the lagging strand (as opposed to DNA Polymerase I) because it is quicker and can add more dNTP's to the growing DNA strand. DNA polymerase I also has $5'\rightarrow3'$ exonuclease activity that allows it to remove the short segments of RNA primer, and then add deoxyribonucleotides to the free $3'$-hydroxyl function of the chain undergoing elongation. \textbf{DNA ligase} then joins together the Okazaki fragments. It is important to remember that replication of DNA can be bidirectional.
+
+\subsection{Expression of Genetic Information}
+\hilight{TODO} %TODO
 
 \section{Psychology}
 \subsection{The Biology Behind Behavior}
@@ -1961,7 +2038,7 @@ Endorphin & Pain and stress inhibitor & Undersupply associated with hypersensiti
 \indent There are many techniques to study the brain:
 \begin{enumerate}
 	\item The lesion method allows one to compare the subject's behavior pre-lesion and post-lesion to try to elucidate the functions of the targeted structure.
-	\item An \textbf{electroencephalogram (EEG)}measure the electrical activity emitted from the brain's neurons and produces an amplified readout. The resulting EEG reveals the gross electrical activity of the brain. Researchers often introduce a specific stimulus to seek a particular response signal while having a computer filter out the unrelated noise. The resulting information is called the \textbf{sensory evoked potential} and is used to diagnose the cause of seizures clinically.
+	\item An \textbf{electroencephalogram (EEG)} measures the electrical activity emitted from the brain's neurons and produces an amplified readout. The resulting EEG reveals the gross electrical activity of the brain. Researchers often introduce a specific stimulus to seek a particular response signal while having a computer filter out the unrelated noise. The resulting information is called the \textbf{sensory evoked potential} and is used to diagnose the cause of seizures clinically.
 	\item \textbf{PET scans} track each brain area's energy consumption. Radioactive 2-deoxyglucose (an analog of glucose) is injected into the carotid artery for direct delivery to the cerebral hemispheres. Because 2-deoxyglucose cannot be metabolized, it accumulates in active neuronal cells, allowing the PET-scan to identify `hot spots' of neuronal activity while the patient performs various tasks.
 	\item \textbf{Computed tomography (CT)} scans give a three-dimensional view of the brain using X-ray imaging.
 	\item \textbf{MRI} has higher spatial resolution than CT. There's also \textbf{functional MRI (fMRI)} that produces images of active brain areas by tracking the flow of oxygenated blood to these areas. This is possible because oxygenated blood has certain magnetic properties that alter the emitted hydrogen signals detected in a regular MRI scan. 
@@ -2017,7 +2094,78 @@ Pancreas & Insulin & Decreases blood glucose levels\\
 \noindent A girl's first menstrual period is called a \textbf{menarche} and usually arrives around age 12, whereas a boy's first ejaculation, called a \textbf{spermarche}, usually arrives around age 14 as a nocturnal emission. Changes to an adolescent's brain also result in significant cognitive development. With the onset of puberty, the brain ceases to make new synaptic connections and instead beings a process of \textbf{selective pruning} in which unused neurons and connections are eliminated. Adolescence also increases the growth of myelin, leading to improvements in judgment, long-term planning, and impulse control.
 
 \subsection{The Human Senses}
-\hilight{TODO} %TODO
+\textbf{Sensation} refers to the passive process of detecting environmental stimuli through our various senses. \textbf{Perception} refers to the active process of receiving, reorganizing, and interpreting this raw, sensory information. We are only able to sense a stimulus when it reaches an \textit{absolute threshold}\textemdash the point at which energy from a stimulus becomes detectable. This prevents us from feeling the trillions of microbes crawling on our skin or seeing ultraviolet rays. Beyond the absolute threshold, we can detect changes in the strength of a stimulus only if exceeds our \textbf{difference threshold}. \textbf{Weber's Law} states that the magnitude of a just noticeable difference (JND) is proportional to the intensity of the original stimulus. This is why adding 2 more pounds to a 2-pound weight is noticeable, but adding 2 more pounds to a 200-pound weight is not. \textbf{Sensory adaptation} is the decrease in sensitivity to an unchanging stimulus as a consequence of constant exposure to that stimulus, which explains why we don't `hear' the tick of a clock after prolonged exposure. \\
+\indent A neural receptor is classified by how quickly it adapts, or responds, to an incoming stimulus. \textbf{Phasic (rapidly-adapting) receptors} respond quickly and entirely to a stimulus, but stop responding even if the stimulus remains constant. \textbf{Tonic (slowly-adapting) receptors} respond gradually to a stimulus and provide a continuous signal for the entire duration of the stimulus.\\
+\indent Based on location, there are three types of receptors. \textbf{Exteroceptors} are located close to the body's surface and are specialized to detect external stimuli, such as tactile, gustatory, visual, olfactory, and auditory stimuli. \textbf{Interoceptors} are located within internal organs and are specialized to detect sensory information concerning the body's internal environment, such as blood pressure, pH levels, and dissolved gas concentrations. \textbf{Proprioceptors} are located in joints, muscles, tendons, and vestibular structures of the inner ear. They detect specific movement and positioning required for spatial reasoning and balance. \\
+\indent There are five primary types of receptors according to stimulus modality. \textbf{Chemoreceptors} detect chemical stimuli and play a primary role in olfaction and gustation. \textbf{Mechanoreceptors} detect stimuli that physically deform the tissue in which it resides, such as pressure or vibration. \textbf{Nociceptors} are sensitive to damaging and painful stimuli and are almost always tonic. \textbf{Photoreceptors} respond to EMR (photos) and are essential for sight. \textbf{Thermoreceptors} detect warmth and cold and are almost always phasic. \\
+\indent A \textbf{sensory pathway} describes the stimulus-induced relay of information to the CNS for complex integration and perception. Generally speaking, there are three different neurons involved. The \textbf{primary neuron} is the afferent/sensory neuron and sends the signal to the spinal cord. The \textbf{secondary neuron} then picks up the signal and sends it to the thalamus for processing and redirection to the correct sensory area of the cerebral cortex. The redirection is performed by the \textbf{tertiary neuron}. All sensory inputs follow this mechanism except for \textbf{olfaction}, which instead relays the sense stimulus to the \textbf{olfactory bulb}, then relaying it to the primary olfactory cortex in the temportal lobe, and then the limbic system in the frontal cortex.\\
+\indent \textbf{Motion parallax} is the perception of fast-moving objects to be close than slow-moving objects. This is why when we're riding in a car, the road appears to whizz by while the mountains in the distance appear to move much slower. Another important aspect of motion perception is the \textbf{phi phenomenon}\textemdash apparent motion caused by the rapid succession of stationary stimuli. For example, when you watch a movie, you are seeing many pictures flash in rapid sequence, not actual movement. Due to the phi phenomenon, your brain connects these pictures to create the perception of movement.\\
+\indent Perception is also organized in such a way as to maintain perceptual stability under circumstances of changing stimuli. For example, imagine that your friend is wearing a bright red shirt. Now, when your friend steps into the shade, the shirt is a much darker red. If you constantly had to reprocess incoming sensory information every time an object changed, you would be amazed by your friend's ability to change the color of her shirt instantaneously. But this doesn't happen thanks to \textbf{perceptual constancy}, the tendency to recognize familiar objects as having the same properties despite changes in their lighting (i.e. color constancy), distance (i.e. size constancy), or angle of perspective (i.e. shape constancy). \\
+\indent Sensory information can be organized into groups according to the \textbf{gestalt principles}, which demonstrate how the sum of sensory parts actually differs from the perceived whole. \textbf{Fig. \ref{gestalt}} shows examples of the four primary gestalt principles: similarity, proximity, continuity, and closure.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{gestalt.png} \label{gestalt}
+\caption{The gestalt principles. The gestalt principles predict that you will see the italicized result.}
+\end{figure}
+\indent \large\textbf{Vision:} \normalsize Light enters the eye through the \textbf{cornea}, a transparent and protective membrane that functions as an outer lens, bending light to provide roughly 70\% of the eye's total focusing power. The cornea doesn't have blood vessels in order to be transparent; its nutrients are acquired through the diffusion of tear fluid. From the cornea, light travels through the \textbf{pupil}, an opening of adjustable diameter that is regulated by surrounding contractile tissue known as the \textbf{iris}. This colored muscle constricts or dilates to maintain a balance between \textit{visual acuity} and \textit{visual sensitivity}. Immediately behind the pupil is a \textbf{lens} that focuses incoming light onto the \textbf{retina}, a multi-layered, light-sensitive tissue that lines the inner surface of the eye. \textbf{Ciliary muscles} act on the suspensory ligaments holding the lens in place to apply adjustable increments of tension necessary for focus. When we focus on distant objects, the ciliary muscles relax, causing the suspensory ligaments to become taut, which flattens the lens, effectively increasing the \textit{focal distance}. When we focus on nearby objects, the ciliary muscles contract, causing the suspensory ligaments to contract, which curves the lens, gaining increased ability to refract light. \\
+\indent There are other important structures that do not alter light's path to the retina:\\
+\begin{enumerate}
+	\item The \textbf{sclera} is a fibrous, protective layer that covers the eye and provides rigidity. It's the visible, white portion of the eye.
+	\item The \textbf{aqueous humor} is located in the \textit{anterior chamber} (space between the cornea and the lens), and is a gelatinous fluid that maintains the intraocular pressure of the eye, supplies nutrients, and removes debris.
+	\item The \textbf{vitreous humor} is a gelatinous fluid found between the lens in the \textit{vitreous chamber}. It maintains the eye's shape while also firmly keeping the retina in place by pressing it to the \textbf{choroid}, a layer of connective tissue and blood vessels that nourishes the posterior structures of the eye. 
+	\item The \textbf{extraocular muscles} control gross eye movement and eyelid elevation. 
+\end{enumerate}
+\indent \textbf{Fig. \ref{eye}} highlights the anatomy of the eye.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{eye.png} \label{eye}
+\caption{The major components of the eye.}
+\end{figure}
+\indent \textbf{Fig. \ref{phototransduction}} shows the process of \textbf{phototransduction} and the involved cell types. The \textbf{amacrine cells} and the \textbf{horizontal cells} synapse across the other neurons to communicate laterally and coordinate sensory input. When light activates \textbf{photoreceptor cells}, a biochemical cascade results in decreased \textit{glutamate} release, which in turn affects the activity of the \textbf{bipolar cells}, which in turn relays this inhibitory or excitatory response to retinal ganglion cells. The axons of \textbf{retinal ganglion cells} exit the retina via the \textbf{optic nerve} and carry visual sensory information to the brain. \\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{phototransduction.png} \label{phototransduction}
+\caption{Directional flow of light and electrical information through the layers of the retina.}
+\end{figure}
+\indent It is important to note that the retinal layers are, in a sense, backwards. Light does not immediately hit the inner retina, undergo phototransduction, and create a neural impulse that exits the outer retina in a linear fashion. Instead, light must pass through four neuronal layers before activating the photoreceptors to generate a neural message. This information is then passed back in the opposite direction to the retinal ganglion cells located across the innermost layer of the retina. \\
+\indent There are two types of photoreceptor cells: cones and rods. \textbf{Cones} are responsible for color vision and \textbf{rods} are responsible for peripheral vision, contrast and edge perception, and nighttime vision. The differences and similarties of cones and rods are shown in \textbf{Fig. \ref{conesandrods}}.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{conesandrods.png} \label{conesandrods}
+\caption{The major components of and differences between a code and a rod.}
+\end{figure}
+\indent When light reaches the photoreceptor layer, it strikes either a cone or a rod to initiate the phototransduction signal transduction pathway, which relies on rhodopsin in rods and photopsin in cones, and cGMP as the secondary messenger. As a result, less glutamate neurotransmitter is released onto bipolar cells, which process this fact as a light signal. \\
+\indent The primary visual pathway is the \textbf{retina-geniculate-striate pathway}, which conducts retinal signals through the \textbf{lateral geniculate nuclei (LGN)} of the thalamus to the \textbf{primary visual cortex} located in the posterior occipital lobe. The outer portion of the retina, known as the \textbf{temporal hemiretina}, receives visual signals from the opposite visual field and sends them ipsilaterally (along the same side) to the primary visual cortex. The inner portion of the retina, known as the \textbf{nasal hemiretina}, receives visual signals from its like-sided visual field and sends them contralaterally to the opposite primary visual cortex via the \textbf{optic chiasm}. This is further shown in \textbf{Fig. \ref{rgs_pathway}}. The retina-ganiculate-striate pathway is further divided into two separate sub-pathways: the \textit{parvocellular pathway} and the \textbf{magnocellular pathway}. Parvocellular neurons specialize in the \textit{spatial resolution} of an object; they primarily receive input from cones and are sensitive to color, stationary objects, and fine pattern details. The magnocellular neurons specialize in the \textit{temporal resolution} of an object; they receive input from rods and are particularly sensitive to movement. \\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{rgs_pathway.png} \label{rgs_pathway}
+\caption{The retina-geniculate-striate pathway.}
+\end{figure}
+\indent \large\textbf{Audition:} \normalsize The ear is organized into three sections: the outer, middle, and inner ear. Sound waves enter the outer ear through the \textbf{pinna}, which is the visible, curved piece of cartilage that `catches' sound. From the pinna, sound waves becomes amplified in the \textbf{auditory canal}.\\
+\indent Now in the \textbf{middle ear}, incoming sound waves cause the eardrum to vibrate, which in turn vibrates three small bones known as \textbf{ossicles}. Connected to the \textbf{tympanic membrane} (another word for the eardrum), the \textbf{malleus} detects these vibrations and relays them to the \textbf{incus}, which in turn vibrates the \textbf{stapes}. The main function of the ossicles is to amplify sound vibrations. Prolonged exposure to loud sound triggers the \textbf{stapedius muscle}, the muscle connecting the eardrum and small bones, to contract and pull the tympanic membrane and ossicles in opposite directions. This causes the tympanic membrane to become more rigid and less sensitive to vibration, effectively dampening the noise and protecting the inner ear.\\
+\indent Vibrations from the stapes reach the \textbf{oval window}, a thin membrane connecting the middle ear to the \textbf{inner ear}, causing it to vibrate the fluid within the \textbf{cochlea}. Because fluids are fairly incompressible, pressure needs to be relieved as the oval window moves in and out. To accomplish this, a structure at the other end of the cochlea, called the \textbf{round window}, will move in the direction opposite to the oval window. The cochlea is a long, snail-shaped tube that contains an internal membrane called the \textbf{organ of Corti}. The organ of Corti partitions the cochlea into a longer, narrower tube and is composed of two membranes: the \textbf{basilar membrane} and the \textbf{tectorial membrane}. The specialized receptors of the auditory system, \textbf{hair cells}, are a type of mechanoreceptor mounted in the basilar membrane. They convert pressure differences into neural signals that are sent to the brain via the auditory nerve. \textbf{Fig. \ref{ear}} highlights the location of these structures.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{ear.png} \label{ear}
+\caption{The major anatomical structures of the ear.}
+\end{figure}
+\indent Auditory transduction occurs through the hair cells of the inner ear. Influx of potassium is induced mechanically, and is caused by a rapid influx of potassium ions from the surrounding \textbf{endolymph}, a unique fluid with an unusually high potassium concentration and unusually low sodium concentration. The influx leads ot depolarization of the hair cell.\\
+\indent The axons of each auditory nerve, one exiting from each cochlea, synapse ipsilaterally to collections of neurons in the hindbrain called the \textbf{cochlear nuclei}. From here, information may \textit{decussate} (cross from one side of the brain to the other) at the \textbf{trapezoid bodies} or travel ipsilaterally to synapse at the \textbf{superior olivary complex}. Axons from olivary neurons then travel through the \textbf{lateral lemniscus} and synapse to neurons in the \textbf{inferior culliculi} of the tectum. From here, information travels to the \textbf{medial geniculate nuclei} of the thalamus, which in turn relays this information to the primary auditory cortex for processing.\\
+\indent The \textbf{semicircular canals} attached to the cochlea and the \textbf{otolith organs} are the receptive organs of the \textbf{vestibular system}, the sensory system responsible for providing one's awareness of head rotation, gravitation, and movement. The three semicircular canals specialize in detecting head rotation. The otolith organs include two sac-like structures located between the semicircular canals and the cochlea, called the \textit{utricle} and \textit{saccule}, which specialize in detecting horizontal and vertical acceleration. \\
+\indent \large\textbf{Somatosensation:} \normalsize Each cutaneous (skin) receptor has the same general structure: a neuron with its cell body located in the \textit{dorsal root ganglion} of the spinal cord and dendrites that are sensitive to specific stimuli. The variation between cutaneous receptors comes from the differences between these dentrites. \textit{Meissner's corpuscles} and \textit{Pacinian corpuscles} are classified as \textit{fast-adapting receptors}, whereas \textit{Merkel's discs} and \textit{Ruffini endings} are classified as \textit{slow-adapting receptors}. Unlike these four encapsulated cutaneous receptors that are sensitive to pressure, stretch, and vibration, \textbf{free nerve endings} are simply exposed dendrites and are particularly sensitive to temperature and pain. Meissner's corpuscles and Merkel's discs are specialized to detect pressure within a small receptive field; Ruffini's endings are specialized to detect stretch within a large receptive field; Pacinian corpuscles are specialized to detect vibration within a large receptive field. The size of each receptor's receptive field is inversely correlated to its spatial resolution\textemdash for example, a Pacinian corpuscle is able to detect a vibrating stimulus over a relatively large area, but is able to provide only very basic information regarding its border and location. All these receptors generally rely on mechanosensitive ion channels; when activated mechanically, they allow ions to enter the cell and stimulate an action potential.\\
+\indent Temperature and pain are carried along two different nerve givers: A$\delta$ fibers and C fibers. \textbf{A$\mathbf{\delta}$ fibers} possess myelinated axons and conduct neural signals at a moderate rate. \textbf{C fibers} include unmyelinated axons and conduct neural signals relatively slowly. Consider the sensation of burning yourself by touching a hot stove by accident. Carried by A$\delta$ fibers, fast pain makes you recoil from the stovetop even before you feel burned. Then, slow pain carried by C fibers brings the duller yet persistent burning sensation some seconds afterwards.\\
+\indent Somatosensory information can be organized by location. Distinct areas of skin, called \textbf{dermatomes}, are innervated by individual peripheral nerve fibers that enter the spinal cord at different points. Input from different dermatomes remains segregated along the various pathways to the somatosensory cortex, and is known as \textbf{somatotopic organization}, allowing the brain to create a spatial map of the body represented in the somatosensory cortex. This `map' is commonly referred to as the \textbf{somatosensory homunculus}. \\
+\indent \large\textbf{Olfaction and Gustation:} \normalsize The olfactory receptors are embedded in the \textbf{olfactory mucosa}, a mucus-covered tissue located in the upper portion of the nasal cavity that allows odorants to dissolve and become more readily detected by olfactory receptor dendrites. The axons of olfactory receptors travel to the \textbf{olfactory bulbs} where they synaps with secondary neurons called \textbf{mitral cells} that carry information to the brain. From there, information travels ipsilaterally to the \textbf{primary olfactory cortex} of the medial temporal lobes for processing. The olfactory system is unique among all senses, because information about smell is not relayed through the thalamus before reaching the cortex, as is the case for the other major senses. After reaching the primary olfactory cortex, information travels to the structures of the \textbf{limbic system} (i.e. hypothalamus, amygdala, and hippocampus), for emotional responses and memory formation, and to the \textbf{orbitofrontal cortex}, located in the anterior portion of the frontal lobes, for conscious perception. \\
+\indent The axons of Olfactory transduction relies on GPCRs\textemdash the activated G-protein will produce cAMP, which in turn cause an influx of \ce{Na+} and \ce{Ca+} ions, leading to cell depolarization and the generation of an action potential. \\
+\indent Gustatory transduction is triggered by either a chemical's direct passage through an ion channel or a G-protein coupled receptor. For example, ion channels mediate slaty and sour tasts, whereas GPCRs mediate sweet, better, and umami tastes. 
+\begin{enumerate}
+	\item \textbf{Salt Receptors:} The influx of sodium ions such to \ce{Na+} ion channels depolarizes the cell, causing voltage-gated calcium channels to open and the generation of an action potential. 
+	\item \textbf{Sour Receptors:} We have \ce{H+} ion channels, proton-gated ion channels that either close when bound to \ce{H+} to prevent \ce{K+} ions from leaving the cell or open when bound to \ce{H+} to allow \ce{Na+} ions to enter the cell. This increases the influx of \ce{H+} and \ce{Na+} and decreases the efflux of \ce{K+} to generate an action potential.
+	\item \textbf{Sweet Receptors:} Natural sugars and related chemicals bind to GPCRs that cause these receptors to release the \textbf{gustducin} G-protein, which in turn reduces the efflux of potassium ions and hence the generation of an action potential.
+	\item \textbf{Bitter Receptors:} These also have the exact same receptors and mechanism of sweet receptors, but have the additional step of using gustducin to stimulate the endoplasmic reticulum to release the \ce{Ca+} ions stored in the lumen, further helping the generation of an action potential.
+	\item \textbf{Umami Receptors:} These respond primarily to \textit{glutamate}, amongst other amino acids, via the same GPCR cascade described for bitter receptors.
+\end{enumerate}
+\noindent Neural information from each receptor is transmitted ipsilaterally via the \textbf{facial nerve} and \textbf{glossopharyngeal nerve} to the \textbf{solitary nucleus} of the medulla. From here, secondary neurons terminate in the \textbf{ventral posteromedial nucleus (VPM)} of the thalamus, where they synapse with tertiary neurons that transmit information ipsilaterally to the \textbf{primary gustatory cortex}, located near the postcentral gyrus in the parietal lobe.
 
 \subsection{Learning and Memory}
 \hilight{TODO} %TODO
@@ -2032,6 +2180,16 @@ Pancreas & Insulin & Decreases blood glucose levels\\
 \hilight{TODO} %TODO
 
 \subsection{Psychological Disorders}
+\hilight{TODO} %TODO
+
+\section{Critical Analysis and Reasoning Skills}
+\subsection{MCAT Critical Analysis and Reasoning Skills}
+\hilight{TODO} %TODO
+
+\subsection{Question Types}
+\hilight{TODO} %TODO
+
+\subsection{Passage Analysis}
 \hilight{TODO} %TODO
 
 \end{document}
