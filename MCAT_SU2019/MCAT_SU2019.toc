@@ -70,39 +70,39 @@
 \contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{63}{subsection.4.13}
 \contentsline {subsection}{\numberline {4.14}Light and Radiation}{64}{subsection.4.14}
 \contentsline {subsection}{\numberline {4.15}Geometrical Optics}{66}{subsection.4.15}
-\contentsline {section}{\numberline {5}Biochemistry and Molecular Cell Biology}{66}{section.5}
-\contentsline {subsection}{\numberline {5.1}Amino Acids and Proteins}{66}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Carbohydrates \& Lipids}{67}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}D- and L- Isomers}{67}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{67}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Lipids}{69}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{69}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Meiosis}{70}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{70}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{71}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Endoplasmic Reticulum, Golgi Apparatus, \& Lysosomes}{71}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{72}{subsection.5.11}
-\contentsline {subsection}{\numberline {5.12}Cytoskeleton}{72}{subsection.5.12}
-\contentsline {subsection}{\numberline {5.13}Prokaryotic Cells}{72}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Viruses}{72}{subsection.5.14}
-\contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{73}{subsection.5.15}
-\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzyme Mechanisms}{73}{subsection.5.16}
-\contentsline {subsection}{\numberline {5.17}Metabolic Molecules}{73}{subsection.5.17}
-\contentsline {subsection}{\numberline {5.18}Metabolic Pathways}{74}{subsection.5.18}
-\contentsline {subsection}{\numberline {5.19}Genetic Information\textemdash Classical Genetics}{74}{subsection.5.19}
-\contentsline {subsection}{\numberline {5.20}Genetic Loci \& Alleles}{74}{subsection.5.20}
-\contentsline {subsection}{\numberline {5.21}Pedigrees \& DNA}{74}{subsection.5.21}
-\contentsline {subsection}{\numberline {5.22}DNA Synthesis}{74}{subsection.5.22}
-\contentsline {subsection}{\numberline {5.23}Expression of Genetic Information}{75}{subsection.5.23}
-\contentsline {section}{\numberline {6}Psychology}{75}{section.6}
-\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{75}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}The Human Senses}{80}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Learning and Memory}{87}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{87}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{87}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{87}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{87}{subsection.6.7}
-\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{87}{section.7}
-\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{87}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Question Types}{87}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Passage Analysis}{87}{subsection.7.3}
+\contentsline {section}{\numberline {5}Biochemistry and Molecular Cell Biology}{71}{section.5}
+\contentsline {subsection}{\numberline {5.1}Amino Acids and Proteins}{71}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Carbohydrates \& Lipids}{72}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}D- and L- Isomers}{72}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{73}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Lipids}{73}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{74}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Meiosis}{74}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{75}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{75}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Endoplasmic Reticulum, Golgi Apparatus, \& Lysosomes}{76}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{76}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}Cytoskeleton}{77}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}Prokaryotic Cells}{77}{subsection.5.13}
+\contentsline {subsection}{\numberline {5.14}Viruses}{77}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{77}{subsection.5.15}
+\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzyme Mechanisms}{78}{subsection.5.16}
+\contentsline {subsection}{\numberline {5.17}Metabolic Molecules}{78}{subsection.5.17}
+\contentsline {subsection}{\numberline {5.18}Metabolic Pathways}{78}{subsection.5.18}
+\contentsline {subsection}{\numberline {5.19}Genetic Information\textemdash Classical Genetics}{78}{subsection.5.19}
+\contentsline {subsection}{\numberline {5.20}Genetic Loci \& Alleles}{79}{subsection.5.20}
+\contentsline {subsection}{\numberline {5.21}Pedigrees \& DNA}{79}{subsection.5.21}
+\contentsline {subsection}{\numberline {5.22}DNA Synthesis}{79}{subsection.5.22}
+\contentsline {subsection}{\numberline {5.23}Expression of Genetic Information}{80}{subsection.5.23}
+\contentsline {section}{\numberline {6}Psychology}{80}{section.6}
+\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{80}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}The Human Senses}{86}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Learning and Memory}{92}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{92}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{92}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{92}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{92}{subsection.6.7}
+\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{92}{section.7}
+\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{92}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Question Types}{92}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Passage Analysis}{92}{subsection.7.3}

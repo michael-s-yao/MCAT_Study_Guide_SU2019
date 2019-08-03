@@ -469,7 +469,7 @@ Blood contains \textbf{erythrocytes} (red blood cells), \textbf{leukocytes} (whi
 Most immunoglobulins (antibodies) are composed of 4 subunits arranged in a `Y' configuration. There are 2 light chains and 2 heavy chains. These subunits are joined to one another by disulfide bonds. Within each heavy and light chain are \textbf{variable domains} and \textbf{constant domains}. \\
 \indent At the terminal ends of the heavy and light chains are variable (V) regions that can differ in amino acid sequence from immunoglobulin to immunoglobulin. The constant (C) regions of the heavy and light chains are found in the lower portions of the immunoglobulin. The \textbf{antigen binding site} for a particular antibody is located at the end of the variable regions of the heavy and light chains.\\
 \indent Two other regions of the immunoglobulin are important: the diversity (D) and the joining (J) region. We show a picture of the general antibody structure in \textbf{Figure \ref{antibody_structure}}.
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.7\textwidth]{antibody_structure.png} \label{antibody_structure}
 \caption{Generalized antibody structure.}
@@ -491,7 +491,7 @@ Most immunoglobulins (antibodies) are composed of 4 subunits arranged in a `Y' c
 
 \subsection{T Cells}
 The receptors for T cells are composed of two polypeptide chains, each with a constant and variable domain. Within a variable domain in each polypeptide we find a variable (V) region and a joining (J) region. On one of the polypeptide chains is a diversity (D) region. 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.55\textwidth]{t_cell_receptor.png} 
 \caption{Example of T-cell Receptor Structure}
@@ -1237,7 +1237,7 @@ Cycloalkanes are basically cyclic alkanes that have one ring with the chemical f
 The strength of a leaving group can be predicted by the \ce{pK_a} os its conjugate acid. The more stable the leaving group, the less basic the leaving group, and thus the more acidic the conjugate acid of the leaving group. In other words, the strength of a leaving group increases as the \ce{pK_a} of its conjugate acid decreases.\\
 \indent A \textit{racemic mixture} is a product mixture that has an even distribution of enantiomers. It is the observed product when the mechanism involves an intermediate where the reactive site is an $sp^2$-hybridized carbon and the molecule is symmetric (i.e. has no other chiral centers). \\
 \indent \ce{S_N 2} reactions involve the nucleophile attacking prior to the leaving group leaving in a \textit{backside} attack, essentially pushing the leaving group off of the electrophile. It has a trigonal bipyramidal transition state.
-\begin{table}[h!]
+\begin{table}[!ht]
 \begin{tabular}{p{6.25cm} p{6.5cm} p{5cm}}
 \hline
 \textbf{Reactant Features} & \textbf{Course of Reaction Features} & \textbf{Product Features} \\
@@ -1250,7 +1250,7 @@ An \ce{S_N 2} mechanism is favored in polar, aprotic solvents such as ethers and
 \end{tabular}
 \end{table}
 \indent \ce{S_N 1} reactions involve the leaving group leaving before the nucleophile attacks. The carbocation intermediate has a long enough lifetime to be detected using spectroscopy. Both rearrangement (e.g. hydride shifts and alkyl shifts) and a mixture of stereoisomers (formed from either front-side or back-side attack of the $sp^2$-intermediate) are observed with \ce{S_N 1} reactions. Formation of the carbocation is the rate-limiting step. \\
-\begin{table}[h!]
+\begin{table}[!ht]
 \begin{tabular}{p{6.25cm} p{6.5cm} p{5cm}}
 \hline
 \textbf{Reactant Features} & \textbf{Course of Reaction Features} & \textbf{Product Features} \\
@@ -1354,7 +1354,7 @@ In general on the MCAT, although especially for the physics section, it's about 
 \textcolor{blue}{9.\quad Which of the following graphs (see Figure \ref{Physics_1_2_9}) best represents the force due to static friction as incline angle increases for a redwood block atop a smooth rubber surface?}
 \end{minipage}
 \end{center}
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.4\textwidth]{Physics_1_2_9.png} \label{Physics_1_2_9}
 \caption{Answer choices for Question 9 (Taken from Physics Part I, Passage II, Question 9 in TBR)}
@@ -1472,7 +1472,7 @@ B=\rho_{\text{fluid}}\cdot V_{\text{fluid displaced}}\cdot g
 \end{split}
 \end{equation}
 \indent The following figure shows a summary of the mathematics associated with a floating object and a sunken object in a tank of fluid:
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.8\textwidth]{IMG_3047} \label{3047}
 \caption{Mathematics of Objects placed in Tanks of Fluid}
@@ -1771,7 +1771,158 @@ y=\frac{\lambda L}{d}
 \indent \textbf{Diffraction} is the distortion/bending of light waves when they pass through an opening or around an object. It is more significant when the wavelength is larger than or comparable to the opening the wave crosses. Diffraction is less significant or negligible when the wavelength is much smaller than the opening. This applies to all waves. 
 
 \subsection{Geometrical Optics}
-\hilight{TODO} %TODO
+The \textbf{law of reflection} says that the angle an incident light ray makes with a surface is equal to the angle that the reflected light ray makes with the surface. The index of refraction $n$ is the ratio of the speed $c$ of an EM wave in vacuum to the speed of that wave in a given medium. Mathematically, it is
+\begin{equation}
+\begin{split}
+n=\frac{c}{v}=\frac{v_{\text{vacuum}}}{v_\text{medium}}
+\end{split}
+\end{equation}
+\noindent Notice that $n\geq1$ always. The frequency of light doesn't change as it passes through different mediums, so that means that the wavelength of the light must change to account for changes in the speed of the wave. Now, consider the setup shown in \textbf{Fig. \ref{snell}}. Suppose that the indexes of refraction of two media are $n_1$ and $n_2$, respectively. The incident light ray has an angle $\theta_1$ with respect to the normal as it strikes the water and an angle $\theta_2$ as it passes into the water. The relationship between the index of refraction of each medium and the angle of refraction is governed by \textbf{Snell's Law}, which is
+\begin{equation}
+\begin{split}
+n_1\sin\theta_1=n_2\sin\theta_2
+\end{split}
+\end{equation}
+\noindent Notice that if $n_2>n_1$, the light ray will bend towards the normal, while if $n_2<n_1$, the light ray will bend away from the normal.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{snell.png} \label{snell}
+\caption{A demonstration setup for Snell's Law.}
+\end{figure}
+\indent A light ray bends away from the normal as it moves from a medium of higher refractive index to a medium of lower refractive index. If this refracted light ray were to keep bending away from the normal as the incident angle increases, it would eventually reach a refracted angle that is $90^{\circ}$ away from the normal (meaning it is parallel to the surface of the medium). This incident angle is called the \textbf{critical angle $\theta_c$}. At angles greater than $\theta_c$, it would be totally \textit{reflected} (not refracted) off of the surface of the water. This is called \textbf{total internal reflection}, which occurs since the sine of a refracted angle can never be greater than 1.00, so we can't satisfy Snell's law, meaning refraction can't occur. This is shown graphically in \textbf{Fig. \ref{internal_reflection}}. Here is an example problem involving total internal reflection:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{A light ray traveling within an optically denser material is incident on an interface between two media. For which two indexes of refraction will its critical angle for total internal reflection be the SMALLEST?
+\begin{enumerate}
+	\item When the indexes of refraction are 1.00 and 1.33.
+	\item When the indexes of refraction are 1.00 and 1.01.
+	\item When the indexes of refraction are 1.00 and 1.52.
+	\item When the indexes of refraction are 1.46 and 1.88.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent Total internal reflection occurs only when light starts out in an optically denser medium (i.e. higher $n$ index of refraction) and then hits an interface with an optically less dense medium. The critical angle comes from Snell's law. To get the critical angle, set the angle in the less dense (i.e. optically less dense) material to $90^{\circ}$. Solving this equation yields 
+\begin{equation}
+\begin{split}
+\sin\theta_{\text{critical}}=\frac{n_{\text{less dense}}}{n_{\text{more dense}}}
+\end{split}
+\end{equation}
+\noindent The choice with the smallest ratio of indexes has the smallest critical angle. 1.00:1.52 is smaller than 1.00:1.01, 1.00:1.33, and 1.42:1.68, so thus, the best answer is choice \textbf{C}. \\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{internal_reflection.png} \label{internal_reflection}
+\caption{The critical angle and total internal reflection.}
+\end{figure}
+\indent Electromagnetic waves of different wavelengths travel at different speeds through material substances (i.e. anything other than a vacuum). As we have seen, the index of refraction for a given material depends on the wavelength of light passing through it. In other words, the amount that light bends at an interface between two materials varies with the wavelength. This gives rise to an effect known as \textbf{dispersion}. Note that red light (with large wavelength and hence fast speed through the medium) is deflected the least from its original direction of travel, while violet light (with small wavelength and hence slow speed through the medium) is deflected the most.\\
+\indent We now move on to \textbf{optics} which is basically just applied geometry. Because we are dealing with positions of objects and images, we will establish what in essence is a number line where the positive side represents the region of space where a real image can form and the negative side represents the region of space where a virtual image can form. A \textbf{real image} is one that can be projected onto a screen, while a virtual image cannot be cast onto a surface. We also have convention rules shown in the following table.
+\begin{table}[!ht]
+\begin{tabular}{| l l | l l |}
+\hline
+\multicolumn{2}{l}{\textbf{Magnification}} & \multicolumn{2}{l}{\textbf{Real/Virtual}} \\
+Convention               & Image           & \textbf{Convention}    & \textbf{Image}   \\\hline
+$M<0$            & Inverted        &                        &                  \\
+$M>0$        & Upright         & $i>0$       & Real             \\
+$|M|>1$ & Enlarged        & $i<0$          & Virtual          \\
+$|M|=1$                    & Same Size       &                        &                  \\
+$|M|<1$          & Reduced         &                        &               \\\hline  
+\end{tabular}
+\end{table}
+\indent We can relate the focal length os a lens or a spherical mirror with the distance separating the object and image from the lens/mirror by the \textbf{Lens Maker's Equation}:
+\begin{equation}
+\begin{split}
+\frac{1}{f}=\frac{1}{s}+\frac{1}{s'}
+\end{split}
+\end{equation}
+\noindent where $f$ is the \textbf{focal length} we're trying to solve for ($f>0$ for converging lens/mirror and $f<0$ for diverging lens/mirror), $s$ is the \textbf{object distance} ($s>0$ if object is to the left of the lens and $s<0$ if object is to the right of the lens), and $s'$ is the \textbf{image distance} ($i>0$ if the image is real, $i<0$ if the image is virtual). Using this, we can look at different types of mirrors. For plane mirrors (the flat ones in bathrooms), the image is always upright, virtual, and the same size. For convex (diverging) mirrors with $f<0$, the image is always upright, virtual and smaller. For concave (converging) mirrors, the image can vary depending on the object and focal length. Regarding the focal length associated with a spherical mirror, its size relates to the radius of curvature of the mirror by
+\begin{equation}
+\begin{split}
+f=\frac{R}{2}
+\end{split}
+\end{equation}
+\noindent where $R$ is the radius of the sphere that would be formed if the mirror were a complete sphere. We mentioned above that the image produced by a concave mirror is highly dependent on the object and focal length. We need to consider different cases of what can happen:
+\begin{enumerate}
+	\item \textbf{Object is beyond the $R$ of a converging mirror.} This means that the object distance is greater than $2f$. By the lens maker's equation, in order to satisfy it, the object distance is larger than $R$, so the image distance must be less than $R$ in order for their reciprocals to add to $1/f$. 
+	\item \textbf{Object at the $R$ of a converging mirror.} This means that the object distance is equal to $2f$. This gives a real, inverted, and same size image.
+	\item \textbf{Object is inside the $R$, but beyond the $f$ of a converging mirror.} This means that the object distance is between $f$ and $2f$. This gives a real, inverted and larger image.
+	\item \textbf{Object is at $f$ of a converging mirror.} No image will form. 
+	\item \textbf{Object is inside of the $f$ of a converging mirror.} A virtual, upright, and larger image will form. 
+\end{enumerate}
+\noindent Diagrams of each of these scenarios are shown in \textbf{Fig. \ref{converging_scenarios}}.\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\textwidth]{converging_scenarios.png} \label{converging_scenarios}
+\caption{The scenarios and associated images of concave (converging) mirrors.}
+\end{figure}
+\indent Here are a couple of practice problems regarding this:
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is true of the image formed by a converging mirror with a focal length of 25 cm by an object that is 40 cm from the mirror?
+\begin{enumerate}
+	\item It is an inverted, real image that forms 66.7 cm from the mirror.
+	\item It is an inverted, real image that forms 33.3 cm from the mirror.
+	\item It is an upright, virtual image that forms 33.3 cm from the mirror.
+	\item It is an upright, virtual image that forms 66.7 cm from the mirror.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent The object is between $f$ and $R=2f$, so we should get a real image since further away from the mirror than the focal length, and also it should be larger. Thus, the answer is \textbf{A}.
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is true of the image formed by a convex mirror with a focal length of 20 cm by an object that is 30 cm from the mirror?
+\begin{enumerate}
+	\item It is an inverted, real image that forms 60 cm from the mirror.
+	\item It is an inverted, real image that forms 12 cm from the mirror.
+	\item It is an upright, virtual image that forms 12 cm from the mirror.
+	\item It is an upright, virtual image that forms 60 cm from the mirror.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent All convex mirrors produce virtual images, and for diverging mirrors, the image is always upright, forming inside of $f$. If $f=20$ cm is given, then the image distance must be less than 20 cm. Thus, the answer is \textbf{C}. \\
+\indent Light rays coming from an object can be altered if they pass through a \textbf{lens}. A lens is an optical device with two curved, non-parallel refracting surfaces. There are two types of lenses to consider: converging and diverging. A \textbf{converging lens} (convex lens) with smooth surfaces allows parallel light rays to bend toward an axis that passes through the center of the lens and to converge at a single point called the \textbf{focal point} $f$. $f>0$ for all converging lenses. Because light can enter the llens from both its right and left sides, the lens has two focal points. A \textbf{diverging lens} (concave lens) allows parallel light rays to move apart as they pass through the lens. The focal length of a lens is a \textbf{negative} value. This is because the diverging light rays appear to leave a single focal point from the side of the lens that light enters. Like converging lenses, diverging lenses will also have two focal points. In terms of real vs. virtual images, magnification, and image distance, the rules for single lenses are the same as they are for single mirrors, except that the real and virtual sides are flipped and convex and concave are reversed. As was the case with mirrors, diverging systems generate smaller, upright, virtual images, while converging systems, be it lenses or mirrors, also share similar rules. \\
+\indent \textbf{Linear magnification} $m$ is the ratio of the height of the image $h'$ relative to the height of the object $h$. These measurements are positive when upright and negative when inverted. Mathematically, we have
+\begin{equation}
+\begin{split}
+m=\frac{h'}{h}=\frac{s'}{s}
+\end{split}
+\end{equation}
+\noindent where we can also describe $m$ using the ratio of image and object distances ($s'$ and $s$, respectively) from the lens, wince the height-to-length ratio ($h$:$s$) is the same for both the object and the image. The point of the MCAT is to be able to answer questions quickly. As such, here is a plan of attack for questions dealing with either a single lens or single mirror:
+\begin{enumerate}
+	\item Identify whether the system s diverging or converging. Keep in mind that convex lenses and concave mirrors are converging systems, so you must do some work to determine whether the optic device is converging or diverging.
+	\item If the optic device is diverging, then the image will be smaller than the object, upright, virtual, and found between the focal length on the virtual side and the optic device. If the optic device is converging, then we need to do a positional analysis to see which case it fits. 
+	\item Sketch a diagram of the object, optical device, and image. Double check using the lens maker's equation.
+\end{enumerate}
+\noindent Two ideas to remember for a single lens or a single mirror are: \textbf{U}pright images are always \textbf{V}irtual, and \textbf{I}nverted images are always \textbf{R}eal. Just remember \hilight{\textbf{UV-IR}}. The relationship works for any single lens or single mirror (whether it be convex, concave, or flat). Here are a couple of example problems: 
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{Where is an image formed when an object is 20 cm to the left of a concave lens that has a focal length of 15 cm?
+\begin{enumerate}
+	\item It is an upright, virtual image that is found 60 cm to the left of the lens.
+	\item It is an upright, virtual image that is found 8.7 cm to the left of the lens.
+	\item It is an inverted, real image that is found 8.7 cm to the right of the lens.
+	\item It is an inverted, real image that is found 60 cm to the right of the lens.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent Let's use the three-step method. A concave lens is a diverging system, so the image will be upright, virtual, smaller than the object, and found between the focal length on the virtual side and the optic device. Thus, the best answer is choice \textbf{B}.
+\begin{center}
+\begin{minipage}{30em}
+\textcolor{blue}{What is true of the image formed by an object 50 cm from a convex lens that has a radius of curvature equal to 60 cm?
+\begin{enumerate}
+	\item It is an inverted, real image that is found 75 cm from the lens.
+	\item It is an inverted, real image that is found 30 cm from the lens.
+	\item It is an upright, virtual image that is found 30 cm from the lens.
+	\item It is an upright, virtual image that is found 75 cm from the lens.
+\end{enumerate}}
+\end{minipage}
+\end{center}
+\noindent Let's use the three steps. A convex lens is a converging system, so we need to determined which scenario it fits. The object is between $R$ and $f$, so an inverted, real image will form beyond $R$. The image distance must be greater than 60 cm. So, the best answer is choice \textbf{A}. \\
+\indent Things get a bit more complicated when there are multiple lenses within an optical system. The basic rule to multiple lens systems is that the image of the first optical device is the object of the second optical device and so one for any additional lenses. \\
+\indent Real lenses can produce \textbf{aberrations}, owing to their shape and composition, so they do no always cast perfect images of an object. When lenses are not shaped properly, many types of aberrations can arise. There are three common types of aberrations:
+\begin{enumerate}
+	\item \textbf{Spherical aberrations} develop when a misshapen lens still has cylindrical symmetry with respect to the optical axis, but has not been properly rounded; the image is clear when viewed through the center of the lens, but it becomes distorted as one moves the image off of the optical axis.
+	\item \textbf{Astigmatic aberrations} appear in a lens whose shape is neither properly round nor cylindrically symmetric. In this case, the image becomes blurred and distorted, regardless of the object's orientation. The two aforementioned aberrations can happen with any type of light passing through the lens, even monochromatic light.
+	\item \textbf{Chromatic aberrations} occur because of the differences in wavelengths for different colors of light. Recall that in a prism, light refracts differently depending on its wavelength. Since the focal point depends upon refraction through the lens, light of different colors refracts to different focal points. This is true for most lenses.
+\end{enumerate}
 
 \section{Biochemistry and Molecular Cell Biology}
 \subsection{Amino Acids and Proteins}
@@ -1802,7 +1953,7 @@ All of the standard 20 amino acids are referred to as \textit{$\alpha$-amino aci
 	\item Glycine has just one hydrogen atom as its side chain. Because of this, the central carbon is now achiral (the only amino acid to be non-optically active. Additionally, because of the small R group, glycine is very flexible, so there's a lot of free rotation around the $\alpha$ carbon. Glycine also disrupts $\alpha$ helices because of its enhanced flexibility, thus also introducing kinks into $\alpha$ helices, and is thus also an \textit{$\alpha$ helix breaker}. 
 	\item Cysteine has a special thiol \ce{-SH} group as its R group, meaning that when two cysteine residues are in close proximity, then their side chains can form an \ce{S-S} bond called a \textit{disulfide bridge}. Disulfide bridges exist in oxidizing environments, because the normal thiol groups exists in the reduced form in a reducing environment. For example, the extracellular space is an oxidizing environment, so this will favor the formation of disulfide bridges. However, in the cytosol (which is a reducing environment), disulfide bridges will likely not form. 
 \end{enumerate}
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.8\textwidth]{Amino_Acids.png} \label{Amino_Acids}
 \caption{20 Canonical Amino Acids, all with L configuration}
@@ -1816,7 +1967,7 @@ In Fischer projections, we care about the chiral carbon that is most distant fro
 
 \subsection{Monosaccharides, Oligosaccharides, and Polysaccharides}
 Sugars with five or more carbon atoms in their backbone prefer to be in the cyclic form. The C-1 carbon is the carbonyl carbon, also called the \textbf{anomeric carbon}. Two diastereomers of cyclic monosaccharides are $\alpha$ and $\beta$. In the $\alpha$-anomer, the \ce{-OH} group at the anomeric carbon is on the \textit{opposite} side of the ring from the \ce{-CH_2OH} group that is attached to the reference carbon. In the $\beta$-anomer, the \ce{-OH} group at the anomeric carbon is on the \textit{same} side of the ring as the \ce{-CH_2OH} group that is attached to the reference carbon. An example of anomers is shown in Fig. \ref{anomers}. Notice that, depending on the starting sugar, formation of the cyclic ring creates either a \textit{hemiacetal} group or a \textit{hemiketal} group. 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.8\textwidth]{anomers.png} \label{anomers}
 \caption{Formation of the two anomers of D-Glucopyranose}
@@ -1840,7 +1991,7 @@ Fatty acids are carboxylic acids with a hydrocarbon side chain. They can be eith
 \subsection{Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}
 \textbf{Chromatin} is a complex of dsDNA and histones (which are a type of protein). Histones are basic proteins consisting of a high percentage of Lys and Arg residues that bear of a positive charge. This allows them to easily establish a favorable electrostatic relationship with the negatively charged DNA polymers. There are also nonhistone proteins (i.e. RNA polymerase) that are acidic and bear a net negative charge. Chromatin condenses into \textbf{chromosomes} as the cell prepares for division. At metaphase, each chromosome consists of two \textbf{sister chromatids}, each held together through a constricted region called the \textbf{centromere}. \\
 \indent There are five types of histones: H1, H2A, H2B, H3, and H4. A nucleosome is an association of these histones with a specific length of DNA. H2A, H2B, H3, and H4 are the \textbf{core} histones. The H1 histone is thought to play an important role in pulling the individual nucleosomes together to help with DNA condensation. 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.65\textwidth]{chromosome_types.png} \label{chromosome_types}
 \caption{General classification of eukaryotic chromosomes based on the position of the centromere.}
@@ -1875,7 +2026,7 @@ The ER is the largest membrane system in a eukaryotic cell. The \textbf{Smooth E
 \indent The \textbf{Rough Endoplasmic Reticulum (RER)} is flat and sheet-like, and ribosomes on the cytoplasmic fact of the RER are bound to the membrane by their large (60S) subunit. Post-translational modification of proteins occur in the ER lumen, where certain amino acids are modified by hydroxylation and glycosylation events. \\
 \indent For the Golgi Apparatus, the \textbf{cis} cisterna face the nucleus/ER, while the \textbf{trans} cisterna face the plasma membrane. The \textbf{medial} cisterna are located between the cis and trans cisternae. After a protein enters the cis cisterna and before it leaves the trans cisterna, it can be modified in a variety of different ways, including glycosylation, sulfation, and proteolysis.\\
 \indent Lysosomes contain special enzymes that function at acidic pH values, and are referred to as \textbf{acid hydrolases}, which catalyze the general reaction \ce{A-B + H_2O -> A-H + B-OH}. There are some common acid hydrolases that you should know:
-\begin{table}[h!]
+\begin{table}[!ht]
 \begin{tabular}{llll}
 \hline
 \textbf{Enzyme} & \textbf{Substrate} & \textbf{Bond Hydrolyzed} & \textbf{Example} \\
