@@ -96,13 +96,13 @@
 \contentsline {subsection}{\numberline {5.23}Expression of Genetic Information}{80}{subsection.5.23}
 \contentsline {section}{\numberline {6}Psychology}{80}{section.6}
 \contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{80}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}The Human Senses}{86}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}The Human Senses}{85}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Learning and Memory}{92}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{96}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{96}{subsection.6.5}
 \contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{96}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{96}{subsection.6.7}
-\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{96}{section.7}
-\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{96}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Question Types}{96}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Passage Analysis}{96}{subsection.7.3}
+\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{100}{subsection.6.7}
+\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{102}{section.7}
+\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{102}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Question Types}{102}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Passage Analysis}{102}{subsection.7.3}
