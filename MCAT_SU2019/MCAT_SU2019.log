@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2019 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2019 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1210,112 +1210,112 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `MCAT_SU2019.toc'.
 
  [3]
-<epithelial.png, id=677, 1923.185pt x 1384.17125pt>
+<epithelial.png, id=689, 1923.185pt x 1384.17125pt>
 File: epithelial.png Graphic file (type png)
  <use epithelial.png>
 Package pdftex.def Info: epithelial.png used on input line 114.
 (pdftex.def)             Requested size: 379.41585pt x 273.06985pt.
 
-<action_potential.png, id=680, 2221.29875pt x 1021.8175pt>
+<action_potential.png, id=692, 2221.29875pt x 1021.8175pt>
 File: action_potential.png Graphic file (type png)
 
 <use action_potential.png>
 Package pdftex.def Info: action_potential.png used on input line 131.
 (pdftex.def)             Requested size: 379.41585pt x 174.53304pt.
  [4] [5 <./epithelial.png> <./action_potential.png>]
-<neuromuscular.png, id=705, 3348.51pt x 2061.7025pt>
+<neuromuscular.png, id=717, 3348.51pt x 2061.7025pt>
 File: neuromuscular.png Graphic file (type png)
  <use neuromuscular.png>
 Package pdftex.def Info: neuromuscular.png used on input line 141.
 (pdftex.def)             Requested size: 379.41585pt x 233.58311pt.
 
-<sarcomere.png, id=707, 3271.22125pt x 1188.44pt>
+<sarcomere.png, id=719, 3271.22125pt x 1188.44pt>
 File: sarcomere.png Graphic file (type png)
  <use sarcomere.png>
 Package pdftex.def Info: sarcomere.png used on input line 152.
 (pdftex.def)             Requested size: 379.41585pt x 137.83737pt.
 
-<contraction_cycle.png, id=709, 3124.67375pt x 1832.8475pt>
+<contraction_cycle.png, id=721, 3124.67375pt x 1832.8475pt>
 File: contraction_cycle.png Graphic file (type png)
 
 <use contraction_cycle.png>
 Package pdftex.def Info: contraction_cycle.png used on input line 158.
 (pdftex.def)             Requested size: 379.41585pt x 222.53314pt.
- <troponin.png, id=711, 2806.485pt x 2308.625pt>
+ <troponin.png, id=723, 2806.485pt x 2308.625pt>
 File: troponin.png Graphic file (type png)
 
 <use troponin.png>
 Package pdftex.def Info: troponin.png used on input line 164.
 (pdftex.def)             Requested size: 379.41585pt x 312.10887pt.
 
-<sarcoplasmic_reticulum.png, id=712, 2711.12875pt x 1712.3975pt>
+<sarcoplasmic_reticulum.png, id=724, 2711.12875pt x 1712.3975pt>
 File: sarcoplasmic_reticulum.png Graphic file (type png)
 
 <use sarcoplasmic_reticulum.png>
 Package pdftex.def Info: sarcoplasmic_reticulum.png used on input line 171.
 (pdftex.def)             Requested size: 379.41585pt x 239.6295pt.
  [6 <./neuromuscular.png>]
-<brain.png, id=721, 3625.545pt x 1743.51375pt>
+<brain.png, id=733, 3625.545pt x 1743.51375pt>
 File: brain.png Graphic file (type png)
  <use brain.png>
 Package pdftex.def Info: brain.png used on input line 180.
 (pdftex.def)             Requested size: 379.41585pt x 182.44916pt.
  [7 <./sarcomere.png>] [8 <./contraction_cycle.png> <./troponin.png>] [9 <./sar
 coplasmic_reticulum.png> <./brain.png>]
-<parasympathetic.png, id=748, 2771.35374pt x 2451.1575pt>
+<parasympathetic.png, id=760, 2771.35374pt x 2451.1575pt>
 File: parasympathetic.png Graphic file (type png)
 
 <use parasympathetic.png>
 Package pdftex.def Info: parasympathetic.png used on input line 193.
 (pdftex.def)             Requested size: 379.41585pt x 335.56718pt.
- <CNSPNS.png, id=750, 2711.12875pt x 1540.75626pt>
+ <CNSPNS.png, id=762, 2711.12875pt x 1540.75626pt>
 File: CNSPNS.png Graphic file (type png)
 
 <use CNSPNS.png>
 Package pdftex.def Info: CNSPNS.png used on input line 215.
 (pdftex.def)             Requested size: 379.41585pt x 215.61037pt.
- [10] <heart.png, id=764, 3535.2075pt x 2574.61874pt>
+ [10] <heart.png, id=776, 3535.2075pt x 2574.61874pt>
 File: heart.png Graphic file (type png)
 
 <use heart.png>
 Package pdftex.def Info: heart.png used on input line 227.
 (pdftex.def)             Requested size: 379.41585pt x 276.2947pt.
  [11 <./parasympathetic.png>] [12 <./CNSPNS.png> <./heart.png>]
-<blood_clotting.png, id=781, 3381.63374pt x 1697.34125pt>
+<blood_clotting.png, id=793, 3381.63374pt x 1697.34125pt>
 File: blood_clotting.png Graphic file (type png)
 
 <use blood_clotting.png>
 Package pdftex.def Info: blood_clotting.png used on input line 265.
 (pdftex.def)             Requested size: 379.41585pt x 190.4376pt.
  [13] [14 <./blood_clotting.png>]
-<transport_systems.png, id=799, 2788.4175pt x 1232.605pt>
+<transport_systems.png, id=811, 2788.4175pt x 1232.605pt>
 File: transport_systems.png Graphic file (type png)
 
 <use transport_systems.png>
 Package pdftex.def Info: transport_systems.png used on input line 305.
 (pdftex.def)             Requested size: 379.41585pt x 167.71104pt.
  [15] [16]
-<nephron.png, id=813, 2668.97125pt x 3024.29875pt>
+<nephron.png, id=825, 2668.97125pt x 3024.29875pt>
 File: nephron.png Graphic file (type png)
  <use nephron.png>
 Package pdftex.def Info: nephron.png used on input line 324.
 (pdftex.def)             Requested size: 379.41585pt x 429.90567pt.
  [17 <./transport_systems.png>] [18 <./nephron.png>]
-<male_reproductive_anatomy.png, id=830, 3324.42pt x 2035.605pt>
+<male_reproductive_anatomy.png, id=842, 3324.42pt x 2035.605pt>
 File: male_reproductive_anatomy.png Graphic file (type png)
 
 <use male_reproductive_anatomy.png>
 Package pdftex.def Info: male_reproductive_anatomy.png used on input line 347.
 (pdftex.def)             Requested size: 379.41585pt x 232.30365pt.
 
-<testes_hormones.png, id=832, 2338.7375pt x 2641.87pt>
+<testes_hormones.png, id=844, 2338.7375pt x 2641.87pt>
 File: testes_hormones.png Graphic file (type png)
 
 <use testes_hormones.png>
 Package pdftex.def Info: testes_hormones.png used on input line 359.
 (pdftex.def)             Requested size: 271.0125pt x 306.12657pt.
  [19]
-<female_reproductive_anatomy.png, id=840, 3394.6825pt x 2249.40375pt>
+<female_reproductive_anatomy.png, id=852, 3394.6825pt x 2249.40375pt>
 File: female_reproductive_anatomy.png Graphic file (type png)
 
 <use female_reproductive_anatomy.png>
@@ -1323,7 +1323,7 @@ Package pdftex.def Info: female_reproductive_anatomy.png used on input line 367
 .
 (pdftex.def)             Requested size: 379.41585pt x 251.38234pt.
 
-<ovarian_cycle.png, id=842, 1731.46875pt x 734.745pt>
+<ovarian_cycle.png, id=854, 1731.46875pt x 734.745pt>
 File: ovarian_cycle.png Graphic file (type png)
  <use ovarian_cycle.png>
 Package pdftex.def Info: ovarian_cycle.png used on input line 376.
@@ -1331,20 +1331,20 @@ Package pdftex.def Info: ovarian_cycle.png used on input line 376.
 
 [20 <./male_reproductive_anatomy.png>] [21 <./testes_hormones.png>] [22 <./fema
 le_reproductive_anatomy.png>]
-<embryonic_development.png, id=862, 3235.08624pt x 1750.54pt>
+<embryonic_development.png, id=874, 3235.08624pt x 1750.54pt>
 File: embryonic_development.png Graphic file (type png)
 
 <use embryonic_development.png>
 Package pdftex.def Info: embryonic_development.png used on input line 400.
 (pdftex.def)             Requested size: 542.02501pt x 293.28738pt.
 
-<gastrulation.png, id=864, 2621.795pt x 2628.82124pt>
+<gastrulation.png, id=876, 2621.795pt x 2628.82124pt>
 File: gastrulation.png Graphic file (type png)
  <use gastrulation.png>
 Package pdftex.def Info: gastrulation.png used on input line 406.
 (pdftex.def)             Requested size: 406.51875pt x 407.58342pt.
 
-[23 <./ovarian_cycle.png>] <neurulation.png, id=875, 3055.415pt x 1840.8775pt>
+[23 <./ovarian_cycle.png>] <neurulation.png, id=887, 3055.415pt x 1840.8775pt>
 File: neurulation.png Graphic file (type png)
 
 <use neurulation.png>
@@ -1365,21 +1365,21 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 444.
 
-[28] <antibody_structure.png, id=908, 2427.0675pt x 1844.8925pt>
+[28] <antibody_structure.png, id=920, 2427.0675pt x 1844.8925pt>
 File: antibody_structure.png Graphic file (type png)
 
 <use antibody_structure.png>
 Package pdftex.def Info: antibody_structure.png used on input line 474.
 (pdftex.def)             Requested size: 379.41585pt x 288.4045pt.
  [29]
-<t_cell_receptor.png, id=913, 2637.855pt x 1493.58pt>
+<t_cell_receptor.png, id=925, 2637.855pt x 1493.58pt>
 File: t_cell_receptor.png Graphic file (type png)
 
 <use t_cell_receptor.png>
 Package pdftex.def Info: t_cell_receptor.png used on input line 496.
 (pdftex.def)             Requested size: 298.1154pt x 168.78397pt.
  [30 <./antibody_structure.png>]
-<immune_pathway.png, id=921, 2169.10374pt x 2974.11125pt>
+<immune_pathway.png, id=933, 2169.10374pt x 2974.11125pt>
 File: immune_pathway.png Graphic file (type png)
 
 <use immune_pathway.png>
@@ -1396,7 +1396,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 879--880
 
  []
 
-[43] <polyprotic.png, id=1095, 2916.8975pt x 1168.365pt>
+[43] <polyprotic.png, id=1107, 2916.8975pt x 1168.365pt>
 File: polyprotic.png Graphic file (type png)
  <use polyprotic.png>
 Package pdftex.def Info: polyprotic.png used on input line 907.
@@ -1416,7 +1416,7 @@ Underfull \hbox (badness 1558) in paragraph at lines 1259--1259
 []\T1/cmr/m/n/10 The re-ac-tiv-ity pref-er-ence in an $[][][] []$
  []
 
-<1-2-hydride-shift-mechanism.png, id=1162, 752.8125pt x 342.27875pt>
+<1-2-hydride-shift-mechanism.png, id=1174, 752.8125pt x 342.27875pt>
 File: 1-2-hydride-shift-mechanism.png Graphic file (type png)
 
 <use 1-2-hydride-shift-mechanism.png>
@@ -1424,20 +1424,20 @@ Package pdftex.def Info: 1-2-hydride-shift-mechanism.png used on input line 126
 8.
 (pdftex.def)             Requested size: 379.41585pt x 172.51253pt.
  [50]
-<conjugation.png, id=1168, 3284.27pt x 1615.03375pt>
+<conjugation.png, id=1180, 3284.27pt x 1615.03375pt>
 File: conjugation.png Graphic file (type png)
  <use conjugation.png>
 Package pdftex.def Info: conjugation.png used on input line 1295.
 (pdftex.def)             Requested size: 379.41585pt x 186.57516pt.
 
-<benzene_nmr.png, id=1170, 3233.07875pt x 2387.92125pt>
+<benzene_nmr.png, id=1182, 3233.07875pt x 2387.92125pt>
 File: benzene_nmr.png Graphic file (type png)
  <use benzene_nmr.png>
 Package pdftex.def Info: benzene_nmr.png used on input line 1322.
 (pdftex.def)             Requested size: 379.41585pt x 280.1982pt.
 
 [51 <./1-2-hydride-shift-mechanism.png>] [52 <./conjugation.png>] [53]
-<distillation.png, id=1190, 1813.77625pt x 621.32124pt>
+<distillation.png, id=1202, 1813.77625pt x 621.32124pt>
 File: distillation.png Graphic file (type png)
  <use distillation.png>
 Package pdftex.def Info: distillation.png used on input line 1338.
@@ -1447,234 +1447,304 @@ Package pdftex.def Info: distillation.png used on input line 1338.
 LaTeX Warning: Reference `gc' on page 54 undefined on input line 1344.
 
 [54 <./benzene_nmr.png>] [55 <./distillation.png>]
-<extraction.png, id=1205, 2870.725pt x 2760.3125pt>
+<extraction.png, id=1217, 2870.725pt x 2760.3125pt>
 File: extraction.png Graphic file (type png)
  <use extraction.png>
 Package pdftex.def Info: extraction.png used on input line 1362.
 (pdftex.def)             Requested size: 379.41585pt x 364.79199pt.
 
-[56] [57 <./extraction.png>] [58] [59]
-<Physics_1_2_9.png, id=1250, 488.82625pt x 464.73625pt>
+[56] [57 <./extraction.png>]
+<lipid_synthesis.png, id=1239, 3973.84625pt x 1941.2525pt>
+File: lipid_synthesis.png Graphic file (type png)
+
+<use lipid_synthesis.png>
+Package pdftex.def Info: lipid_synthesis.png used on input line 1422.
+(pdftex.def)             Requested size: 379.41585pt x 185.33916pt.
+
+<phosphatidate.png, id=1242, 2839.60875pt x 1866.975pt>
+File: phosphatidate.png Graphic file (type png)
+
+<use phosphatidate.png>
+Package pdftex.def Info: phosphatidate.png used on input line 1428.
+(pdftex.def)             Requested size: 379.41585pt x 249.43837pt.
+ <triglyceride.png, id=1243, 3007.235pt x 2973.1075pt>
+File: triglyceride.png Graphic file (type png)
+
+<use triglyceride.png>
+Package pdftex.def Info: triglyceride.png used on input line 1433.
+(pdftex.def)             Requested size: 379.41585pt x 375.08534pt.
+ [58]
+<prostaglandins.png, id=1260, 1737.49126pt x 434.62375pt>
+File: prostaglandins.png Graphic file (type png)
+
+<use prostaglandins.png>
+Package pdftex.def Info: prostaglandins.png used on input line 1442.
+(pdftex.def)             Requested size: 542.02501pt x 135.58746pt.
+ <isoprene.png, id=1262, 3772.0925pt x 612.2875pt>
+File: isoprene.png Graphic file (type png)
+
+<use isoprene.png>
+Package pdftex.def Info: isoprene.png used on input line 1450.
+(pdftex.def)             Requested size: 406.51875pt x 65.97844pt.
+ <terpenes.png, id=1264, 3793.17125pt x 2095.83pt>
+File: terpenes.png Graphic file (type png)
+
+<use terpenes.png>
+Package pdftex.def Info: terpenes.png used on input line 1456.
+(pdftex.def)             Requested size: 379.41585pt x 209.62726pt.
+
+Overfull \hbox (32.885pt too wide) in paragraph at lines 1438--1461
+\T1/cmr/bx/n/10 Eicosanoids \T1/cmr/m/n/10 are 20-carbon com-pounds de-rived fr
+om \T1/cmr/bx/n/10 arachi-do-nate \T1/cmr/m/n/10 that act as \T1/cmr/m/it/10 lo
+-cal hor-mones\T1/cmr/m/n/10 . Eicosanoids in-clude \T1/cmr/bx/n/10 prostagland
+ins\T1/cmr/m/n/10 ,
+ []
+
+[59 <./lipid_synthesis.png>] <5_13.png, id=1273, 3498.06876pt x 1569.865pt>
+File: 5_13.png Graphic file (type png)
+
+<use 5_13.png>
+Package pdftex.def Info: 5_13.png used on input line 1469.
+(pdftex.def)             Requested size: 325.2183pt x 145.95282pt.
+ <alkene_reactions.png, id=1275, 3618.51875pt x 1390.19376pt>
+File: alkene_reactions.png Graphic file (type png)
+
+<use alkene_reactions.png>
+Package pdftex.def Info: alkene_reactions.png used on input line 1478.
+(pdftex.def)             Requested size: 325.2183pt x 124.94234pt.
+
+<electrocyclic.png, id=1277, 3910.61pt x 829.0975pt>
+File: electrocyclic.png Graphic file (type png)
+ <use electrocyclic.png>
+Package pdftex.def Info: electrocyclic.png used on input line 1484.
+(pdftex.def)             Requested size: 325.2183pt x 68.9479pt.
+
+[60 <./phosphatidate.png>] [61 <./triglyceride.png> <./prostaglandins.png>]
+[62 <./isoprene.png> <./terpenes.png> <./5_13.png>] [63 <./alkene_reactions.png
+> <./electrocyclic.png>] [64]
+<Physics_1_2_9.png, id=1320, 488.82625pt x 464.73625pt>
 File: Physics_1_2_9.png Graphic file (type png)
 
 <use Physics_1_2_9.png>
-Package pdftex.def Info: Physics_1_2_9.png used on input line 1481.
+Package pdftex.def Info: Physics_1_2_9.png used on input line 1552.
 (pdftex.def)             Requested size: 216.80669pt x 206.12267pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1484--1485
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1556
 
  []
 
-[60 <./Physics_1_2_9.png>] [61] [62] [63]
-<IMG_3047.jpg, id=1292, 2177.13374pt x 1476.51625pt>
+[65 <./Physics_1_2_9.png>] [66] [67] [68]
+<IMG_3047.jpg, id=1365, 2177.13374pt x 1476.51625pt>
 File: IMG_3047.jpg Graphic file (type jpg)
  <use IMG_3047.jpg>
-Package pdftex.def Info: IMG_3047.jpg used on input line 1599.
+Package pdftex.def Info: IMG_3047.jpg used on input line 1670.
 (pdftex.def)             Requested size: 433.62166pt x 294.05888pt.
 
-[64 <./IMG_3047.jpg>] [65] [66] [67] [68] [69] [70] [71]
-<snell.png, id=1381, 2101.8525pt x 1063.975pt>
+[69 <./IMG_3047.jpg>] [70] [71] [72] [73] [74] [75] [76]
+<snell.png, id=1457, 2101.8525pt x 1063.975pt>
 File: snell.png Graphic file (type png)
  <use snell.png>
-Package pdftex.def Info: snell.png used on input line 1911.
+Package pdftex.def Info: snell.png used on input line 1982.
 (pdftex.def)             Requested size: 379.41585pt x 192.05922pt.
- [72]
-<internal_reflection.png, id=1394, 2730.2pt x 911.405pt>
+ [77]
+<internal_reflection.png, id=1470, 2730.2pt x 911.405pt>
 File: internal_reflection.png Graphic file (type png)
 
 <use internal_reflection.png>
-Package pdftex.def Info: internal_reflection.png used on input line 1935.
+Package pdftex.def Info: internal_reflection.png used on input line 2006.
 (pdftex.def)             Requested size: 379.41585pt x 126.65016pt.
- [73 <./snell.png>]
-<converging_scenarios.png, id=1408, 946.2552pt x 322.806pt>
+ [78 <./snell.png> <./internal_reflection.png>]
+<converging_scenarios.png, id=1481, 946.2552pt x 322.806pt>
 File: converging_scenarios.png Graphic file (type png)
 
 <use converging_scenarios.png>
-Package pdftex.def Info: converging_scenarios.png used on input line 1975.
+Package pdftex.def Info: converging_scenarios.png used on input line 2046.
 (pdftex.def)             Requested size: 542.02501pt x 184.90271pt.
- [74 <./internal_reflection.png>] [75 <./converging_scenarios.png>] [76] [77]
-<Amino_Acids.png, id=1463, 1042.89626pt x 827.09pt>
+ [79] [80 <./converging_scenarios.png>] [81]
+[82] <Amino_Acids.png, id=1536, 1042.89626pt x 827.09pt>
 File: Amino_Acids.png Graphic file (type png)
  <use Amino_Acids.png>
-Package pdftex.def Info: Amino_Acids.png used on input line 2080.
+Package pdftex.def Info: Amino_Acids.png used on input line 2151.
 (pdftex.def)             Requested size: 433.62166pt x 343.89221pt.
 
-<anomers.png, id=1465, 407.6028pt x 159.7167pt>
+[83 <./Amino_Acids.png>] <anomers.png, id=1544, 407.6028pt x 159.7167pt>
 File: anomers.png Graphic file (type png)
- <use anomers.png>
-Package pdftex.def Info: anomers.png used on input line 2094.
+
+<use anomers.png>
+Package pdftex.def Info: anomers.png used on input line 2165.
 (pdftex.def)             Requested size: 433.62166pt x 169.91304pt.
- [78] [79 <./Amino_Acids.png> <./anomers.png (PNG copy)>]
-<chromosome_types.png, id=1481, 604.2575pt x 262.9825pt>
+ [84 <./anomers.png (PNG copy)>]
+<chromosome_types.png, id=1552, 604.2575pt x 262.9825pt>
 File: chromosome_types.png Graphic file (type png)
 
 <use chromosome_types.png>
-Package pdftex.def Info: chromosome_types.png used on input line 2118.
+Package pdftex.def Info: chromosome_types.png used on input line 2189.
 (pdftex.def)             Requested size: 352.31294pt x 153.3325pt.
- [80] [81 <./chromosome_types.png (PNG copy)>]
-[82] [83] [84] [85] [86] <myelin.png, id=1525, 3163.82pt x 2157.05875pt>
+ [85] [86 <./chromosome_types.png (PNG copy)>]
+[87] [88] [89] [90] [91] <myelin.png, id=1600, 3163.82pt x 2157.05875pt>
 File: myelin.png Graphic file (type png)
 
 <use myelin.png>
-Package pdftex.def Info: myelin.png used on input line 2265.
+Package pdftex.def Info: myelin.png used on input line 2336.
 (pdftex.def)             Requested size: 379.41585pt x 258.67131pt.
- [87]
-Underfull \hbox (badness 1394) in paragraph at lines 2283--2283
+ [92 <./myelin.png>]
+Underfull \hbox (badness 1394) in paragraph at lines 2354--2354
 []\T1/cmr/m/n/10 Muscle stim-u-la-tion, learn-ing and
  []
 
-<psych_nervous.png, id=1542, 3035.34pt x 2480.26625pt>
+<psych_nervous.png, id=1614, 3035.34pt x 2480.26625pt>
 File: psych_nervous.png Graphic file (type png)
  <use psych_nervous.png>
-Package pdftex.def Info: psych_nervous.png used on input line 2296.
+Package pdftex.def Info: psych_nervous.png used on input line 2367.
 (pdftex.def)             Requested size: 379.41585pt x 310.03252pt.
 
-<brain_anatomy.png, id=1543, 1889.0575pt x 608.2725pt>
+<brain_anatomy.png, id=1615, 1889.0575pt x 608.2725pt>
 File: brain_anatomy.png Graphic file (type png)
  <use brain_anatomy.png>
-Package pdftex.def Info: brain_anatomy.png used on input line 2301.
+Package pdftex.def Info: brain_anatomy.png used on input line 2372.
 (pdftex.def)             Requested size: 542.02501pt x 174.52893pt.
 
-[88 <./myelin.png>] <lobes.png, id=1554, 1283.79625pt x 868.24374pt>
+[93] [94 <./psych_nervous.png> <./brain_anatomy.png>]
+<lobes.png, id=1631, 1283.79625pt x 868.24374pt>
 File: lobes.png Graphic file (type png)
-
-<use lobes.png>
-Package pdftex.def Info: lobes.png used on input line 2318.
+ <use lobes.png>
+Package pdftex.def Info: lobes.png used on input line 2389.
 (pdftex.def)             Requested size: 379.41585pt x 256.59337pt.
- [89] [90 <./psych_nervous.png> <./brain_anatomy.png>]
-Underfull \hbox (badness 6125) in paragraph at lines 2347--2347
+ [95 <./lobes.png>]
+Underfull \hbox (badness 6125) in paragraph at lines 2418--2418
 []\T1/cmr/m/n/10 Thyrotropin-releasing hor-mone
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2354--2354
+Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
 []\T1/cmr/m/n/10 Adrenocorticotropic Hor-mone
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 2355--2355
+Underfull \hbox (badness 3460) in paragraph at lines 2426--2426
 []\T1/cmr/m/n/10 Anterior Pi-tu-itary
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 2355--2355
+Underfull \hbox (badness 2707) in paragraph at lines 2426--2426
 []\T1/cmr/m/n/10 Thyroid Stim-u-lat-ing Hor-mone
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 2357--2357
+Underfull \hbox (badness 7963) in paragraph at lines 2428--2428
 []\T1/cmr/m/n/10 Follicle Stim-u-lat-ing Hor-mone
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 2359--2359
+Underfull \hbox (badness 5460) in paragraph at lines 2430--2430
 []\T1/cmr/m/n/10 Antidiuretic Hor-mone (ADH)
  []
 
-[91 <./lobes.png>] [92] <gestalt.png, id=1599, 3450.8925pt x 1219.55624pt>
+<gestalt.png, id=1646, 3450.8925pt x 1219.55624pt>
 File: gestalt.png Graphic file (type png)
-
-<use gestalt.png>
-Package pdftex.def Info: gestalt.png used on input line 2390.
+ <use gestalt.png>
+Package pdftex.def Info: gestalt.png used on input line 2461.
 (pdftex.def)             Requested size: 379.41585pt x 134.07716pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2380--2396
+Underfull \hbox (badness 10000) in paragraph at lines 2451--2467
 
  []
 
-[93] <eye.png, id=1605, 3365.57375pt x 1600.98125pt>
+[96] [97] [98 <./gestalt.png>] <eye.png, id=1678, 3365.57375pt x 1600.98125pt>
 File: eye.png Graphic file (type png)
- <use eye.png>
-Package pdftex.def Info: eye.png used on input line 2404.
-(pdftex.def)             Requested size: 379.41585pt x 180.48126pt.
 
-<phototransduction.png, id=1607, 3543.2375pt x 2099.845pt>
+<use eye.png>
+Package pdftex.def Info: eye.png used on input line 2475.
+(pdftex.def)             Requested size: 379.41585pt x 180.48126pt.
+ <phototransduction.png, id=1680, 3543.2375pt x 2099.845pt>
 File: phototransduction.png Graphic file (type png)
 
 <use phototransduction.png>
-Package pdftex.def Info: phototransduction.png used on input line 2410.
+Package pdftex.def Info: phototransduction.png used on input line 2481.
 (pdftex.def)             Requested size: 379.41585pt x 224.83179pt.
 
-<conesandrods.png, id=1609, 3589.41pt x 1674.255pt>
+<conesandrods.png, id=1682, 3589.41pt x 1674.255pt>
 File: conesandrods.png Graphic file (type png)
  <use conesandrods.png>
-Package pdftex.def Info: conesandrods.png used on input line 2417.
+Package pdftex.def Info: conesandrods.png used on input line 2488.
 (pdftex.def)             Requested size: 379.41585pt x 176.96436pt.
 
-<rgs_pathway.png, id=1611, 1954.30125pt x 3035.34pt>
+<rgs_pathway.png, id=1684, 1954.30125pt x 3035.34pt>
 File: rgs_pathway.png Graphic file (type png)
  <use rgs_pathway.png>
-Package pdftex.def Info: rgs_pathway.png used on input line 2424.
+Package pdftex.def Info: rgs_pathway.png used on input line 2495.
 (pdftex.def)             Requested size: 216.80669pt x 336.71368pt.
 
-<ear.png, id=1613, 3442.8625pt x 2136.98375pt>
+<ear.png, id=1686, 3442.8625pt x 2136.98375pt>
 File: ear.png Graphic file (type png)
  <use ear.png>
-Package pdftex.def Info: ear.png used on input line 2432.
+Package pdftex.def Info: ear.png used on input line 2503.
 (pdftex.def)             Requested size: 379.41585pt x 235.49284pt.
- [94 <./gestalt.png>] [95 <./eye.png> <./phototransduction.png>] [96 <./conesan
-drods.png> <./rgs_pathway.png>] [97 <./ear.png>] [98]
-<aesr.png, id=1657, 3717.89pt x 2247.39626pt>
+ [99 <./eye.png>]
+[100 <./phototransduction.png> <./conesandrods.png>] [101 <./rgs_pathway.png>]
+[102 <./ear.png>] [103] <aesr.png, id=1731, 3717.89pt x 2247.39626pt>
 File: aesr.png Graphic file (type png)
- <use aesr.png>
-Package pdftex.def Info: aesr.png used on input line 2473.
+
+<use aesr.png>
+Package pdftex.def Info: aesr.png used on input line 2544.
 (pdftex.def)             Requested size: 379.41585pt x 229.34798pt.
- [99] [100 <./aesr.png>] [101] [102] [103] [104] [105]
-<spatial_neglect.png, id=1723, 2006.49625pt x 3113.6325pt>
+ [104 <./aesr.png>] [105] [106] [107] [108] [109] [110]
+<spatial_neglect.png, id=1798, 2006.49625pt x 3113.6325pt>
 File: spatial_neglect.png Graphic file (type png)
 
 <use spatial_neglect.png>
-Package pdftex.def Info: spatial_neglect.png used on input line 2579.
+Package pdftex.def Info: spatial_neglect.png used on input line 2650.
 (pdftex.def)             Requested size: 379.41585pt x 588.74573pt.
- [106] [107]
+ [111]
 
-LaTeX Warning: Text page 108 contains only floats.
+LaTeX Warning: Text page 112 contains only floats.
 
-[108 <./spatial_neglect.png>] [109]
-Underfull \hbox (badness 10000) in paragraph at lines 2638--2639
+[112 <./spatial_neglect.png>] [113] [114]
+Underfull \hbox (badness 10000) in paragraph at lines 2709--2710
 
  []
 
-[110] <consciousness.png, id=1783, 2644.88126pt x 2618.78375pt>
+[115] <consciousness.png, id=1854, 2644.88126pt x 2618.78375pt>
 File: consciousness.png Graphic file (type png)
 
 <use consciousness.png>
-Package pdftex.def Info: consciousness.png used on input line 2651.
+Package pdftex.def Info: consciousness.png used on input line 2722.
 (pdftex.def)             Requested size: 379.41585pt x 375.65805pt.
- [111] [112 <./consciousness.png>] [113]
-<personalities.png, id=1812, 2737.22626pt x 2115.905pt>
+ [116 <./consciousness.png>] [117] [118]
+<personalities.png, id=1885, 2737.22626pt x 2115.905pt>
 File: personalities.png Graphic file (type png)
 
 <use personalities.png>
-Package pdftex.def Info: personalities.png used on input line 2694.
+Package pdftex.def Info: personalities.png used on input line 2765.
 (pdftex.def)             Requested size: 379.41585pt x 293.28665pt.
- [114] [115 <./personalities.png>] [116] [117]
-<disorders.png, id=1852, 2814.515pt x 2595.6975pt>
+ [119] [120 <./personalities.png>] [121] [122]
+<disorders.png, id=1924, 2814.515pt x 2595.6975pt>
 File: disorders.png Graphic file (type png)
  <use disorders.png>
-Package pdftex.def Info: disorders.png used on input line 2732.
+Package pdftex.def Info: disorders.png used on input line 2803.
 (pdftex.def)             Requested size: 379.41585pt x 349.88914pt.
- [118]
-[119 <./disorders.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2746.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2746.
+ [123]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2817.
+
+[124 <./disorders.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2817.
  (./MCAT_SU2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2746.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2746.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2817.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2817.
 
 Package rerunfilecheck Info: File `MCAT_SU2019.out' has not changed.
-(rerunfilecheck)             Checksum: 26D8952EA01FDB781247D0F632085C31;7749.
+(rerunfilecheck)             Checksum: 281D45A6D3717BB04E3F0F767D9D50B9;7903.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2746.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2817.
  ) 
 Here is how much of TeX's memory you used:
- 38747 strings out of 492995
- 880365 string characters out of 6132704
- 1074248 words of memory out of 5000000
- 40972 multiletter control sequences out of 15000+600000
+ 38819 strings out of 492995
+ 881537 string characters out of 6132704
+ 1074004 words of memory out of 5000000
+ 41019 multiletter control sequences out of 15000+600000
  545730 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,44n,96p,10455b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1702,10 +1772,10 @@ mf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on MCAT_SU2019.pdf (119 pages, 59696081 bytes).
+Output written on MCAT_SU2019.pdf (124 pages, 61279381 bytes).
 PDF statistics:
- 2098 PDF objects out of 2487 (max. 8388607)
- 1834 compressed objects within 19 object streams
- 748 named destinations out of 1000 (max. 500000)
- 1142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2172 PDF objects out of 2487 (max. 8388607)
+ 1885 compressed objects within 19 object streams
+ 764 named destinations out of 1000 (max. 500000)
+ 1203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
