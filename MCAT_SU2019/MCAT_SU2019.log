@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 AUG 2019 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2019 00:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1423,193 +1423,244 @@ File: 1-2-hydride-shift-mechanism.png Graphic file (type png)
 Package pdftex.def Info: 1-2-hydride-shift-mechanism.png used on input line 126
 8.
 (pdftex.def)             Requested size: 379.41585pt x 172.51253pt.
- [50] [51 <./1-2-hydride-shift-mechanism.png>] [52] <Physics_1_2_9.png, id=1180
-, 488.82625pt x 464.73625pt>
+ [50]
+<conjugation.png, id=1168, 3284.27pt x 1615.03375pt>
+File: conjugation.png Graphic file (type png)
+ <use conjugation.png>
+Package pdftex.def Info: conjugation.png used on input line 1295.
+(pdftex.def)             Requested size: 379.41585pt x 186.57516pt.
+
+<benzene_nmr.png, id=1170, 3233.07875pt x 2387.92125pt>
+File: benzene_nmr.png Graphic file (type png)
+ <use benzene_nmr.png>
+Package pdftex.def Info: benzene_nmr.png used on input line 1322.
+(pdftex.def)             Requested size: 379.41585pt x 280.1982pt.
+
+[51 <./1-2-hydride-shift-mechanism.png>] [52 <./conjugation.png>] [53]
+<distillation.png, id=1190, 1813.77625pt x 621.32124pt>
+File: distillation.png Graphic file (type png)
+ <use distillation.png>
+Package pdftex.def Info: distillation.png used on input line 1338.
+(pdftex.def)             Requested size: 379.41585pt x 129.96936pt.
+
+
+LaTeX Warning: Reference `gc' on page 54 undefined on input line 1344.
+
+[54 <./benzene_nmr.png>] [55 <./distillation.png>]
+<extraction.png, id=1205, 2870.725pt x 2760.3125pt>
+File: extraction.png Graphic file (type png)
+ <use extraction.png>
+Package pdftex.def Info: extraction.png used on input line 1362.
+(pdftex.def)             Requested size: 379.41585pt x 364.79199pt.
+
+[56] [57 <./extraction.png>] [58] [59]
+<Physics_1_2_9.png, id=1250, 488.82625pt x 464.73625pt>
 File: Physics_1_2_9.png Graphic file (type png)
 
 <use Physics_1_2_9.png>
-Package pdftex.def Info: Physics_1_2_9.png used on input line 1359.
+Package pdftex.def Info: Physics_1_2_9.png used on input line 1481.
 (pdftex.def)             Requested size: 216.80669pt x 206.12267pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+Underfull \hbox (badness 10000) in paragraph at lines 1484--1485
 
  []
 
-[53] [54 <./Physics_1_2_9.png>] [55] [56]
-<IMG_3047.jpg, id=1220, 2177.13374pt x 1476.51625pt>
+[60 <./Physics_1_2_9.png>] [61] [62] [63]
+<IMG_3047.jpg, id=1292, 2177.13374pt x 1476.51625pt>
 File: IMG_3047.jpg Graphic file (type jpg)
  <use IMG_3047.jpg>
-Package pdftex.def Info: IMG_3047.jpg used on input line 1477.
+Package pdftex.def Info: IMG_3047.jpg used on input line 1599.
 (pdftex.def)             Requested size: 433.62166pt x 294.05888pt.
 
-[57] [58 <./IMG_3047.jpg>] [59] [60] [61] [62] [63] [64] [65]
-<snell.png, id=1325, 2101.8525pt x 1063.975pt>
+[64 <./IMG_3047.jpg>] [65] [66] [67] [68] [69] [70] [71]
+<snell.png, id=1381, 2101.8525pt x 1063.975pt>
 File: snell.png Graphic file (type png)
  <use snell.png>
-Package pdftex.def Info: snell.png used on input line 1789.
+Package pdftex.def Info: snell.png used on input line 1911.
 (pdftex.def)             Requested size: 379.41585pt x 192.05922pt.
- [66 <./snell.png>] <internal_reflection.png, id=1336, 2730.2pt x 911.405pt>
+ [72]
+<internal_reflection.png, id=1394, 2730.2pt x 911.405pt>
 File: internal_reflection.png Graphic file (type png)
 
 <use internal_reflection.png>
-Package pdftex.def Info: internal_reflection.png used on input line 1813.
+Package pdftex.def Info: internal_reflection.png used on input line 1935.
 (pdftex.def)             Requested size: 379.41585pt x 126.65016pt.
- [67 <./internal_reflection.png>]
-<converging_scenarios.png, id=1349, 946.2552pt x 322.806pt>
+ [73 <./snell.png>]
+<converging_scenarios.png, id=1408, 946.2552pt x 322.806pt>
 File: converging_scenarios.png Graphic file (type png)
 
 <use converging_scenarios.png>
-Package pdftex.def Info: converging_scenarios.png used on input line 1853.
+Package pdftex.def Info: converging_scenarios.png used on input line 1975.
 (pdftex.def)             Requested size: 542.02501pt x 184.90271pt.
- [68 <./converging_scenarios.png>] [69] [70]
-[71] <Amino_Acids.png, id=1404, 1042.89626pt x 827.09pt>
+ [74 <./internal_reflection.png>] [75 <./converging_scenarios.png>] [76] [77]
+<Amino_Acids.png, id=1463, 1042.89626pt x 827.09pt>
 File: Amino_Acids.png Graphic file (type png)
  <use Amino_Acids.png>
-Package pdftex.def Info: Amino_Acids.png used on input line 1958.
+Package pdftex.def Info: Amino_Acids.png used on input line 2080.
 (pdftex.def)             Requested size: 433.62166pt x 343.89221pt.
 
-[72 <./Amino_Acids.png>] <anomers.png, id=1412, 407.6028pt x 159.7167pt>
+<anomers.png, id=1465, 407.6028pt x 159.7167pt>
 File: anomers.png Graphic file (type png)
-
-<use anomers.png>
-Package pdftex.def Info: anomers.png used on input line 1972.
+ <use anomers.png>
+Package pdftex.def Info: anomers.png used on input line 2094.
 (pdftex.def)             Requested size: 433.62166pt x 169.91304pt.
- [73 <./anomers.png (PNG copy)>]
-<chromosome_types.png, id=1421, 604.2575pt x 262.9825pt>
+ [78] [79 <./Amino_Acids.png> <./anomers.png (PNG copy)>]
+<chromosome_types.png, id=1481, 604.2575pt x 262.9825pt>
 File: chromosome_types.png Graphic file (type png)
 
 <use chromosome_types.png>
-Package pdftex.def Info: chromosome_types.png used on input line 1996.
+Package pdftex.def Info: chromosome_types.png used on input line 2118.
 (pdftex.def)             Requested size: 352.31294pt x 153.3325pt.
- [74] [75 <./chromosome_types.png (PNG copy)>]
-[76] [77] [78] [79] [80] <myelin.png, id=1468, 3163.82pt x 2157.05875pt>
+ [80] [81 <./chromosome_types.png (PNG copy)>]
+[82] [83] [84] [85] [86] <myelin.png, id=1525, 3163.82pt x 2157.05875pt>
 File: myelin.png Graphic file (type png)
 
 <use myelin.png>
-Package pdftex.def Info: myelin.png used on input line 2143.
+Package pdftex.def Info: myelin.png used on input line 2265.
 (pdftex.def)             Requested size: 379.41585pt x 258.67131pt.
- [81 <./myelin.png>]
-Underfull \hbox (badness 1394) in paragraph at lines 2161--2161
+ [87]
+Underfull \hbox (badness 1394) in paragraph at lines 2283--2283
 []\T1/cmr/m/n/10 Muscle stim-u-la-tion, learn-ing and
  []
 
-<psych_nervous.png, id=1482, 3035.34pt x 2480.26625pt>
+<psych_nervous.png, id=1542, 3035.34pt x 2480.26625pt>
 File: psych_nervous.png Graphic file (type png)
  <use psych_nervous.png>
-Package pdftex.def Info: psych_nervous.png used on input line 2174.
+Package pdftex.def Info: psych_nervous.png used on input line 2296.
 (pdftex.def)             Requested size: 379.41585pt x 310.03252pt.
 
-<brain_anatomy.png, id=1483, 1889.0575pt x 608.2725pt>
+<brain_anatomy.png, id=1543, 1889.0575pt x 608.2725pt>
 File: brain_anatomy.png Graphic file (type png)
  <use brain_anatomy.png>
-Package pdftex.def Info: brain_anatomy.png used on input line 2179.
+Package pdftex.def Info: brain_anatomy.png used on input line 2301.
 (pdftex.def)             Requested size: 542.02501pt x 174.52893pt.
 
-[82] [83 <./psych_nervous.png> <./brain_anatomy.png>]
-<lobes.png, id=1499, 1283.79625pt x 868.24374pt>
+[88 <./myelin.png>] <lobes.png, id=1554, 1283.79625pt x 868.24374pt>
 File: lobes.png Graphic file (type png)
- <use lobes.png>
-Package pdftex.def Info: lobes.png used on input line 2196.
+
+<use lobes.png>
+Package pdftex.def Info: lobes.png used on input line 2318.
 (pdftex.def)             Requested size: 379.41585pt x 256.59337pt.
- [84 <./lobes.png>]
-Underfull \hbox (badness 6125) in paragraph at lines 2225--2225
+ [89] [90 <./psych_nervous.png> <./brain_anatomy.png>]
+Underfull \hbox (badness 6125) in paragraph at lines 2347--2347
 []\T1/cmr/m/n/10 Thyrotropin-releasing hor-mone
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2232--2232
+Underfull \hbox (badness 10000) in paragraph at lines 2354--2354
 []\T1/cmr/m/n/10 Adrenocorticotropic Hor-mone
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 2233--2233
+Underfull \hbox (badness 3460) in paragraph at lines 2355--2355
 []\T1/cmr/m/n/10 Anterior Pi-tu-itary
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 2233--2233
+Underfull \hbox (badness 2707) in paragraph at lines 2355--2355
 []\T1/cmr/m/n/10 Thyroid Stim-u-lat-ing Hor-mone
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 2235--2235
+Underfull \hbox (badness 7963) in paragraph at lines 2357--2357
 []\T1/cmr/m/n/10 Follicle Stim-u-lat-ing Hor-mone
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 2237--2237
+Underfull \hbox (badness 5460) in paragraph at lines 2359--2359
 []\T1/cmr/m/n/10 Antidiuretic Hor-mone (ADH)
  []
 
-<gestalt.png, id=1514, 3450.8925pt x 1219.55624pt>
+[91 <./lobes.png>] [92] <gestalt.png, id=1599, 3450.8925pt x 1219.55624pt>
 File: gestalt.png Graphic file (type png)
- <use gestalt.png>
-Package pdftex.def Info: gestalt.png used on input line 2268.
+
+<use gestalt.png>
+Package pdftex.def Info: gestalt.png used on input line 2390.
 (pdftex.def)             Requested size: 379.41585pt x 134.07716pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2258--2274
+Underfull \hbox (badness 10000) in paragraph at lines 2380--2396
 
  []
 
-[85] [86] [87 <./gestalt.png>] <eye.png, id=1546, 3365.57375pt x 1600.98125pt>
+[93] <eye.png, id=1605, 3365.57375pt x 1600.98125pt>
 File: eye.png Graphic file (type png)
-
-<use eye.png>
-Package pdftex.def Info: eye.png used on input line 2282.
+ <use eye.png>
+Package pdftex.def Info: eye.png used on input line 2404.
 (pdftex.def)             Requested size: 379.41585pt x 180.48126pt.
- <phototransduction.png, id=1548, 3543.2375pt x 2099.845pt>
+
+<phototransduction.png, id=1607, 3543.2375pt x 2099.845pt>
 File: phototransduction.png Graphic file (type png)
 
 <use phototransduction.png>
-Package pdftex.def Info: phototransduction.png used on input line 2288.
+Package pdftex.def Info: phototransduction.png used on input line 2410.
 (pdftex.def)             Requested size: 379.41585pt x 224.83179pt.
 
-<conesandrods.png, id=1550, 3589.41pt x 1674.255pt>
+<conesandrods.png, id=1609, 3589.41pt x 1674.255pt>
 File: conesandrods.png Graphic file (type png)
  <use conesandrods.png>
-Package pdftex.def Info: conesandrods.png used on input line 2295.
+Package pdftex.def Info: conesandrods.png used on input line 2417.
 (pdftex.def)             Requested size: 379.41585pt x 176.96436pt.
 
-<rgs_pathway.png, id=1552, 1954.30125pt x 3035.34pt>
+<rgs_pathway.png, id=1611, 1954.30125pt x 3035.34pt>
 File: rgs_pathway.png Graphic file (type png)
  <use rgs_pathway.png>
-Package pdftex.def Info: rgs_pathway.png used on input line 2302.
+Package pdftex.def Info: rgs_pathway.png used on input line 2424.
 (pdftex.def)             Requested size: 216.80669pt x 336.71368pt.
 
-<ear.png, id=1554, 3442.8625pt x 2136.98375pt>
+<ear.png, id=1613, 3442.8625pt x 2136.98375pt>
 File: ear.png Graphic file (type png)
  <use ear.png>
-Package pdftex.def Info: ear.png used on input line 2310.
+Package pdftex.def Info: ear.png used on input line 2432.
 (pdftex.def)             Requested size: 379.41585pt x 235.49284pt.
- [88 <./eye.png>]
-[89 <./phototransduction.png> <./conesandrods.png>] [90 <./rgs_pathway.png>]
-[91 <./ear.png>] [92] <aesr.png, id=1599, 3717.89pt x 2247.39626pt>
+ [94 <./gestalt.png>] [95 <./eye.png> <./phototransduction.png>] [96 <./conesan
+drods.png> <./rgs_pathway.png>] [97 <./ear.png>] [98]
+<aesr.png, id=1657, 3717.89pt x 2247.39626pt>
 File: aesr.png Graphic file (type png)
-
-<use aesr.png>
-Package pdftex.def Info: aesr.png used on input line 2351.
+ <use aesr.png>
+Package pdftex.def Info: aesr.png used on input line 2473.
 (pdftex.def)             Requested size: 379.41585pt x 229.34798pt.
- [93 <./aesr.png>] [94] [95] [96] [97]
-<personalities.png, id=1650, 2737.22626pt x 2115.905pt>
+ [99] [100 <./aesr.png>] [101] [102] [103] [104] [105]
+<spatial_neglect.png, id=1723, 2006.49625pt x 3113.6325pt>
+File: spatial_neglect.png Graphic file (type png)
+
+<use spatial_neglect.png>
+Package pdftex.def Info: spatial_neglect.png used on input line 2579.
+(pdftex.def)             Requested size: 379.41585pt x 588.74573pt.
+ [106] [107]
+
+LaTeX Warning: Text page 108 contains only floats.
+
+[108 <./spatial_neglect.png>] [109]
+Underfull \hbox (badness 10000) in paragraph at lines 2638--2639
+
+ []
+
+[110] <consciousness.png, id=1783, 2644.88126pt x 2618.78375pt>
+File: consciousness.png Graphic file (type png)
+
+<use consciousness.png>
+Package pdftex.def Info: consciousness.png used on input line 2651.
+(pdftex.def)             Requested size: 379.41585pt x 375.65805pt.
+ [111] [112 <./consciousness.png>] [113]
+<personalities.png, id=1812, 2737.22626pt x 2115.905pt>
 File: personalities.png Graphic file (type png)
 
 <use personalities.png>
-Package pdftex.def Info: personalities.png used on input line 2433.
+Package pdftex.def Info: personalities.png used on input line 2694.
 (pdftex.def)             Requested size: 379.41585pt x 293.28665pt.
- [98] [99 <./personalities.png>] [100] [101]
-<disorders.png, id=1688, 2814.515pt x 2595.6975pt>
+ [114] [115 <./personalities.png>] [116] [117]
+<disorders.png, id=1852, 2814.515pt x 2595.6975pt>
 File: disorders.png Graphic file (type png)
  <use disorders.png>
-Package pdftex.def Info: disorders.png used on input line 2471.
+Package pdftex.def Info: disorders.png used on input line 2732.
 (pdftex.def)             Requested size: 379.41585pt x 349.88914pt.
- [102]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2485.
-
-[103 <./disorders.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2485.
+ [118]
+[119 <./disorders.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2746.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2746.
  (./MCAT_SU2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2485.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2485.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2746.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2746.
 
 Package rerunfilecheck Info: File `MCAT_SU2019.out' has not changed.
 (rerunfilecheck)             Checksum: 26D8952EA01FDB781247D0F632085C31;7749.
@@ -1617,13 +1668,13 @@ Package rerunfilecheck Info: File `MCAT_SU2019.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2485.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2746.
  ) 
 Here is how much of TeX's memory you used:
- 38616 strings out of 492995
- 878920 string characters out of 6132704
- 1073050 words of memory out of 5000000
- 40941 multiletter control sequences out of 15000+600000
+ 38747 strings out of 492995
+ 880365 string characters out of 6132704
+ 1074248 words of memory out of 5000000
+ 40972 multiletter control sequences out of 15000+600000
  545730 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,44n,96p,10455b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1651,10 +1702,10 @@ mf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on MCAT_SU2019.pdf (103 pages, 57640692 bytes).
+Output written on MCAT_SU2019.pdf (119 pages, 59696081 bytes).
 PDF statistics:
- 1914 PDF objects out of 2073 (max. 8388607)
- 1680 compressed objects within 17 object streams
- 654 named destinations out of 1000 (max. 500000)
- 1112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2098 PDF objects out of 2487 (max. 8388607)
+ 1834 compressed objects within 19 object streams
+ 748 named destinations out of 1000 (max. 500000)
+ 1142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
