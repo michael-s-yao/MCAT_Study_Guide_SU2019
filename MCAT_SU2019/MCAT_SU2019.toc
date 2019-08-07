@@ -49,62 +49,64 @@
 \contentsline {subsection}{\numberline {3.7}Lipid Signal Molecules}{59}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}General Bioorganic Reactions}{61}{subsection.3.8}
 \contentsline {subsection}{\numberline {3.9}Carbonyls and Alcohols}{63}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}Name Reactions and Synthesis Logic}{63}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}Monosaccharides}{63}{subsection.3.11}
-\contentsline {subsection}{\numberline {3.12}Oligosaccharides and Polysaccharides}{63}{subsection.3.12}
-\contentsline {subsection}{\numberline {3.13}Chemical Reactions and Tests for Carbohydrates}{63}{subsection.3.13}
-\contentsline {subsection}{\numberline {3.14}Biological Examples of Carbohydrates}{64}{subsection.3.14}
-\contentsline {subsection}{\numberline {3.15}Common Nitrogen Compounds}{64}{subsection.3.15}
-\contentsline {subsection}{\numberline {3.16}Amino Acids and Proteins}{64}{subsection.3.16}
-\contentsline {section}{\numberline {4}Physics}{64}{section.4}
-\contentsline {subsection}{\numberline {4.1}Translational Motion}{64}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Forces and Torque}{64}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Work and Energy}{66}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Periodic Motion}{67}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Fluids and Fluid Statics}{68}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Viscosity and Poiseuille's Principle}{70}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Continuity Equation}{70}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Bernoulli's Equation}{71}{subsection.4.8}
-\contentsline {subsection}{\numberline {4.9}Turbulence}{71}{subsection.4.9}
-\contentsline {subsection}{\numberline {4.10}Electrostatics}{72}{subsection.4.10}
-\contentsline {subsection}{\numberline {4.11}Electromagnetism}{73}{subsection.4.11}
-\contentsline {subsection}{\numberline {4.12}Electricity and Electric Currents}{73}{subsection.4.12}
-\contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{74}{subsection.4.13}
-\contentsline {subsection}{\numberline {4.14}Light and Radiation}{75}{subsection.4.14}
-\contentsline {subsection}{\numberline {4.15}Geometrical Optics}{77}{subsection.4.15}
-\contentsline {section}{\numberline {5}Biochemistry and Molecular Cell Biology}{82}{section.5}
-\contentsline {subsection}{\numberline {5.1}Amino Acids and Proteins}{82}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Carbohydrates \& Lipids}{83}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}D- and L- Isomers}{83}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{84}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Lipids}{84}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{85}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Meiosis}{85}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{86}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{86}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Endoplasmic Reticulum, Golgi Apparatus, \& Lysosomes}{87}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{87}{subsection.5.11}
-\contentsline {subsection}{\numberline {5.12}Cytoskeleton}{88}{subsection.5.12}
-\contentsline {subsection}{\numberline {5.13}Prokaryotic Cells}{88}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Viruses}{88}{subsection.5.14}
-\contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{88}{subsection.5.15}
-\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzyme Mechanisms}{89}{subsection.5.16}
-\contentsline {subsection}{\numberline {5.17}Metabolic Molecules}{89}{subsection.5.17}
-\contentsline {subsection}{\numberline {5.18}Metabolic Pathways}{89}{subsection.5.18}
-\contentsline {subsection}{\numberline {5.19}Genetic Information\textemdash Classical Genetics}{89}{subsection.5.19}
-\contentsline {subsection}{\numberline {5.20}Genetic Loci \& Alleles}{90}{subsection.5.20}
-\contentsline {subsection}{\numberline {5.21}Pedigrees \& DNA}{90}{subsection.5.21}
-\contentsline {subsection}{\numberline {5.22}DNA Synthesis}{90}{subsection.5.22}
-\contentsline {subsection}{\numberline {5.23}Expression of Genetic Information}{91}{subsection.5.23}
-\contentsline {section}{\numberline {6}Psychology}{91}{section.6}
-\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{91}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}The Human Senses}{96}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Learning and Memory}{103}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{107}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{111}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{117}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{121}{subsection.6.7}
-\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{123}{section.7}
-\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{123}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Question Types}{123}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Passage Analysis}{123}{subsection.7.3}
+\contentsline {subsection}{\numberline {3.10}Carbonyl Reactivity}{67}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}Name Reactions and Synthesis Logic}{68}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12}Carbonyls and Alcohols\textemdash Key Points}{72}{subsection.3.12}
+\contentsline {subsection}{\numberline {3.13}Monosaccharides}{74}{subsection.3.13}
+\contentsline {subsection}{\numberline {3.14}Oligosaccharides and Polysaccharides}{74}{subsection.3.14}
+\contentsline {subsection}{\numberline {3.15}Chemical Reactions and Tests for Carbohydrates}{74}{subsection.3.15}
+\contentsline {subsection}{\numberline {3.16}Biological Examples of Carbohydrates}{74}{subsection.3.16}
+\contentsline {subsection}{\numberline {3.17}Common Nitrogen Compounds}{74}{subsection.3.17}
+\contentsline {subsection}{\numberline {3.18}Amino Acids and Proteins}{74}{subsection.3.18}
+\contentsline {section}{\numberline {4}Physics}{74}{section.4}
+\contentsline {subsection}{\numberline {4.1}Translational Motion}{74}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Forces and Torque}{75}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Work and Energy}{76}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Periodic Motion}{78}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Fluids and Fluid Statics}{79}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Viscosity and Poiseuille's Principle}{80}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Continuity Equation}{81}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Bernoulli's Equation}{81}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Turbulence}{82}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Electrostatics}{82}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}Electromagnetism}{83}{subsection.4.11}
+\contentsline {subsection}{\numberline {4.12}Electricity and Electric Currents}{83}{subsection.4.12}
+\contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{85}{subsection.4.13}
+\contentsline {subsection}{\numberline {4.14}Light and Radiation}{86}{subsection.4.14}
+\contentsline {subsection}{\numberline {4.15}Geometrical Optics}{88}{subsection.4.15}
+\contentsline {section}{\numberline {5}Biochemistry and Molecular Cell Biology}{93}{section.5}
+\contentsline {subsection}{\numberline {5.1}Amino Acids and Proteins}{93}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Carbohydrates \& Lipids}{94}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}D- and L- Isomers}{94}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{95}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Lipids}{95}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{96}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Meiosis}{96}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{97}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{97}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Endoplasmic Reticulum, Golgi Apparatus, \& Lysosomes}{98}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{98}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}Cytoskeleton}{99}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}Prokaryotic Cells}{99}{subsection.5.13}
+\contentsline {subsection}{\numberline {5.14}Viruses}{99}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{99}{subsection.5.15}
+\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzyme Mechanisms}{100}{subsection.5.16}
+\contentsline {subsection}{\numberline {5.17}Metabolic Molecules}{100}{subsection.5.17}
+\contentsline {subsection}{\numberline {5.18}Metabolic Pathways}{100}{subsection.5.18}
+\contentsline {subsection}{\numberline {5.19}Genetic Information\textemdash Classical Genetics}{100}{subsection.5.19}
+\contentsline {subsection}{\numberline {5.20}Genetic Loci \& Alleles}{101}{subsection.5.20}
+\contentsline {subsection}{\numberline {5.21}Pedigrees \& DNA}{101}{subsection.5.21}
+\contentsline {subsection}{\numberline {5.22}DNA Synthesis}{101}{subsection.5.22}
+\contentsline {subsection}{\numberline {5.23}Expression of Genetic Information}{102}{subsection.5.23}
+\contentsline {section}{\numberline {6}Psychology}{102}{section.6}
+\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{102}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}The Human Senses}{107}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Learning and Memory}{114}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{118}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{122}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{128}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{132}{subsection.6.7}
+\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{134}{section.7}
+\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{134}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Question Types}{134}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Passage Analysis}{134}{subsection.7.3}
