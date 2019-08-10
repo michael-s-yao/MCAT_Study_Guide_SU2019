@@ -71,16 +71,16 @@
 \contentsline {subsection}{\numberline {4.10}Electrostatics}{94}{subsection.4.10}
 \contentsline {subsection}{\numberline {4.11}Electromagnetism}{95}{subsection.4.11}
 \contentsline {subsection}{\numberline {4.12}Electricity and Electric Currents}{95}{subsection.4.12}
-\contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{96}{subsection.4.13}
+\contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{97}{subsection.4.13}
 \contentsline {subsection}{\numberline {4.14}Light and Radiation}{98}{subsection.4.14}
 \contentsline {subsection}{\numberline {4.15}Geometrical Optics}{99}{subsection.4.15}
 \contentsline {section}{\numberline {5}Biochemistry and Molecular Cell Biology}{104}{section.5}
 \contentsline {subsection}{\numberline {5.1}Amino Acids and Proteins}{104}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Carbohydrates \& Lipids}{105}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}D- and L- Isomers}{105}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{105}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{106}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}Lipids}{107}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{107}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{108}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}Meiosis}{108}{subsection.5.7}
 \contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{109}{subsection.5.8}
 \contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{109}{subsection.5.9}
@@ -88,26 +88,25 @@
 \contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{110}{subsection.5.11}
 \contentsline {subsection}{\numberline {5.12}Cytoskeleton}{110}{subsection.5.12}
 \contentsline {subsection}{\numberline {5.13}Prokaryotic Cells}{110}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Viruses}{110}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.14}Viruses}{111}{subsection.5.14}
 \contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{111}{subsection.5.15}
-\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzymes and Molecules}{111}{subsection.5.16}
-\contentsline {subsection}{\numberline {5.17}Metabolic Pathways}{112}{subsection.5.17}
-\contentsline {subsection}{\numberline {5.18}Genetic Information\textemdash Classical Genetics}{112}{subsection.5.18}
-\contentsline {subsection}{\numberline {5.19}Genetic Loci \& Alleles}{113}{subsection.5.19}
-\contentsline {subsection}{\numberline {5.20}Pedigrees \& DNA}{113}{subsection.5.20}
-\contentsline {subsection}{\numberline {5.21}DNA Synthesis}{113}{subsection.5.21}
-\contentsline {subsection}{\numberline {5.22}Expression of Genetic Information}{114}{subsection.5.22}
-\contentsline {subsection}{\numberline {5.23}Mutations}{118}{subsection.5.23}
-\contentsline {subsection}{\numberline {5.24}Genetic Engineering \& Cloning}{120}{subsection.5.24}
-\contentsline {section}{\numberline {6}Psychology}{121}{section.6}
-\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{121}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}The Human Senses}{126}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Learning and Memory}{133}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{137}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{140}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{147}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{151}{subsection.6.7}
-\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{154}{section.7}
-\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{154}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Question Types}{154}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Passage Analysis}{154}{subsection.7.3}
+\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzymes and Molecules}{112}{subsection.5.16}
+\contentsline {subsection}{\numberline {5.17}Metabolic Pathways}{113}{subsection.5.17}
+\contentsline {subsection}{\numberline {5.18}Genetic Information\textemdash Classical Genetics}{122}{subsection.5.18}
+\contentsline {subsection}{\numberline {5.19}Genetic Loci \& Alleles}{123}{subsection.5.19}
+\contentsline {subsection}{\numberline {5.20}Pedigrees \& DNA}{123}{subsection.5.20}
+\contentsline {subsection}{\numberline {5.21}DNA Synthesis}{123}{subsection.5.21}
+\contentsline {subsection}{\numberline {5.22}Expression of Genetic Information}{124}{subsection.5.22}
+\contentsline {subsection}{\numberline {5.23}Mutations}{128}{subsection.5.23}
+\contentsline {subsection}{\numberline {5.24}Genetic Engineering \& Cloning}{130}{subsection.5.24}
+\contentsline {section}{\numberline {6}Psychology}{131}{section.6}
+\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{131}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}The Human Senses}{137}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Learning and Memory}{142}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{147}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{150}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{157}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{161}{subsection.6.7}
+\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{163}{section.7}
+\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{163}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Passage Analysis}{163}{subsection.7.2}
