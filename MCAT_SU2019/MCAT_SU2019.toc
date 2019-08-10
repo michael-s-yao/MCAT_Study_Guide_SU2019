@@ -6,107 +6,107 @@
 \contentsline {subsection}{\numberline {1.5}Nervous System Components}{7}{subsection.1.5}
 \contentsline {subsection}{\numberline {1.6}Control of Body Activity and the Neurovisceral Control}{10}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7}Receptors and Sensory Input}{11}{subsection.1.7}
-\contentsline {subsection}{\numberline {1.8}Cardiovascular Anatomy}{11}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.8}Cardiovascular Anatomy}{12}{subsection.1.8}
 \contentsline {subsection}{\numberline {1.9}Lymphatic System}{13}{subsection.1.9}
-\contentsline {subsection}{\numberline {1.10}Blood Clotting}{14}{subsection.1.10}
-\contentsline {subsection}{\numberline {1.11}The Lungs}{15}{subsection.1.11}
+\contentsline {subsection}{\numberline {1.10}Blood Clotting}{13}{subsection.1.10}
+\contentsline {subsection}{\numberline {1.11}The Lungs}{14}{subsection.1.11}
 \contentsline {subsection}{\numberline {1.12}The Gastrointestinal Tract}{15}{subsection.1.12}
 \contentsline {subsection}{\numberline {1.13}The Kidney}{17}{subsection.1.13}
 \contentsline {subsection}{\numberline {1.14}Homeostatic Mechanisms}{19}{subsection.1.14}
 \contentsline {subsection}{\numberline {1.15}Male Reproduction}{19}{subsection.1.15}
-\contentsline {subsection}{\numberline {1.16}Female Reproduction}{21}{subsection.1.16}
+\contentsline {subsection}{\numberline {1.16}Female Reproduction}{20}{subsection.1.16}
 \contentsline {subsection}{\numberline {1.17}Development}{23}{subsection.1.17}
-\contentsline {subsection}{\numberline {1.18}Developmental Mechanisms}{26}{subsection.1.18}
+\contentsline {subsection}{\numberline {1.18}Developmental Mechanisms}{25}{subsection.1.18}
 \contentsline {subsection}{\numberline {1.19}Human Embryo Development}{26}{subsection.1.19}
 \contentsline {subsection}{\numberline {1.20}Endocrinology}{27}{subsection.1.20}
 \contentsline {subsection}{\numberline {1.21}The Pituitary Gland}{28}{subsection.1.21}
-\contentsline {subsection}{\numberline {1.22}Immunology}{29}{subsection.1.22}
+\contentsline {subsection}{\numberline {1.22}Immunology}{28}{subsection.1.22}
 \contentsline {subsection}{\numberline {1.23}Antibodies}{29}{subsection.1.23}
-\contentsline {subsection}{\numberline {1.24}T Cells}{31}{subsection.1.24}
-\contentsline {subsection}{\numberline {1.25}Immunology\textemdash Generalized Review}{31}{subsection.1.25}
-\contentsline {section}{\numberline {2}General Chemistry}{32}{section.2}
-\contentsline {subsection}{\numberline {2.1}Stoichiometry}{32}{subsection.2.1}
+\contentsline {subsection}{\numberline {1.24}T Cells}{30}{subsection.1.24}
+\contentsline {subsection}{\numberline {1.25}Immunology\textemdash Generalized Review}{30}{subsection.1.25}
+\contentsline {section}{\numberline {2}General Chemistry}{31}{section.2}
+\contentsline {subsection}{\numberline {2.1}Stoichiometry}{31}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Atomic Theory}{33}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Periodic Trends}{35}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Important Periodic Families}{36}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Electrochemistry}{37}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Electrochemistry}{36}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Gases and Gas Laws}{38}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Phases and Phase Changes}{40}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.7}Phases and Phase Changes}{39}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}Colligative Properties}{40}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Solubility}{41}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}Acids and Bases}{42}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Titration Curves}{43}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.10}Acids and Bases}{41}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Titration Curves}{42}{subsection.2.11}
 \contentsline {subsection}{\numberline {2.12}Equilibrium}{44}{subsection.2.12}
 \contentsline {subsection}{\numberline {2.13}Thermochemistry}{45}{subsection.2.13}
-\contentsline {subsection}{\numberline {2.14}Chemical Kinetics}{46}{subsection.2.14}
+\contentsline {subsection}{\numberline {2.14}Chemical Kinetics}{45}{subsection.2.14}
 \contentsline {section}{\numberline {3}Organic Chemistry of Biological Systems}{46}{section.3}
 \contentsline {subsection}{\numberline {3.1}Molecular Structure}{46}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Isomers and Stereochemistry}{48}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Nucleophilic Substitution}{50}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Structure Elucidation}{52}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Lab Techniques}{55}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Lipids}{59}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Lipid Signal Molecules}{60}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}General Bioorganic Reactions}{62}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.4}Structure Elucidation}{51}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Lab Techniques}{54}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Lipids}{58}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Lipid Signal Molecules}{59}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}General Bioorganic Reactions}{61}{subsection.3.8}
 \contentsline {subsection}{\numberline {3.9}Carbonyls and Alcohols}{63}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}Carbonyl Reactivity}{68}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.10}Carbonyl Reactivity}{67}{subsection.3.10}
 \contentsline {subsection}{\numberline {3.11}Name Reactions and Synthesis Logic}{69}{subsection.3.11}
 \contentsline {subsection}{\numberline {3.12}Carbonyls and Alcohols\textemdash Key Points}{73}{subsection.3.12}
 \contentsline {subsection}{\numberline {3.13}Monosaccharides}{74}{subsection.3.13}
-\contentsline {subsection}{\numberline {3.14}Oligosaccharides and Polysaccharides}{78}{subsection.3.14}
-\contentsline {subsection}{\numberline {3.15}Chemical Reactions and Tests for Carbohydrates}{78}{subsection.3.15}
-\contentsline {subsection}{\numberline {3.16}Biological Examples of Carbohydrates}{80}{subsection.3.16}
-\contentsline {subsection}{\numberline {3.17}Common Nitrogen Compounds}{81}{subsection.3.17}
+\contentsline {subsection}{\numberline {3.14}Oligosaccharides and Polysaccharides}{76}{subsection.3.14}
+\contentsline {subsection}{\numberline {3.15}Chemical Reactions and Tests for Carbohydrates}{77}{subsection.3.15}
+\contentsline {subsection}{\numberline {3.16}Biological Examples of Carbohydrates}{79}{subsection.3.16}
+\contentsline {subsection}{\numberline {3.17}Common Nitrogen Compounds}{80}{subsection.3.17}
 \contentsline {subsection}{\numberline {3.18}Amino Acids and Proteins}{82}{subsection.3.18}
-\contentsline {section}{\numberline {4}Physics}{86}{section.4}
-\contentsline {subsection}{\numberline {4.1}Translational Motion}{86}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Forces and Torque}{86}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Work and Energy}{88}{subsection.4.3}
+\contentsline {section}{\numberline {4}Physics}{85}{section.4}
+\contentsline {subsection}{\numberline {4.1}Translational Motion}{85}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Forces and Torque}{85}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Work and Energy}{87}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Periodic Motion}{89}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Fluids and Fluid Statics}{90}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Viscosity and Poiseuille's Principle}{92}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Continuity Equation}{93}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Bernoulli's Equation}{93}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.6}Viscosity and Poiseuille's Principle}{91}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Continuity Equation}{92}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Bernoulli's Equation}{92}{subsection.4.8}
 \contentsline {subsection}{\numberline {4.9}Turbulence}{93}{subsection.4.9}
-\contentsline {subsection}{\numberline {4.10}Electrostatics}{94}{subsection.4.10}
-\contentsline {subsection}{\numberline {4.11}Electromagnetism}{95}{subsection.4.11}
+\contentsline {subsection}{\numberline {4.10}Electrostatics}{93}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}Electromagnetism}{94}{subsection.4.11}
 \contentsline {subsection}{\numberline {4.12}Electricity and Electric Currents}{95}{subsection.4.12}
-\contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{97}{subsection.4.13}
-\contentsline {subsection}{\numberline {4.14}Light and Radiation}{98}{subsection.4.14}
+\contentsline {subsection}{\numberline {4.13}Sound and Doppler Effect}{96}{subsection.4.13}
+\contentsline {subsection}{\numberline {4.14}Light and Radiation}{97}{subsection.4.14}
 \contentsline {subsection}{\numberline {4.15}Geometrical Optics}{99}{subsection.4.15}
 \contentsline {section}{\numberline {5}Biochemistry and Molecular Cell Biology}{104}{section.5}
 \contentsline {subsection}{\numberline {5.1}Amino Acids and Proteins}{104}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Carbohydrates \& Lipids}{105}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}D- and L- Isomers}{105}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Monosaccharides, Oligosaccharides, and Polysaccharides}{106}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Lipids}{107}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{108}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Meiosis}{108}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{109}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{109}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.5}Lipids}{106}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Cellular Reproduction and Chromosomes\textemdash Eukaryotic Cells}{107}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Meiosis}{107}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Biomembranes and Membrane Transport}{108}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Nucleus, Nucleolus, \& Ribosomes}{108}{subsection.5.9}
 \contentsline {subsection}{\numberline {5.10}Endoplasmic Reticulum, Golgi Apparatus, \& Lysosomes}{109}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{110}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.11}Signal Hypothesis}{109}{subsection.5.11}
 \contentsline {subsection}{\numberline {5.12}Cytoskeleton}{110}{subsection.5.12}
 \contentsline {subsection}{\numberline {5.13}Prokaryotic Cells}{110}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Viruses}{111}{subsection.5.14}
-\contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{111}{subsection.5.15}
-\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzymes and Molecules}{112}{subsection.5.16}
-\contentsline {subsection}{\numberline {5.17}Metabolic Pathways}{113}{subsection.5.17}
-\contentsline {subsection}{\numberline {5.18}Genetic Information\textemdash Classical Genetics}{122}{subsection.5.18}
-\contentsline {subsection}{\numberline {5.19}Genetic Loci \& Alleles}{123}{subsection.5.19}
-\contentsline {subsection}{\numberline {5.20}Pedigrees \& DNA}{123}{subsection.5.20}
-\contentsline {subsection}{\numberline {5.21}DNA Synthesis}{123}{subsection.5.21}
-\contentsline {subsection}{\numberline {5.22}Expression of Genetic Information}{124}{subsection.5.22}
+\contentsline {subsection}{\numberline {5.14}Viruses}{110}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Metabolic Components\textemdash Enzyme Kinetics}{110}{subsection.5.15}
+\contentsline {subsection}{\numberline {5.16}Metabolic Components\textemdash Enzymes and Molecules}{111}{subsection.5.16}
+\contentsline {subsection}{\numberline {5.17}Metabolic Pathways}{112}{subsection.5.17}
+\contentsline {subsection}{\numberline {5.18}Genetic Information\textemdash Classical Genetics}{121}{subsection.5.18}
+\contentsline {subsection}{\numberline {5.19}Genetic Loci \& Alleles}{121}{subsection.5.19}
+\contentsline {subsection}{\numberline {5.20}Pedigrees \& DNA}{121}{subsection.5.20}
+\contentsline {subsection}{\numberline {5.21}DNA Synthesis}{122}{subsection.5.21}
+\contentsline {subsection}{\numberline {5.22}Expression of Genetic Information}{123}{subsection.5.22}
 \contentsline {subsection}{\numberline {5.23}Mutations}{128}{subsection.5.23}
-\contentsline {subsection}{\numberline {5.24}Genetic Engineering \& Cloning}{130}{subsection.5.24}
-\contentsline {section}{\numberline {6}Psychology}{131}{section.6}
-\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{131}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}The Human Senses}{137}{subsection.6.2}
+\contentsline {subsection}{\numberline {5.24}Genetic Engineering \& Cloning}{129}{subsection.5.24}
+\contentsline {section}{\numberline {6}Psychology}{130}{section.6}
+\contentsline {subsection}{\numberline {6.1}The Biology Behind Behavior}{130}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}The Human Senses}{135}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Learning and Memory}{142}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{147}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}Emotion, Stress, Motivation, and Addiction}{146}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Cognition and Consciousness}{150}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{157}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{161}{subsection.6.7}
-\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{163}{section.7}
-\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{163}{subsection.7.1}
+\contentsline {subsection}{\numberline {6.6}Personality and Attitudes}{156}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Psychological Disorders}{160}{subsection.6.7}
+\contentsline {section}{\numberline {7}Critical Analysis and Reasoning Skills}{162}{section.7}
+\contentsline {subsection}{\numberline {7.1}MCAT Critical Analysis and Reasoning Skills}{162}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Passage Analysis}{163}{subsection.7.2}
